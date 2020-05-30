@@ -11,8 +11,8 @@ Feature: Hotel Booking
     When user navigates to the '${menu}'
     And select a location '${location}'
     And select a '${checkin}' and '${checkout}' dates
-    And select rooms details with '${adults}' adults & '${children}' children
-    And select guests details with '${adults}' adults & '${children}' children
+    And add room details with '${adults}' adults & '${children}' children
+    And add another room details with '${adults}' adults & '${children}' children
     And select travelling for '${tripType}'
     And search for the options
     Then user should see list of available options
