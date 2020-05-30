@@ -1,11 +1,24 @@
 package com.infostretch.hs.steps.common;
 
+import static com.infostretch.hs.utils.LocatorUtils.getDynamicLocator;
+import static com.qmetry.qaf.automation.step.CommonStep.click;
+import static com.qmetry.qaf.automation.step.CommonStep.sendKeys;
+
 import com.qmetry.qaf.automation.step.QAFTestStep;
 
 public class HotelSearchSteps {
 
     @QAFTestStep(description = "select a location {location}")
     public void selectLocation(String location) {
+        //click on current selected city
+        click("hotel.search.link.city");
+
+        //search for city
+        sendKeys(location, "hotel.search.input.city");
+
+        //wait for suggestions to appear and click on first suggestion
+        getDynamicLocator("hotel.search.list.autosuggestion.results", location).click();
+
     }
 
     @QAFTestStep(description = "select a {checkInDate} and {checkOutDate} dates")
