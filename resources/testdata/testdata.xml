@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <root>
-  <mmt>
-    <username>hshackapthon@mailinator.com</username>
-    <password></password>
-  </mmt>
+  <hotel>
+    <booking>
+      <username>hshackapthon@mailinator.com</username>
+      <password>Headspin@123#</password>
+      <menu>Hotels</menu>
+      <location>Udaipur</location>
+      <checkin>01-Aug-2020</checkin>
+      <checkout>03-Aug-2020</checkout>
+      <adults>2</adults>
+      <children>2</children>
+      <tripType>Family</tripType>
+      <entry>5</entry>
+    </booking>
+  </hotel>
 </root>
