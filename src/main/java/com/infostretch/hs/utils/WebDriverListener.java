@@ -13,16 +13,29 @@ public class WebDriverListener extends QAFWebDriverCommandAdapter {
 
     @Override
     public void beforeInitialize(Capabilities desiredCapabilities) {
-        String driverName = ApplicationProperties.DRIVER_NAME.getStringVal().toLowerCase();
+        String driverName = ApplicationProperties.DRIVER_NAME.getStringVal();
 
         //if not a remote driver or appium driver then download and setup driver
         if (ConfigurationManager.getBundle().getBoolean(AUTO_DRIVER_MANAGER, false)
-            && !driverName.contains("remote") && !driverName.contains("appium")) {
-
+            && requiredDriverFile(driverName)) {
             //rename chromeDriver to CHROME and find DriverManagerType instance
             DriverManagerType driverType = DriverManagerType
-                .valueOf(driverName.replace("driver", "").toUpperCase());
+                .valueOf(driverName.toUpperCase().replace("DRIVER", ""));
             WebDriverManager.getInstance(driverType).setup();
         }
+    }
+
+    /**
+     * @param driverName driver.name property value
+     * @return weaather specified driver required driver file or not
+     */
+    private static boolean requiredDriverFile(String driverName) {
+        driverName = driverName.toLowerCase();
+        return !(
+            driverName.contains("remote")
+                || driverName.contains("appium")
+                || driverName.contains("android")
+                || driverName.contains("ios"));
+
     }
 }
