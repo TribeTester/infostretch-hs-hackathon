@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MakeMyTrip Suite" verbose="0">
+  <test name="MakeMyTrip Test">
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory2"></class>
+    </classes>
+  </test>
+</suite>
