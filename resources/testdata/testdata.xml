@@ -12,6 +12,14 @@
       <children>2</children>
       <tripType>Family</tripType>
       <entry>5</entry>
+      <guest>
+        <primary>
+          <title>Mr</title>
+          <firstName>Nishith</firstName>
+          <lastName>Shah</lastName>
+          <mobile>7069936462</mobile>
+        </primary>
+      </guest>
     </booking>
   </hotel>
 </root>

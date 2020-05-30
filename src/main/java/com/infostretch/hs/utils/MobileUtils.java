@@ -1,5 +1,7 @@
 package com.infostretch.hs.utils;
 
+import static com.qmetry.qaf.automation.ui.webdriver.ElementFactory.$;
+
 import com.qmetry.qaf.automation.keys.ApplicationProperties;
 import com.qmetry.qaf.automation.ui.WebDriverTestBase;
 import com.qmetry.qaf.automation.ui.util.ExpectedCondition;
@@ -12,15 +14,12 @@ import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 import java.time.Duration;
 import java.time.temporal.ChronoUnit;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Set;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
-import org.testng.ITestResult;
 
 public class MobileUtils {
 
@@ -124,12 +123,27 @@ public class MobileUtils {
             .equalsIgnoreCase("android");
     }
 
-    public static Map<String, Object> getCurrentTestcaseTestData() {
-        Object[] paramsObj = ((ITestResult) ApplicationProperties.CURRENT_TEST_RESULT.getObject())
-            .getParameters();
-        if (paramsObj != null && paramsObj.length > 0 && paramsObj[0] instanceof Map) {
-            return (Map<String, Object>) paramsObj[0];
+    public static void swipeVertically() {
+        Dimension dsize = getDriver().manage().window().getSize();
+        int startY = (int) (dsize.height * 0.75);
+        int endY = (int) (dsize.height * 0.25);
+        int x = (dsize.width / 2);
+        dragAndDrop(x, startY, x, endY, Duration.ofSeconds(2));
+    }
+
+    public static QAFWebElement findElementByScrolling(String locator, int maxScroll) {
+        int count = 0;
+        boolean elementFound = $(locator).isPresent();
+        while (!elementFound && count < maxScroll) {
+            swipeVertically();
+            elementFound = $(locator).isPresent();
+            if (elementFound) {
+                //swipe once more to make element in center
+                swipeVertically();
+                break;
+            }
+            count += 1;
         }
-        return new HashMap<>();
+        return $(locator);
     }
 }
