@@ -9,7 +9,7 @@ public class LocatorUtils {
     /**
      * @param key  locator key
      * @param args arguments to replace in locator value
-     * @return
+     * @return QAFWebElement
      */
     public static QAFWebElement getDynamicLocator(String key, Object... args) {
         return ElementFactory.$(String.format(ConfigurationManager.getBundle().getString(key, key), args));

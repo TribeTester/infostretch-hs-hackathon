@@ -1,5 +1,7 @@
 package com.infostretch.hs.steps.common;
 
+import static com.qmetry.qaf.automation.ui.webdriver.ElementFactory.$;
+
 import com.infostretch.hs.utils.LocatorUtils;
 import com.infostretch.hs.utils.MobileUtils;
 import com.qmetry.qaf.automation.step.QAFTestStep;
@@ -19,5 +21,10 @@ public class HomePageSteps {
     public void navigateToMenu(String menu) {
         LocatorUtils.getDynamicLocator("home.link.menu", menu).click();
     }
+    
+    @QAFTestStep(description = "user navigates to Sort and Filter page")
+	public void navigateToSortFilter(String menu) {
+		$("home.sortfilter.menu").click();
+	}
 
 }

@@ -18,8 +18,8 @@ Scenario: Hotel booking from Make My Trip Application
 	
 	And select travelling for '${tripType}' 
 	And search for the options 
-	Then user should see list of available options 
-	When user navigates to Soft and Filter page 
+#	Then user should see list of available options 
+	When user navigates to Sort and Filter page 
 	
 	When user filters by price by setting '${minimum}' value
 	

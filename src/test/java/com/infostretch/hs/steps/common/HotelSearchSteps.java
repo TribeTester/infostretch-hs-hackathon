@@ -9,7 +9,8 @@ import com.qmetry.qaf.automation.step.CommonStep;
 import com.qmetry.qaf.automation.step.QAFTestStep;
 
 public class HotelSearchSteps {
-
+	
+	
     @QAFTestStep(description = "select a location {location}")
     public void selectLocation(String location) {
         //click on current selected city
@@ -29,9 +30,11 @@ public class HotelSearchSteps {
 
     @QAFTestStep(description = "select travelling for {tripType}")
     public void setTripType(String tripType) {
+    	getDynamicLocator("hotel.search.checkbox.triptype", tripType).click();
     }
 
     @QAFTestStep(description = "search for the options")
     public void search() {
+    	CommonStep.click("hotel.search.btn.submit");
     }
 }

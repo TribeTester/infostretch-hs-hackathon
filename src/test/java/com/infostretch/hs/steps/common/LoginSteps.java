@@ -15,9 +15,11 @@ public class LoginSteps {
      */
     @QAFTestStep(description = "login to the application with {username} and {password}")
     public void login(String username, String password) {
-        if ($("login.btn.email.clear").isPresent()) {
-            CommonStep.click("login.btn.email.clear");
-        }
+		/*
+		 * if($("login.btn.signinwith.cancel").isPresent()) {
+		 * CommonStep.click("login.btn.signinwith.cancel"); }
+		 */
+//    	CommonStep.click("login.btn.email.clear");
         CommonStep.sendKeys(username, "login.input.email");
         CommonStep.click("login.btn.continue");
         CommonStep.click("login.btn.via.password");

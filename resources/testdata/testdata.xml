@@ -2,8 +2,8 @@
 <root>
   <hotel>
     <booking>
-      <username>hshackathon@mailinator.com</username>
-      <password>Headspin@123#</password>
+      <username>uocxsftoqfrokppaod@ttirv.org</username>
+      <password>Welcome@123#</password>
       <menu>Hotels</menu>
       <location>Udaipur</location>
       <checkin>2 June 2020</checkin>
@@ -13,6 +13,8 @@
       <children>2</children>
       <tripType>Family</tripType>
       <entry>5</entry>
+      <minimum>1000</minimum>
+      <rating>4 Star</rating>
       <guest>
         <primary>
           <title>Mr</title>
@@ -21,6 +23,7 @@
           <mobile>7069936462</mobile>
         </primary>
       </guest>
+>>>>>>> 65665a6b3acdeca582b98ad50c49fa3273f1ab87
     </booking>
   </hotel>
 </root>

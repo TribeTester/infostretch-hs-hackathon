@@ -6,8 +6,8 @@ import static com.qmetry.qaf.automation.ui.webdriver.ElementFactory.$;
 
 public class IosHomePageSteps extends HomePageSteps {
 
-	@QAFTestStep(description = "user navigates to Soft and Filter page")
-	public void navigateToMenu(String menu) {
+	@QAFTestStep(description = "user navigates to Sort and Filter page")
+	public void navigateToSortFilter(String menu) {
 		$("home.sortfilter.menu").click();
 	}
 }
