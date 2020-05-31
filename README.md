@@ -23,7 +23,7 @@ In our implementation, we have tried to demonstrate the idea how we can abstract
 
 ## Setup & Usage
 Follow below steps in order to setup project and execute the test(s).
-* Clone https://github.com/mehulkagathara/headspin-hackathon.git repo or Download Zip and import as Maven project in Eclipse or IntelliJ.
+* Clone https://github.com/mehulkagathara/infostretch-hs-hackathon.git repo or Download Zip and import as Maven project in Eclipse or IntelliJ.
 * After importing project to Eclipse right click on project and navigate to `Maven -> Update Project` to resolve the dependencies.
 * Make sure you've maven configured in your machine and then run below maven command to run tests.
     ```shell
