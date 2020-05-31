@@ -12,5 +12,8 @@ public interface Constants {
     String SELECTED_CHECKOUT_WEEK = "selected.checkout.week";
     String SELECTED_GUESTS_COUNT = "selected.guests.count";
     String SELECTED_ROOMS_COUNT = "selected.rooms.count";
-    ;
+    String SELECTED_ROOM_CATEGORY_NAME = "selected.room.category.name";
+    String SELECTED_ROOM_CATEGORY_DISCOUNTEDPRICE = "selected.room.category.discountedprice";
+    String SELECTED_ROOM_CATEGORY_ORIGINALPRICE = "selected.room.category.originalprice";
+    
 }

@@ -13,9 +13,9 @@ public class BookingSummarySteps {
     @QAFTestStep(description = "verify user should see booking summary page with correct requested data")
     public void verifyBookingSummary() {
         //verify hotel name
-//        String expectedHotelName = getBundle().getString(Constants.SELECTED_HOTEL);
-//        $("booking.review.txt.hotel.name")
-//            .verifyText(StringMatcher.containsIgnoringCase(expectedHotelName));
+        String expectedHotelName = getBundle().getString(Constants.SELECTED_HOTEL);
+        $("booking.review.txt.hotel.name")
+            .verifyText(StringMatcher.containsIgnoringCase(expectedHotelName));
 
         //verify selected city
         String expectedCity = getBundle().getString(Constants.SELECTED_CITY).split(",")[0];
