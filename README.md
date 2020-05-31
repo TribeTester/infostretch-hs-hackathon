@@ -165,8 +165,8 @@ Framework can handle parallel execution too with help of TestNG and QAF Library.
 </suite>
 ```
 ## Logging & Reporting
-[Execution Report](https://mehulkagathara.github.io/infostretch-hs-hackathon/dashboard.htm)
-If you open a dashboard from the local file system, your browser may have local file access restrictions. In that case, if you face any issue you can do following settings:
+Please view [Execution Report](https://mehulkagathara.github.io/infostretch-hs-hackathon/dashboard.htm) for last few executions.
+>If you open a dashboard from the local file system, your browser may have local file access restrictions. In that case, if you face any issue you can do following settings:
 ##### Firefox:
  - go to about:config
  - set security.fileuri.strict_origin_policy:false. 
