@@ -1,7 +1,6 @@
 package com.infostretch.hs.steps.ios;
 
 import static com.infostretch.hs.utils.LocatorUtils.$;
-import static com.qmetry.qaf.automation.ui.webdriver.ElementFactory.$;
 
 import com.infostretch.hs.steps.common.HotelSearchSteps;
 import com.infostretch.hs.utils.LocatorUtils;
@@ -15,26 +14,26 @@ public class IosHotelSearchSteps extends HotelSearchSteps {
 
 	@QAFTestStep(description = "select a {checkInDate} and {checkOutDate} dates")
 	public void selectDates(String checkInDate, String checkOutDate) {
-		$("hotel.search.layout.checkin").click();
+		CommonStep.click("hotel.search.layout.checkin");
 		String checkInLocator = String.format(
 				ConfigurationManager.getBundle().getString("selectdate.date.label", "selectdate.date.label"),
 				checkInDate);
 		MobileUtils.findElementByScrolling(checkInLocator, 5);
-		$(checkInLocator).click();
+		CommonStep.click(checkInLocator);
 
 		String checkOutLocator = String.format(
 				ConfigurationManager.getBundle().getString("selectdate.date.label", "selectdate.date.label"),
 				checkOutDate);
 		MobileUtils.findElementByScrolling(checkOutLocator, 5);
-		$(checkOutLocator).click();
+		CommonStep.click(checkOutLocator);
 
-		$("done.button").click();
+		CommonStep.click("done.button");
 	}
 
 	@QAFTestStep(description = "add {rooms} rooms for {adults} adults & {children} children each")
 	public void addMembers(int rooms, int adults, int children) {
 		CommonStep.click("hotel.search.layout.rooms");
-		$("hotel.search.btn.addanother.room").waitForPresent();
+		CommonStep.waitForPresent("hotel.search.btn.addanother.room");
 
 		// Default Room
 		int count = 1;
@@ -42,7 +41,7 @@ public class IosHotelSearchSteps extends HotelSearchSteps {
 		addChild(children, count);
 	
 		while (count < rooms) {
-			$("hotel.search.btn.addanother.room").click();
+			CommonStep.click("hotel.search.btn.addanother.room");
 
 			count++;
 			String roomLocator = String.format(ConfigurationManager.getBundle().getString("room.details.cell", "room.details.cell"), count);
@@ -106,6 +105,6 @@ public class IosHotelSearchSteps extends HotelSearchSteps {
 
 	@QAFTestStep(description = "search for the options")
 	public void search() {
-		$("search.button").click();
+		CommonStep.click("search.button");
 	}
 }
