@@ -13,7 +13,7 @@ public class AndroidHomePageSteps extends HomePageSteps {
     @QAFTestStep(description = "user launches application")
     public void launchApp() {
         super.launchApp();
-        //if auto login popup in andoid 10+ from google saved credentials then click on cancel
+		// if auto login pop-up in android 10+ from google saved credentials then click on cancel
         if ($("login.btn.signinwith.cancel").isPresent()) {
             $("login.btn.signinwith.cancel").click();
         }
