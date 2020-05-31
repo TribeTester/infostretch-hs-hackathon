@@ -1,0 +1,46 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "username": "mmt1@mailinator.com",
+          "password": "@H$hackathon2",
+          "menu": "Hotels",
+          "location": "Udaipur",
+          "checkin": "2 June 2020",
+          "checkout": "5 June 2020",
+          "rooms": 2,
+          "adults": 2,
+          "children": 2,
+          "tripType": "Family",
+          "entry": 5,
+          "minimum": 1000,
+          "rating": "4.0 & Above",
+          "guest.primary.title": "Mr",
+          "guest.primary.firstName": "Nishith",
+          "guest.primary.lastName": "Shah",
+          "guest.primary.mobile": 7069936462,
+          "__index": 1
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "Feature": " Hotel Booking",
+        "groups": [],
+        "key": "hotel.booking",
+        "lineNo": 10,
+        "name": "Hotel booking from Make My Trip Application",
+        "reference": "scenarios/booking.feature",
+        "resultFileName": "HotelBookingFromMakeMyTripApplication",
+        "sign": "scenarios.booking.feature.Hotel booking from Make My Trip Application( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1590926197607,
+      "duration": 185824,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

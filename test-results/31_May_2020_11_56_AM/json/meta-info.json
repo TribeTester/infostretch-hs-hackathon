@@ -1,0 +1,13 @@
+{
+  "name": "MakeMyTrip Suite",
+  "status": "pass",
+  "tests": [
+    "MakeMyTripSuite_MakeMyTripTest"
+  ],
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "startTime": 1590926197482,
+  "endTime": 1590926384379
+}
