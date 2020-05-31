@@ -17,7 +17,7 @@ In our implementation, we have tried to demonstrate the idea how we can abstract
 * **Unified Scripting Approach** - test or scenario should be unified and it should run across the platform (both Android, iOS & Web).
 * **Parallel Support** - integration with TestNG + Cucumber to run feature file scenarios parallel at scale.
 * **Reusable Test Assets** - highly maintainable and repeatable tests utilize reusable test assets, proper modularity and semantic structure.
-* **Test Data Management** - test data should be abstracted from the technical implementation so it is easier to update the data in future and avoid harding of data in implementation.
+* **Test Data Management** - test data should be abstracted from the technical implementation so it is easier to update the data in future and avoid hard coding of data in implementation.
 * **Reporting** - integrate third party reporting engine which ensures access to all relevant execution data which provide insights desired.
 * **Scalability** - solution should be scalable on cloud like Headspin for Continuous Testing and tests should run parallel at scale.
 
@@ -56,7 +56,7 @@ This automation framework has below core components which helps to drive the aut
            android.capabilities.appPackage=com.makemytrip
            android.capabilities.appActivity=com.mmt.travel.app.home.ui.SplashActivity
         ```
-    * **`locators`** - folder consists all application pages locators in separate individual page wise .properties file. A locator can be defined in key-value pair and through out implementation we can use key to refer the elements. So if tomorrow there will be any change in locator we just need to update the properties file and no changes will be required at implementation level. 
+    * **`locators`** - folder consists all application pages locators in separate individual page wise .properties file. A locator can be defined in key-value pair and throughout implementation we can use key to refer the elements. So if tomorrow there will be any change in locator we just need to update the properties file and no changes will be required at implementation level. 
     
         ```properties
             login.input.email=-ios class chain=**/XCUIElementTypeTextField[`value CONTAINS[cd] "Email"`]
@@ -134,7 +134,7 @@ This automation framework has below core components which helps to drive the aut
 * **`test-results`** - execution report will generate inside this folder based on timestamp.
 * **`dashboard`** - contains implementation of JavaScript & CSS for reporting. we did customization on top of third party QAF reporting and integrate with our solution.
 ### Locator Strategies Used
-Selenium & Appius does support different locator strategies in order to access application elements like by `id`,`css`,`xpath` etc. We used `native` locator strategy as first priority through out the implementation to get better performance. Also, keep locator key name same for both Android & iOS platform so in implementation we can use the same key to build Unified test and platform can be specified from `application.properties` file. Examples,   
+Selenium & Appius does support different locator strategies in order to access application elements like by `id`,`css`,`xpath` etc. We used `native` locator strategy as first priority throughout the implementation to get better performance. Also, keep locator key name same for both Android & iOS platform so in implementation we can use the same key to build Unified test and platform can be specified from `application.properties` file. Examples,   
 ```properties
 login.input.email=-ios class chain=**/XCUIElementTypeTextField[`value CONTAINS[cd] "Email"`]
 hotel.search.link.city=accessibility id=searchCity
@@ -144,7 +144,7 @@ login.input.email=classname=android.widget.EditText
 hotel.search.link.city=id=city
 ```
 ### Reusability
-We kept reusability in mind while implementation and hence abstract the actual implementation away from the resources, test data and scenarios steps. Every steps can be reused in different scenarios by changing passing appropriate test data. Nothing is hard coded inside code. Also, components can be resused for different purposes like currently we used for Hotels booking but tomorrow same can be used for Flight booking too.
+We kept reusability in mind while implementation and hence abstract the actual implementation away from the resources, test data and scenarios steps. Every steps can be reused in different scenarios by changing passing appropriate test data. Nothing is hard coded inside code. Also, components can be reused for different purposes like currently we used for Hotels booking but tomorrow same can be used for Flight booking too.
 
 ### Parallel Execution
 Framework can handle parallel execution too with help of TestNG and QAF Library. Below is an example of `testrun_config.xml` to run same test suite on both Android & iOS platform.
@@ -165,7 +165,7 @@ Framework can handle parallel execution too with help of TestNG and QAF Library.
 </suite>
 ```
 ## Logging & Reporting
-[Exection Report](https://mehulkagathara.github.io/headspin-hackathon/dashboard.htm)
+[Execution Report](https://mehulkagathara.github.io/headspin-hackathon/dashboard.htm)
 >Since reporting has javascript dependencies, if you're facing any issue viewing the report please follow below steps in order to work it properly.
 * Open browser
 * Go to `about:config`
@@ -196,7 +196,7 @@ Below are the challenges we have faced while implementing the MMT problem and sa
 * **Application Defects** - addition to the coding challenges, we have also observed some existing application defects on both Android & iOS platform and due to this implementation, finding locators & dry execution became very challenging. 
     * Price slider is not updating the price range value. 
     * Application is freeze when it has multiple records to load in the view.
-    * Guidance overlay is coming 2nd time at anytime even-though it was dismissed earlier.
+    * Guidance overlay is coming 2nd time at any time even-though it was dismissed earlier.
     * Sometimes clicks for some element is not changing any UI as Application is in the idle state.
     * Even after applying filter, sometimes the filter tray is not shown at the top.
     * Sometimes even after login, "Login Successful" toast appears, but user is still at login page.   
