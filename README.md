@@ -23,7 +23,7 @@ In our implementation, we have tried to demonstrate the idea how we can abstract
 
 ## Setup & Usage
 Follow below steps in order to setup project and execute the test(s).
-* Clone https://github.com/mehulkagathara/headspin-hackathon.git repo or Download Zip and import as Maven project in Eclipse or IntelliJ.
+* Clone https://github.com/mehulkagathara/infostretch-hs-hackathon.git repo or Download Zip and import as Maven project in Eclipse or IntelliJ.
 * After importing project to Eclipse right click on project and navigate to `Maven -> Update Project` to resolve the dependencies.
 * Make sure you've maven configured in your machine and then run below maven command to run tests.
     ```shell
@@ -165,7 +165,7 @@ Framework can handle parallel execution too with help of TestNG and QAF Library.
 </suite>
 ```
 ## Logging & Reporting
-[Execution Report](https://mehulkagathara.github.io/headspin-hackathon/dashboard.htm)
+[Execution Report](https://mehulkagathara.github.io/infostretch-hs-hackathon/dashboard.htm)
 >Since reporting has javascript dependencies, if you're facing any issue viewing the report please follow below steps in order to work it properly.
 * Open browser
 * Go to `about:config`
@@ -191,7 +191,8 @@ To run test on Headspin cloud devices or browsers, we just need to update the `e
 ## Top Challenges
 Below are the challenges we have faced while implementing the MMT problem and same we addressed in our implementation to handle such circumstances. 
 * **Loading Search Result** - the performance of MMT mobile application is not good and taking more than expected time to load the search result and not giving better user experience. 
-* **OTP** - 
+* **OTP** - since we are testing MMT application on production version, OTP was big challenge.
+* **Calendar Control** - looks like DOM of calendar component is not accessible and it was difficult to access the child elements of Calendar. 
 * **Appium fails to get the DOM** - Appium fails to get the DOM of the current screen when there are many results for given search criteria's. e.g. Hotel Search List. Due to this, finding locators & dry executions was difficult.
 * **Application Defects** - addition to the coding challenges, we have also observed some existing application defects on both Android & iOS platform and due to this implementation, finding locators & dry execution became very challenging. 
     * Price slider is not updating the price range value. 

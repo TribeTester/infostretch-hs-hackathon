@@ -125,8 +125,8 @@ public class MobileUtils {
 
     public static void swipeVertically() {
         Dimension dsize = getDriver().manage().window().getSize();
-        int startY = (int) (dsize.height * 0.75);
-        int endY = (int) (dsize.height * 0.25);
+        int startY = (int) (dsize.height * 0.70);
+        int endY = (int) (dsize.height * 0.30);
         int x = (dsize.width / 2);
         dragAndDrop(x, startY, x, endY, Duration.ofSeconds(2));
     }

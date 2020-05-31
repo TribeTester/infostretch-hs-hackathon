@@ -1,0 +1,137 @@
+17:26:37 scenario.file.loc[Ljava.lang.String;@46daef40
+17:26:37 loading feature file: /Users/amit.bhoraniya/ws/IdeaProjects/infostretch-headspin-hackathon/./scenarios/booking.feature
+17:26:37 total test found: 1
+17:26:37 
+
+Executing scenario: Hotel booking from Make My Trip Application - 
+17:26:37 Test Data{username=mmt1@mailinator.com, password=@H$hackathon2, menu=Hotels, location=Udaipur, checkin=2 June 2020, checkout=5 June 2020, rooms=2, adults=2, children=2, tripType=Family, entry=5, minimum=1000, rating=4.0 & Above, guest.primary.title=Mr, guest.primary.firstName=Nishith, guest.primary.lastName=Shah, guest.primary.mobile=7069936462, __index=1}
+17:26:37 pkg: com.qmetry.qaf.automation.step
+17:26:37 pkg: com.infostretch.hs.steps.common
+17:26:37 pkg: com.infostretch.hs.steps.android
+17:26:37 Found duplicate step to load [] with [lower] prority then []
+17:26:37 Found duplicate step to load [] with [lower] prority then []
+17:26:37 Invoking Teststep: Given user launches application
+17:26:37 Invoking Teststep: user launches application
+17:26:51 Completed Teststep: user launches application
+17:26:53 Completed Teststep: Given user launches application
+17:26:53 Invoking Teststep: And login to the application with '${username}' and '${password}' with arguments: [mmt1@mailinator.com, @H$hackathon2]
+17:26:54 Invoking Teststep: click on {loc} with arguments: [login.btn.email.clear]
+17:26:55 Completed Teststep: click on {loc} with arguments: [login.btn.email.clear]
+17:26:55 Invoking Teststep: sendKeys {text} into {loc} with arguments: [mmt1@mailinator.com, login.input.email]
+17:26:56 Completed Teststep: sendKeys {text} into {loc} with arguments: [mmt1@mailinator.com, login.input.email]
+17:26:56 Invoking Teststep: click on {loc} with arguments: [login.btn.continue]
+17:26:58 Completed Teststep: click on {loc} with arguments: [login.btn.continue]
+17:26:58 Invoking Teststep: click on {loc} with arguments: [login.btn.via.password]
+17:27:02 Completed Teststep: click on {loc} with arguments: [login.btn.via.password]
+17:27:02 Invoking Teststep: sendKeys {text} into {loc} with arguments: [@H$hackathon2, login.input.password]
+17:27:03 Completed Teststep: sendKeys {text} into {loc} with arguments: [@H$hackathon2, login.input.password]
+17:27:03 Invoking Teststep: click on {loc} with arguments: [login.btn.submit]
+17:27:04 Completed Teststep: click on {loc} with arguments: [login.btn.submit]
+17:27:06 Completed Teststep: And login to the application with 'mmt1@mailinator.com' and '@H$hackathon2' with arguments: [mmt1@mailinator.com, @H$hackathon2]
+17:27:06 Invoking Teststep: Then verify user should logged into the application
+17:27:06 Invoking Teststep: assert {loc} is present with arguments: [home.icon.profile]
+17:27:12 Completed Teststep: assert {loc} is present with arguments: [home.icon.profile]
+17:27:12 Completed Teststep: Then verify user should logged into the application
+17:27:12 Invoking Teststep: When user navigates to the '${menu}' with arguments: [Hotels]
+17:27:14 Completed Teststep: When user navigates to the 'Hotels' with arguments: [Hotels]
+17:27:14 Invoking Teststep: And select a location '${location}' with arguments: [Udaipur]
+17:27:14 Invoking Teststep: click on {loc} with arguments: [hotel.search.link.city]
+17:27:15 Completed Teststep: click on {loc} with arguments: [hotel.search.link.city]
+17:27:15 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Udaipur, hotel.search.input.city]
+17:27:17 Completed Teststep: sendKeys {text} into {loc} with arguments: [Udaipur, hotel.search.input.city]
+17:27:19 Completed Teststep: And select a location 'Udaipur' with arguments: [Udaipur]
+17:27:19 Invoking Teststep: And select a '${checkin}' and '${checkout}' dates with arguments: [2 June 2020, 5 June 2020]
+17:27:19 Completed Teststep: And select a '2 June 2020' and '5 June 2020' dates with arguments: [2 June 2020, 5 June 2020]
+17:27:19 Invoking Teststep: And add '${rooms}' rooms for '${adults}' adults & '${children}' children each with arguments: [2, 2, 2]
+17:27:19 Invoking Teststep: click on {loc} with arguments: [hotel.search.layout.rooms]
+17:27:20 Completed Teststep: click on {loc} with arguments: [hotel.search.layout.rooms]
+17:27:22 Invoking Teststep: click on {loc} with arguments: [hotel.search.btn.children.add]
+17:27:23 Completed Teststep: click on {loc} with arguments: [hotel.search.btn.children.add]
+17:27:24 Invoking Teststep: click on {loc} with arguments: [hotel.search.btn.children.add]
+17:27:25 Completed Teststep: click on {loc} with arguments: [hotel.search.btn.children.add]
+17:27:28 Invoking Teststep: click on {loc} with arguments: [hotel.search.btn.adults.add]
+17:27:29 Completed Teststep: click on {loc} with arguments: [hotel.search.btn.adults.add]
+17:27:31 Invoking Teststep: click on {loc} with arguments: [hotel.search.btn.children.add]
+17:27:32 Completed Teststep: click on {loc} with arguments: [hotel.search.btn.children.add]
+17:27:33 Invoking Teststep: click on {loc} with arguments: [hotel.search.btn.children.add]
+17:27:34 Completed Teststep: click on {loc} with arguments: [hotel.search.btn.children.add]
+17:27:35 Invoking Teststep: click on {loc} with arguments: [hotel.search.btn.guests.done]
+17:27:35 Completed Teststep: click on {loc} with arguments: [hotel.search.btn.guests.done]
+17:27:35 Completed Teststep: And add '2' rooms for '2' adults & '2' children each with arguments: [2, 2, 2]
+17:27:35 Invoking Teststep: And select travelling for '${tripType}' with arguments: [Family]
+17:27:37 Completed Teststep: And select travelling for 'Family' with arguments: [Family]
+17:27:37 Invoking Teststep: And search for the options
+17:27:44 Invoking Teststep: click on {loc} with arguments: [hotel.search.btn.submit]
+17:27:45 Completed Teststep: click on {loc} with arguments: [hotel.search.btn.submit]
+17:27:45 Completed Teststep: And search for the options
+17:27:45 Invoking Teststep: When user navigates to Sort and Filter page
+17:27:45 Invoking Teststep: click on {loc} with arguments: [home.sortfilter.menu]
+17:27:48 Completed Teststep: click on {loc} with arguments: [home.sortfilter.menu]
+17:27:48 Completed Teststep: When user navigates to Sort and Filter page
+17:27:48 Invoking Teststep: When user filters by price by setting '${minimum}' value with arguments: [1000]
+17:27:53 Completed Teststep: When user filters by price by setting '1000' value with arguments: [1000]
+17:27:53 Invoking Teststep: And apply filter by user rating '${rating}' with arguments: [4.0 & Above]
+17:28:09 Completed Teststep: And apply filter by user rating '4.0 & Above' with arguments: [4.0 & Above]
+17:28:09 Invoking Teststep: Then user applys filter
+17:28:09 Invoking Teststep: click on {loc} with arguments: [hotel.search.btn.filter.apply]
+17:28:10 Completed Teststep: click on {loc} with arguments: [hotel.search.btn.filter.apply]
+17:28:10 Completed Teststep: Then user applys filter
+17:28:10 Invoking Teststep: When user scroll and select the '${entry}' item from filter result page with arguments: [5]
+17:28:10 Invoking Teststep: wait until {loc} to be present with arguments: [hotel.list]
+17:28:11 Completed Teststep: wait until {loc} to be present with arguments: [hotel.list]
+17:28:11 Invoking Teststep: get text of {loc} with arguments: [hotel.item.name]
+17:28:13 Completed Teststep: get text of {loc} with arguments: [hotel.item.name]
+17:28:16 Invoking Teststep: get text of {loc} with arguments: [hotel.item.name]
+17:28:16 Completed Teststep: get text of {loc} with arguments: [hotel.item.name]
+17:28:19 Invoking Teststep: get text of {loc} with arguments: [hotel.item.name]
+17:28:20 Completed Teststep: get text of {loc} with arguments: [hotel.item.name]
+17:28:22 Invoking Teststep: get text of {loc} with arguments: [hotel.item.name]
+17:28:23 Completed Teststep: get text of {loc} with arguments: [hotel.item.name]
+17:28:25 Invoking Teststep: get text of {loc} with arguments: [hotel.item.name]
+17:28:26 Completed Teststep: get text of {loc} with arguments: [hotel.item.name]
+17:28:29 Invoking Teststep: get text of {loc} with arguments: [hotel.item.name]
+17:28:30 Completed Teststep: get text of {loc} with arguments: [hotel.item.name]
+17:28:30 Invoking Teststep: click on {loc} with arguments: [hotel.item.name]
+17:28:30 Completed Teststep: click on {loc} with arguments: [hotel.item.name]
+17:28:30 Completed Teststep: When user scroll and select the '5' item from filter result page with arguments: [5]
+17:28:30 Invoking Teststep: And capture the room details and click SELECT ROOM options
+17:28:30 Invoking Teststep: get text of {loc} with arguments: [hotel.detail.txt.title]
+17:28:34 Completed Teststep: get text of {loc} with arguments: [hotel.detail.txt.title]
+17:28:34 Invoking Teststep: wait until {loc} to be visible with arguments: [hotel.detail.btn.selectroom]
+17:28:35 Completed Teststep: wait until {loc} to be visible with arguments: [hotel.detail.btn.selectroom]
+17:28:35 Invoking Teststep: click on {loc} with arguments: [hotel.detail.btn.selectroom]
+17:28:37 Completed Teststep: click on {loc} with arguments: [hotel.detail.btn.selectroom]
+17:28:48 Invoking Teststep: get text of {loc} with arguments: [hotel.room.category.detail.txt.name]
+17:28:48 Completed Teststep: get text of {loc} with arguments: [hotel.room.category.detail.txt.name]
+17:28:48 Invoking Teststep: get text of {loc} with arguments: [hotel.room.category.detail.txt.discountedprice]
+17:28:49 Completed Teststep: get text of {loc} with arguments: [hotel.room.category.detail.txt.discountedprice]
+17:28:49 Invoking Teststep: get text of {loc} with arguments: [hotel.room.category.detail.txt.originalprice]
+17:28:50 Completed Teststep: get text of {loc} with arguments: [hotel.room.category.detail.txt.originalprice]
+17:28:50 Invoking Teststep: click on {loc} with arguments: [hotel.detail.btn.continue]
+17:28:55 Completed Teststep: click on {loc} with arguments: [hotel.detail.btn.continue]
+17:28:55 Completed Teststep: And capture the room details and click SELECT ROOM options
+17:28:55 Invoking Teststep: And user fills traveller information
+17:28:55 Invoking Teststep: click on {loc} with arguments: [guest.select.title]
+17:28:55 Completed Teststep: click on {loc} with arguments: [guest.select.title]
+17:28:57 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Nishith, guest.input.first.name]
+17:28:58 Completed Teststep: sendKeys {text} into {loc} with arguments: [Nishith, guest.input.first.name]
+17:28:58 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Shah, guest.input.last.name]
+17:29:00 Completed Teststep: sendKeys {text} into {loc} with arguments: [Shah, guest.input.last.name]
+17:29:00 Invoking Teststep: sendKeys {text} into {loc} with arguments: [7069936462, guest.input.mobile.no]
+17:29:02 Completed Teststep: sendKeys {text} into {loc} with arguments: [7069936462, guest.input.mobile.no]
+17:29:02 Completed Teststep: And user fills traveller information
+17:29:02 Invoking Teststep: And selects two options from commonly requested option
+17:29:10 Invoking Teststep: click on {loc} with arguments: [guest.btn.special.request.done]
+17:29:11 Completed Teststep: click on {loc} with arguments: [guest.btn.special.request.done]
+17:29:11 Completed Teststep: And selects two options from commonly requested option
+17:29:11 Invoking Teststep: And uncheck the donation checkbox
+17:29:13 Completed Teststep: And uncheck the donation checkbox
+17:29:13 Invoking Teststep: And click on PAY NOW option
+17:29:13 Invoking Teststep: click on {loc} with arguments: [booking.btn.continue]
+17:29:16 Completed Teststep: click on {loc} with arguments: [booking.btn.continue]
+17:29:16 Completed Teststep: And click on PAY NOW option
+17:29:16 Invoking Teststep: Then verify user should see booking summary page with correct requested data
+17:29:26 Invoking Teststep: click on {loc} with arguments: [booking.review.btn.expand.details]
+17:29:28 Completed Teststep: click on {loc} with arguments: [booking.review.btn.expand.details]
+17:29:43 Completed Teststep: Then verify user should see booking summary page with correct requested data
+17:29:43 Competed scenario: Hotel booking from Make My Trip Application with status SUCCESS
