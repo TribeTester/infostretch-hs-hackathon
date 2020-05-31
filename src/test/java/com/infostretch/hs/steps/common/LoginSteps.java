@@ -23,6 +23,10 @@ public class LoginSteps {
         CommonStep.click("login.btn.via.password");
         CommonStep.sendKeys(password, "login.input.password");
         CommonStep.click("login.btn.submit");
+        
+        if ($("navigate.back.button").isPresent()) {
+            $("navigate.back.button").click();
+        }
     }
 
 
