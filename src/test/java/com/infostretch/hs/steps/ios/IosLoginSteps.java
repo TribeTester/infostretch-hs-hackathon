@@ -17,14 +17,14 @@ public class IosLoginSteps extends LoginSteps {
     public void login(String username, String password) {
     	
     	if ($("system.alert.allow.button").isPresent()) {
-    		$("system.alert.allow.button").click();
+    		CommonStep.click("system.alert.allow.button");
     	}
        
     	if ($("home.icon.profile").isPresent()) {
-        	$("home.icon.profile").click();
+    		CommonStep.click("home.icon.profile");
   
         	if ($("home.login.signup.section").isPresent()) {
-        		$("home.login.signup.section").click();
+        		CommonStep.click("home.login.signup.section");
         	} else {
         		return;
         	}
@@ -40,7 +40,7 @@ public class IosLoginSteps extends LoginSteps {
         CommonStep.sendKeys(password, "login.input.password");
         CommonStep.click("login.btn.submit");
         
-        $("navigate.back.button").click();
+        CommonStep.click("navigate.back.button");
     }
     
 }
