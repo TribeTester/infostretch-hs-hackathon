@@ -3,6 +3,7 @@ package com.infostretch.hs.steps.common;
 import static com.qmetry.qaf.automation.ui.webdriver.ElementFactory.$;
 
 import com.infostretch.hs.utils.MobileUtils;
+import com.qmetry.qaf.automation.core.ConfigurationManager;
 import com.qmetry.qaf.automation.step.CommonStep;
 import com.qmetry.qaf.automation.step.QAFTestStep;
 import com.qmetry.qaf.automation.ui.webdriver.QAFWebElement;
@@ -21,7 +22,7 @@ public class SearchResultSteps {
         CommonStep.assertPresent("hotel.search.icon.location.filter");
     }
 
-    @QAFTestStep(description = "user filters by price by setting {minimum} value")
+    @QAFTestStep(description = "user filters by price by setting {price} value")
     public void applyMinimumPriceFilter(int price) {
         QAFWebElement priceBar = MobileUtils
             .findElementByScrolling("hotel.search.txt.filter.pricebar", 2);
@@ -37,18 +38,6 @@ public class SearchResultSteps {
         }
     }
 
-    
-    @QAFTestStep(description = "user on search result page and filter by price by setting {minimum} value")
-    public void applyMinimumPriceFilter(String price) {
-    	CommonStep.click("hotel.search.icon.price.filter");
-    	CommonStep.assertPresent("hotel.search.icon.price.filter");
-    	int startX = $("hotel.search.txt.filter.pricebar").getLocation().getX();
-    	int yAxis = $("hotel.search.txt.filter.pricebar").getLocation().getY();
-    	int end = $("hotel.search.txt.filter.pricebar").getSize().getWidth();
-    	MobileUtils.dragAndDrop(startX, yAxis, 105, yAxis, null);
-    	CommonStep.click("hotel.search.btn.filter.apply");
-    } 
-    
     private int getMinPriceFilter() {
         return Integer.parseInt(
             $("hotel.search.txt.filter.pricerange").getText().split("-")[0].replaceAll("\\D", ""));
@@ -59,11 +48,15 @@ public class SearchResultSteps {
             $("hotel.search.txt.filter.pricerange").getText().split("-")[1].replaceAll("\\D", ""));
     }
 
-    @QAFTestStep(description = "apply filter by user rating {rating} & above")
+    @QAFTestStep(description = "apply filter by user rating {rating}")
     public void applyUserRatingFilter(String rating) {
+        String locator = String
+            .format(ConfigurationManager.getBundle().getString("hotel.search.txt.filter.rating"),
+                rating);
+        MobileUtils.findElementByScrolling(locator, 5).click();
     }
 
-    @QAFTestStep(description = "use applys filter")
+    @QAFTestStep(description = "user applys filter")
     public void applyFilter() {
         CommonStep.click("hotel.search.btn.filter.apply");
     }
@@ -89,21 +82,21 @@ public class SearchResultSteps {
 
     @QAFTestStep(description = "verify filters applied and user should see filter result page")
     public void verifyFiltersApplied() {
-    	CommonStep.assertPresent("hotel.search.txt.filter.identity");
+        CommonStep.assertPresent("hotel.search.txt.filter.identity");
     }
-    
+
     @QAFTestStep(description = "user scroll and select the {index} item from filter result page")
-    public void userScrollAndSelectHotel(String index) {
-    	CommonStep.waitForPresent("hotel.list");
-    	Set<String> hotelNames = new HashSet<String>();
-    	while(hotelNames.size() <= Integer.parseInt(index)) {
-    		String hotelName = CommonStep.getText("hotel.item.name");
-    		hotelNames.add(hotelName);
-    		if(hotelNames.size() == Integer.parseInt(index)-1) {
-    			CommonStep.click("hotel.item.name");
-    			break;
-    		}
-    		MobileUtils.swipeVertically();
-    	}
+    public void userScrollAndSelectHotel(int index) {
+        CommonStep.waitForPresent("hotel.list");
+        Set<String> hotelNames = new HashSet<String>();
+        while (hotelNames.size() <= index) {
+            String hotelName = CommonStep.getText("hotel.item.name");
+            hotelNames.add(hotelName);
+            if (hotelNames.size() == index - 1) {
+                CommonStep.click("hotel.item.name");
+                break;
+            }
+            MobileUtils.swipeVertically();
+        }
     }
 }
