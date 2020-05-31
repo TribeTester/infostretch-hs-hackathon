@@ -1,0 +1,694 @@
+[main] 17:14:09,290 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFAnnotationTransformer2] QAFTestNGListener registered!...
+[main] 17:14:09,295 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] QAFTestNGListener registered!...
+[main] 17:14:09,295 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] QAFTestNGListener registered!...
+[main] 17:14:09,297 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] QAFTestNGListener registered!...
+[main] 17:14:09,298 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] QAFTestNGListener registered!...
+[main] 17:14:09,416 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] ISFW build info: {qaf-Type=core, qaf-Revision=0-RC3, qaf-Version=3.0, qaf-Build-Time=13-Apr-2020 05:11:28}
+[main] 17:14:09,426 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: /Users/amit.bhoraniya/ws/IdeaProjects/infostretch-headspin-hackathon/resources/testdata. Found property files to load: 0
+[main] 17:14:09,435 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: /Users/amit.bhoraniya/ws/IdeaProjects/infostretch-headspin-hackathon/resources/testdata. Found property files to load: 1
+[main] 17:14:09,438 DEBUG [org.apache.commons.configuration.ConfigurationUtils] ConfigurationUtils.locate(): base is null, name is null
+[main] 17:14:09,452 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: /Users/amit.bhoraniya/ws/IdeaProjects/infostretch-headspin-hackathon/resources/config/android. Found property files to load: 1
+[main] 17:14:09,457 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: /Users/amit.bhoraniya/ws/IdeaProjects/infostretch-headspin-hackathon/resources/config/android. Found property files to load: 0
+[main] 17:14:09,460 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: /Users/amit.bhoraniya/ws/IdeaProjects/infostretch-headspin-hackathon/resources/locators/android. Found property files to load: 8
+[main] 17:14:09,477 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] Resource dir: /Users/amit.bhoraniya/ws/IdeaProjects/infostretch-headspin-hackathon/resources/locators/android. Found property files to load: 0
+[main] 17:14:09,623 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupSuit
+[main] 17:14:09,626 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupSuit - com.qmetry.qaf.automation.testng.TestNGTestCase is test:false
+[main] 17:14:09,626 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 17:14:09,820 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupTest
+[main] 17:14:09,821 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupTest - com.qmetry.qaf.automation.testng.TestNGTestCase is test:false
+[main] 17:14:09,821 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 17:14:09,822 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 17:14:09,825 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setup
+[main] 17:14:09,826 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setup - com.qmetry.qaf.automation.testng.TestNGTestCase is test:false
+[main] 17:14:09,826 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 17:14:09,843 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupMethod
+[main] 17:14:09,844 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupMethod - com.qmetry.qaf.automation.testng.TestNGTestCase is test:false
+[main] 17:14:09,844 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 17:14:09,845 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 17:14:09,846 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: Hotel booking from Make My Trip Application
+[main] 17:14:10,025 INFO  [com.qmetry.qaf.automation.core.QAFTestBase] Initializing Driver...browser_str:androidDriver,base_url:https://www.makemytrip.com/,sel_server:https://us-nyc.headspin.io:7001/v0/6fe160abad0644b98102f08a0b523d02/wd/hub,port:4444
+[main] 17:14:10,034 INFO  [com.qmetry.qaf.automation.ui.UiDriverFactory] Driver: androidDriver
+[main] 17:14:20,992 INFO  [com.qmetry.qaf.automation.core.QAFTestBase] driver init done
+[main] 17:14:21,003 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"com.google.android.gms:id/cancel","using":"id"}
+[main] 17:14:21,894 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=com.google.android.gms:id/cancel, using=id}] Result: [id: cdb40bea-6d33-4823-aa13-8b2c2228d04a]
+[main] 17:14:21,895 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: com.google.android.gms:id/cancel parameters: {}
+[main] 17:14:21,897 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"com.google.android.gms:id/cancel","using":"id"}
+[main] 17:14:22,294 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=com.google.android.gms:id/cancel, using=id}] Result: id: be2a7b41-82aa-454c-a28c-6e4d93cf3dbe
+[main] 17:14:22,294 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: com.google.android.gms:id/cancel param-2: {}] Result: OK
+[main] 17:14:22,295 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.id: com.google.android.gms:id/cancel parameters: {"id":"be2a7b41-82aa-454c-a28c-6e4d93cf3dbe"}
+[main] 17:14:22,702 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.id: com.google.android.gms:id/cancel param-2: {"id":"be2a7b41-82aa-454c-a28c-6e4d93cf3dbe"}] Result: clickElement:null
+[main] 17:14:22,706 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"com.google.android.gms:id/cancel","using":"id"}
+[main] 17:14:23,493 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=com.google.android.gms:id/cancel, using=id}] Result: []
+[main] 17:14:23,494 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"Clear text","using":"accessibility id"}
+[main] 17:14:23,938 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=Clear text, using=accessibility id}] Result: [id: 3b74ba60-60fe-4d97-ac75-2e9bc2eaaf97]
+[main] 17:14:23,940 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: [unknown locator] parameters: {}
+[main] 17:14:23,940 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"Clear text","using":"accessibility id"}
+[main] 17:14:24,344 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=Clear text, using=accessibility id}] Result: [id: 2b5f7f7d-4c09-4389-9b8e-179525d270ec]
+[main] 17:14:24,344 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: [unknown locator] param-2: {}] Result: OK
+[main] 17:14:24,344 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: [unknown locator] parameters: {"id":"2b5f7f7d-4c09-4389-9b8e-179525d270ec"}
+[main] 17:14:24,776 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: [unknown locator] param-2: {"id":"2b5f7f7d-4c09-4389-9b8e-179525d270ec"}] Result: clickElement:null
+[main] 17:14:24,777 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.className: android.widget.EditText parameters: {}
+[main] 17:14:24,778 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"android.widget.EditText","using":"class name"}
+[main] 17:14:25,442 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=android.widget.EditText, using=class name}] Result: id: a0ee71fa-2e23-48f4-b573-b149eac97378
+[main] 17:14:25,442 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.className: android.widget.EditText param-2: {}] Result: OK
+[main] 17:14:25,442 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing sendKeysToElement element: By.className: android.widget.EditText parameters: {"value":["mmt1@mailinator.com"],"id":"a0ee71fa-2e23-48f4-b573-b149eac97378"}
+[main] 17:14:27,151 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: sendKeysToElement[ param-1: By.className: android.widget.EditText param-2: {"value":["mmt1@mailinator.com"],"id":"a0ee71fa-2e23-48f4-b573-b149eac97378"}] Result: sendKeysToElement:null
+[main] 17:14:27,152 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: btn_continue parameters: {}
+[main] 17:14:27,152 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"btn_continue","using":"id"}
+[main] 17:14:28,828 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=btn_continue, using=id}] Result: id: 77fb49de-0e2b-498a-a03a-59b983588d70
+[main] 17:14:28,829 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: btn_continue param-2: {}] Result: OK
+[main] 17:14:28,829 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.id: btn_continue parameters: {"id":"77fb49de-0e2b-498a-a03a-59b983588d70"}
+[main] 17:14:29,971 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.id: btn_continue param-2: {"id":"77fb49de-0e2b-498a-a03a-59b983588d70"}] Result: clickElement:null
+[main] 17:14:29,972 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: pwd_option parameters: {}
+[main] 17:14:29,972 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"pwd_option","using":"id"}
+[main] 17:14:30,701 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=pwd_option, using=id}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ICPL13805.local', ip: 'fe80:0:0:0:1452:41fb:d5cd:e4f3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {appActivity: com.mmt.travel.app.home.ui...., appPackage: com.makemytrip, autoAcceptAlerts: true, autoLaunch: true, automationName: UiAutomator2, browserName: , chromedriverExecutableDir: /home/pbox/headspinio-pboxa..., chromedriverPorts: [1835, 1836, 1837, 1838, 1839], cssSelectorsEnabled: true, databaseEnabled: false, desired: {appActivity: com.mmt.travel.app.home.ui...., appPackage: com.makemytrip, autoAcceptAlerts: true, autoLaunch: true, automationName: UiAutomator2, browserName: , chromedriverExecutableDir: /home/pbox/headspinio-pboxa..., chromedriverPorts: [1835, 1836, 1837, 1838, 1839], cssSelectorsEnabled: true, deviceName: GOOGLE Pixel 3, driverClass: io.appium.java_client.andro..., javascriptEnabled: true, platform: ANDROID, platformName: android, platformVersion: 10, remoteAppsCacheLimit: 0, systemPort: 1840, takesScreenshot: true, udid: 8ADX0QXD7, version: }, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ADX0QXD7, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ADX0QXD7, driverClass: io.appium.java_client.andro..., javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 10, remoteAppsCacheLimit: 0, statBarHeight: 66, systemPort: 1840, takesScreenshot: true, udid: 8ADX0QXD7, version: , viewportRect: {height: 1962, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0bd628ad-a334-11ea-8887-6757e986805b
+*** Element info: {Using=id, value=pwd_option}
+[main] 17:14:31,705 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"pwd_option","using":"id"}
+[main] 17:14:32,582 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=pwd_option, using=id}] Result: id: c6a2cb0b-b3cd-4da3-a38a-bebe55d62fde
+[main] 17:14:32,583 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: pwd_option param-2: {}] Result: OK
+[main] 17:14:32,583 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.id: pwd_option parameters: {"id":"c6a2cb0b-b3cd-4da3-a38a-bebe55d62fde"}
+[main] 17:14:33,016 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.id: pwd_option param-2: {"id":"c6a2cb0b-b3cd-4da3-a38a-bebe55d62fde"}] Result: clickElement:null
+[main] 17:14:33,018 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: [unknown locator] parameters: {}
+[main] 17:14:33,018 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().className(\"android.widget.EditText\").text(\"Enter Password\")","using":"-android uiautomator"}
+[main] 17:14:33,771 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().className("android.widget.EditText").text("Enter Password"), using=-android uiautomator}] Result: [id: 5a00d0be-5613-44e2-b391-b5b33d596613]
+[main] 17:14:33,771 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: [unknown locator] param-2: {}] Result: OK
+[main] 17:14:33,771 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing sendKeysToElement element: [unknown locator] parameters: {"value":["@H$hackathon2"],"id":"5a00d0be-5613-44e2-b391-b5b33d596613"}
+[main] 17:14:34,727 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: sendKeysToElement[ param-1: [unknown locator] param-2: {"value":["@H$hackathon2"],"id":"5a00d0be-5613-44e2-b391-b5b33d596613"}] Result: sendKeysToElement:null
+[main] 17:14:34,728 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: btn_continue parameters: {}
+[main] 17:14:34,728 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"btn_continue","using":"id"}
+[main] 17:14:35,335 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=btn_continue, using=id}] Result: id: 90d58773-fe76-493c-a340-2f652c14132e
+[main] 17:14:35,335 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: btn_continue param-2: {}] Result: OK
+[main] 17:14:35,335 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.id: btn_continue parameters: {"id":"90d58773-fe76-493c-a340-2f652c14132e"}
+[main] 17:14:35,775 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.id: btn_continue param-2: {"id":"90d58773-fe76-493c-a340-2f652c14132e"}] Result: clickElement:null
+[main] 17:14:35,776 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"//*[@name='navigate.back.button' or @id='navigate.back.button' or @value='navigate.back.button']","using":"xpath"}
+[main] 17:14:37,376 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=//*[@name='navigate.back.button' or @id='navigate.back.button' or @value='navigate.back.button'], using=xpath}] Result: []
+[main] 17:14:37,381 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"profile","using":"id"}
+[main] 17:14:38,651 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=profile, using=id}] Result: [id: e0b44941-e58c-46d9-87b8-ef1ecbafce8c]
+[main] 17:14:38,652 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Pass: Expected By.id: profile present : Actual By.id: profile present
+[main] 17:14:38,653 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing screenshot parameters: {}
+[main] 17:14:48,110 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Capturing screen shotHotelBookingFromMakeMyTripApplication_22tl3paak9nw31163.png
+[main] 17:14:48,114 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: [unknown locator] parameters: {}
+[main] 17:14:48,114 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().text(\"Hotels\")","using":"-android uiautomator"}
+[main] 17:14:48,619 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().text("Hotels"), using=-android uiautomator}] Result: [id: 7f86a3e7-866c-4998-9785-0e5adf00fc2a]
+[main] 17:14:48,619 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: [unknown locator] param-2: {}] Result: OK
+[main] 17:14:48,619 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: [unknown locator] parameters: {"id":"7f86a3e7-866c-4998-9785-0e5adf00fc2a"}
+[main] 17:14:50,949 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: [unknown locator] param-2: {"id":"7f86a3e7-866c-4998-9785-0e5adf00fc2a"}] Result: clickElement:null
+[main] 17:14:50,955 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: city parameters: {}
+[main] 17:14:50,955 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"city","using":"id"}
+[main] 17:14:51,406 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=city, using=id}] Result: id: e743cf65-b0e1-41d7-bd7b-aae80001c6b5
+[main] 17:14:51,406 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: city param-2: {}] Result: OK
+[main] 17:14:51,406 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.id: city parameters: {"id":"e743cf65-b0e1-41d7-bd7b-aae80001c6b5"}
+[main] 17:14:52,337 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.id: city param-2: {"id":"e743cf65-b0e1-41d7-bd7b-aae80001c6b5"}] Result: clickElement:null
+[main] 17:14:52,338 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: [unknown locator] parameters: {}
+[main] 17:14:52,339 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().className(\"android.widget.EditText\").textContains(\"City\")","using":"-android uiautomator"}
+[main] 17:14:52,869 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().className("android.widget.EditText").textContains("City"), using=-android uiautomator}] Result: [id: e15a0a6e-139e-4dd1-8122-5eb22cbe07c6]
+[main] 17:14:52,869 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: [unknown locator] param-2: {}] Result: OK
+[main] 17:14:52,870 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing sendKeysToElement element: [unknown locator] parameters: {"value":["Udaipur"],"id":"e15a0a6e-139e-4dd1-8122-5eb22cbe07c6"}
+[main] 17:14:53,936 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: sendKeysToElement[ param-1: [unknown locator] param-2: {"value":["Udaipur"],"id":"e15a0a6e-139e-4dd1-8122-5eb22cbe07c6"}] Result: sendKeysToElement:null
+[main] 17:14:53,937 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.xpath: .//android.widget.RelativeLayout/*[starts-with(@text, 'Udaipur')] parameters: {}
+[main] 17:14:53,937 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":".//android.widget.RelativeLayout/*[starts-with(@text, 'Udaipur')]","using":"xpath"}
+[main] 17:14:55,347 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=.//android.widget.RelativeLayout/*[starts-with(@text, 'Udaipur')], using=xpath}] Result: id: d82ae96d-8d63-4027-adda-68187993e61c
+[main] 17:14:55,347 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.xpath: .//android.widget.RelativeLayout/*[starts-with(@text, 'Udaipur')] param-2: {}] Result: OK
+[main] 17:14:55,347 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.xpath: .//android.widget.RelativeLayout/*[starts-with(@text, 'Udaipur')] parameters: {"id":"d82ae96d-8d63-4027-adda-68187993e61c"}
+[main] 17:14:55,849 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.xpath: .//android.widget.RelativeLayout/*[starts-with(@text, 'Udaipur')] param-2: {"id":"d82ae96d-8d63-4027-adda-68187993e61c"}] Result: clickElement:null
+[main] 17:14:55,869 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: room_layout parameters: {}
+[main] 17:14:55,869 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"room_layout","using":"id"}
+[main] 17:14:56,518 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=room_layout, using=id}] Result: id: bda821c1-adbf-4fd1-9e24-12a9a6aa7085
+[main] 17:14:56,518 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: room_layout param-2: {}] Result: OK
+[main] 17:14:56,518 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.id: room_layout parameters: {"id":"bda821c1-adbf-4fd1-9e24-12a9a6aa7085"}
+[main] 17:14:56,948 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.id: room_layout param-2: {"id":"bda821c1-adbf-4fd1-9e24-12a9a6aa7085"}] Result: clickElement:null
+[main] 17:14:56,949 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"btn_add_room","using":"id"}
+[main] 17:14:57,689 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=btn_add_room, using=id}] Result: [id: 92525b36-8ec2-4cc7-9970-e443894f2f96]
+[main] 17:14:57,690 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvadultcount parameters: {}
+[main] 17:14:57,690 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvadultcount","using":"id"}
+[main] 17:14:58,071 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvadultcount, using=id}] Result: id: 5e4521e2-72cc-4a8d-80a3-cced398d7d60
+[main] 17:14:58,071 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvadultcount param-2: {}] Result: OK
+[main] 17:14:58,071 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvadultcount parameters: {"id":"5e4521e2-72cc-4a8d-80a3-cced398d7d60"}
+[main] 17:14:58,437 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvadultcount param-2: {"id":"5e4521e2-72cc-4a8d-80a3-cced398d7d60"}] Result: getElementText:2
+[main] 17:14:58,438 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvchildcount parameters: {}
+[main] 17:14:58,438 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvchildcount","using":"id"}
+[main] 17:14:58,899 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvchildcount, using=id}] Result: id: 1a935bc8-7b51-4feb-8fd6-866479f78b9d
+[main] 17:14:58,899 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvchildcount param-2: {}] Result: OK
+[main] 17:14:58,900 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvchildcount parameters: {"id":"1a935bc8-7b51-4feb-8fd6-866479f78b9d"}
+[main] 17:14:59,244 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvchildcount param-2: {"id":"1a935bc8-7b51-4feb-8fd6-866479f78b9d"}] Result: getElementText:0
+[main] 17:14:59,245 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: ivchildadd parameters: {}
+[main] 17:14:59,245 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"ivchildadd","using":"id"}
+[main] 17:15:00,181 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=ivchildadd, using=id}] Result: id: 7ca44798-adf8-44c6-a8bb-0fdec8ccbb8d
+[main] 17:15:00,182 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: ivchildadd param-2: {}] Result: OK
+[main] 17:15:00,182 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.id: ivchildadd parameters: {"id":"7ca44798-adf8-44c6-a8bb-0fdec8ccbb8d"}
+[main] 17:15:00,592 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.id: ivchildadd param-2: {"id":"7ca44798-adf8-44c6-a8bb-0fdec8ccbb8d"}] Result: clickElement:null
+[main] 17:15:00,593 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvchildcount parameters: {}
+[main] 17:15:00,593 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvchildcount","using":"id"}
+[main] 17:15:01,304 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvchildcount, using=id}] Result: id: 9821c602-81b7-4ad1-a647-050454bbd080
+[main] 17:15:01,305 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvchildcount param-2: {}] Result: OK
+[main] 17:15:01,305 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvchildcount parameters: {"id":"9821c602-81b7-4ad1-a647-050454bbd080"}
+[main] 17:15:02,091 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvchildcount param-2: {"id":"9821c602-81b7-4ad1-a647-050454bbd080"}] Result: getElementText:1
+[main] 17:15:02,091 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: ivchildadd parameters: {}
+[main] 17:15:02,091 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"ivchildadd","using":"id"}
+[main] 17:15:02,461 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=ivchildadd, using=id}] Result: id: fd788e81-4839-4636-84f7-716d8f8053ca
+[main] 17:15:02,462 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: ivchildadd param-2: {}] Result: OK
+[main] 17:15:02,462 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.id: ivchildadd parameters: {"id":"fd788e81-4839-4636-84f7-716d8f8053ca"}
+[main] 17:15:02,852 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.id: ivchildadd param-2: {"id":"fd788e81-4839-4636-84f7-716d8f8053ca"}] Result: clickElement:null
+[main] 17:15:02,852 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvchildcount parameters: {}
+[main] 17:15:02,853 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvchildcount","using":"id"}
+[main] 17:15:03,934 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvchildcount, using=id}] Result: id: 1231a546-025c-4602-a2db-ac15827cbc60
+[main] 17:15:03,934 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvchildcount param-2: {}] Result: OK
+[main] 17:15:03,934 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvchildcount parameters: {"id":"1231a546-025c-4602-a2db-ac15827cbc60"}
+[main] 17:15:04,321 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvchildcount param-2: {"id":"1231a546-025c-4602-a2db-ac15827cbc60"}] Result: getElementText:2
+[main] 17:15:04,322 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: btn_add_room parameters: {}
+[main] 17:15:04,322 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"btn_add_room","using":"id"}
+[main] 17:15:04,761 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=btn_add_room, using=id}] Result: id: 2619f0bd-2f14-480d-86dc-c8a99b33ed07
+[main] 17:15:04,761 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: btn_add_room param-2: {}] Result: OK
+[main] 17:15:04,761 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.id: btn_add_room parameters: {"id":"2619f0bd-2f14-480d-86dc-c8a99b33ed07"}
+[main] 17:15:05,258 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.id: btn_add_room param-2: {"id":"2619f0bd-2f14-480d-86dc-c8a99b33ed07"}] Result: clickElement:null
+[main] 17:15:05,259 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvadultcount parameters: {}
+[main] 17:15:05,259 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvadultcount","using":"id"}
+[main] 17:15:05,978 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvadultcount, using=id}] Result: id: 20903aa2-4bac-4e8b-85c7-916706c1fa07
+[main] 17:15:05,978 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvadultcount param-2: {}] Result: OK
+[main] 17:15:05,979 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvadultcount parameters: {"id":"20903aa2-4bac-4e8b-85c7-916706c1fa07"}
+[main] 17:15:06,341 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvadultcount param-2: {"id":"20903aa2-4bac-4e8b-85c7-916706c1fa07"}] Result: getElementText:1
+[main] 17:15:06,342 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: ivadultadd parameters: {}
+[main] 17:15:06,342 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"ivadultadd","using":"id"}
+[main] 17:15:06,803 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=ivadultadd, using=id}] Result: id: 3b064a86-76a2-41e6-a31d-214658866d6d
+[main] 17:15:06,803 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: ivadultadd param-2: {}] Result: OK
+[main] 17:15:06,804 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.id: ivadultadd parameters: {"id":"3b064a86-76a2-41e6-a31d-214658866d6d"}
+[main] 17:15:07,816 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.id: ivadultadd param-2: {"id":"3b064a86-76a2-41e6-a31d-214658866d6d"}] Result: clickElement:null
+[main] 17:15:07,816 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvadultcount parameters: {}
+[main] 17:15:07,817 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvadultcount","using":"id"}
+[main] 17:15:08,208 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvadultcount, using=id}] Result: id: 3795b648-4e4a-46bc-983f-5e6171972892
+[main] 17:15:08,208 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvadultcount param-2: {}] Result: OK
+[main] 17:15:08,208 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvadultcount parameters: {"id":"3795b648-4e4a-46bc-983f-5e6171972892"}
+[main] 17:15:08,714 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvadultcount param-2: {"id":"3795b648-4e4a-46bc-983f-5e6171972892"}] Result: getElementText:2
+[main] 17:15:08,714 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvchildcount parameters: {}
+[main] 17:15:08,715 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvchildcount","using":"id"}
+[main] 17:15:09,166 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvchildcount, using=id}] Result: id: c4645289-e64d-4471-83b1-6d364fecf47e
+[main] 17:15:09,167 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvchildcount param-2: {}] Result: OK
+[main] 17:15:09,167 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvchildcount parameters: {"id":"c4645289-e64d-4471-83b1-6d364fecf47e"}
+[main] 17:15:09,530 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvchildcount param-2: {"id":"c4645289-e64d-4471-83b1-6d364fecf47e"}] Result: getElementText:0
+[main] 17:15:09,531 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: ivchildadd parameters: {}
+[main] 17:15:09,531 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"ivchildadd","using":"id"}
+[main] 17:15:09,983 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=ivchildadd, using=id}] Result: id: 348d91b6-ddcf-4f13-b313-5358bb829637
+[main] 17:15:09,984 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: ivchildadd param-2: {}] Result: OK
+[main] 17:15:09,984 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.id: ivchildadd parameters: {"id":"348d91b6-ddcf-4f13-b313-5358bb829637"}
+[main] 17:15:10,413 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.id: ivchildadd param-2: {"id":"348d91b6-ddcf-4f13-b313-5358bb829637"}] Result: clickElement:null
+[main] 17:15:10,414 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvchildcount parameters: {}
+[main] 17:15:10,414 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvchildcount","using":"id"}
+[main] 17:15:11,098 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvchildcount, using=id}] Result: id: 5ba20029-0401-485c-a0e7-ed4c7086c9db
+[main] 17:15:11,098 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvchildcount param-2: {}] Result: OK
+[main] 17:15:11,098 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvchildcount parameters: {"id":"5ba20029-0401-485c-a0e7-ed4c7086c9db"}
+[main] 17:15:11,460 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvchildcount param-2: {"id":"5ba20029-0401-485c-a0e7-ed4c7086c9db"}] Result: getElementText:1
+[main] 17:15:11,461 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: ivchildadd parameters: {}
+[main] 17:15:11,461 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"ivchildadd","using":"id"}
+[main] 17:15:11,905 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=ivchildadd, using=id}] Result: id: ffe29211-298b-4bc7-8eae-8816992daec7
+[main] 17:15:11,905 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: ivchildadd param-2: {}] Result: OK
+[main] 17:15:11,906 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.id: ivchildadd parameters: {"id":"ffe29211-298b-4bc7-8eae-8816992daec7"}
+[main] 17:15:12,317 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.id: ivchildadd param-2: {"id":"ffe29211-298b-4bc7-8eae-8816992daec7"}] Result: clickElement:null
+[main] 17:15:12,318 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvchildcount parameters: {}
+[main] 17:15:12,318 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvchildcount","using":"id"}
+[main] 17:15:13,043 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvchildcount, using=id}] Result: id: d9ab7abc-35b6-40c8-b13b-924d4811b153
+[main] 17:15:13,043 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvchildcount param-2: {}] Result: OK
+[main] 17:15:13,043 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvchildcount parameters: {"id":"d9ab7abc-35b6-40c8-b13b-924d4811b153"}
+[main] 17:15:13,390 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvchildcount param-2: {"id":"d9ab7abc-35b6-40c8-b13b-924d4811b153"}] Result: getElementText:2
+[main] 17:15:13,390 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: btn_done parameters: {}
+[main] 17:15:13,391 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"btn_done","using":"id"}
+[main] 17:15:13,862 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=btn_done, using=id}] Result: id: 9e357517-72da-45a0-9076-87dbf5b68a05
+[main] 17:15:13,863 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: btn_done param-2: {}] Result: OK
+[main] 17:15:13,863 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.id: btn_done parameters: {"id":"9e357517-72da-45a0-9076-87dbf5b68a05"}
+[main] 17:15:14,245 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.id: btn_done param-2: {"id":"9e357517-72da-45a0-9076-87dbf5b68a05"}] Result: clickElement:null
+[main] 17:15:14,247 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: [unknown locator] parameters: {}
+[main] 17:15:14,247 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().className(\"android.widget.CheckBox\").text(\"Family\")","using":"-android uiautomator"}
+[main] 17:15:15,014 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().className("android.widget.CheckBox").text("Family"), using=-android uiautomator}] Result: [id: dcfb3f3e-f745-45c6-865a-a0c5f7f9fa26]
+[main] 17:15:15,014 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: [unknown locator] param-2: {}] Result: OK
+[main] 17:15:15,014 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: [unknown locator] parameters: {"id":"dcfb3f3e-f745-45c6-865a-a0c5f7f9fa26"}
+[main] 17:15:16,072 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: [unknown locator] param-2: {"id":"dcfb3f3e-f745-45c6-865a-a0c5f7f9fa26"}] Result: clickElement:null
+[main] 17:15:16,075 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: city parameters: {}
+[main] 17:15:16,075 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"city","using":"id"}
+[main] 17:15:16,449 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=city, using=id}] Result: id: 5d443e9e-240e-4e75-922d-4df6361f14f5
+[main] 17:15:16,450 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: city param-2: {}] Result: OK
+[main] 17:15:16,450 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: city parameters: {"id":"5d443e9e-240e-4e75-922d-4df6361f14f5"}
+[main] 17:15:16,813 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: city param-2: {"id":"5d443e9e-240e-4e75-922d-4df6361f14f5"}] Result: getElementText:Udaipur, Rajasthan, Rajasthan, India
+[main] 17:15:16,814 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: checkInDate parameters: {}
+[main] 17:15:16,814 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"checkInDate","using":"id"}
+[main] 17:15:17,195 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=checkInDate, using=id}] Result: id: bdbf6edc-7055-4bd0-89c0-48aace3f0cea
+[main] 17:15:17,196 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: checkInDate param-2: {}] Result: OK
+[main] 17:15:17,196 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: checkInDate parameters: {"id":"bdbf6edc-7055-4bd0-89c0-48aace3f0cea"}
+[main] 17:15:17,567 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: checkInDate param-2: {"id":"bdbf6edc-7055-4bd0-89c0-48aace3f0cea"}] Result: getElementText:31
+[main] 17:15:17,568 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: checkInMonthYear parameters: {}
+[main] 17:15:17,568 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"checkInMonthYear","using":"id"}
+[main] 17:15:17,919 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=checkInMonthYear, using=id}] Result: id: 81380b8f-a462-4527-9307-13a085d01855
+[main] 17:15:17,919 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: checkInMonthYear param-2: {}] Result: OK
+[main] 17:15:17,920 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: checkInMonthYear parameters: {"id":"81380b8f-a462-4527-9307-13a085d01855"}
+[main] 17:15:18,290 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: checkInMonthYear param-2: {"id":"81380b8f-a462-4527-9307-13a085d01855"}] Result: getElementText:MAY 2020
+[main] 17:15:18,291 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: checkInWeek parameters: {}
+[main] 17:15:18,291 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"checkInWeek","using":"id"}
+[main] 17:15:18,676 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=checkInWeek, using=id}] Result: id: 0e0abb0d-39b6-4c88-9afe-42bfbba17ece
+[main] 17:15:18,677 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: checkInWeek param-2: {}] Result: OK
+[main] 17:15:18,677 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: checkInWeek parameters: {"id":"0e0abb0d-39b6-4c88-9afe-42bfbba17ece"}
+[main] 17:15:19,056 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: checkInWeek param-2: {"id":"0e0abb0d-39b6-4c88-9afe-42bfbba17ece"}] Result: getElementText:Sunday
+[main] 17:15:19,056 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: checkOutDate parameters: {}
+[main] 17:15:19,057 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"checkOutDate","using":"id"}
+[main] 17:15:19,456 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=checkOutDate, using=id}] Result: id: c4958ae5-12d8-4665-9780-6c30c3713a3b
+[main] 17:15:19,456 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: checkOutDate param-2: {}] Result: OK
+[main] 17:15:19,456 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: checkOutDate parameters: {"id":"c4958ae5-12d8-4665-9780-6c30c3713a3b"}
+[main] 17:15:19,820 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: checkOutDate param-2: {"id":"c4958ae5-12d8-4665-9780-6c30c3713a3b"}] Result: getElementText:01
+[main] 17:15:19,821 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: checkOutMonthYear parameters: {}
+[main] 17:15:19,821 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"checkOutMonthYear","using":"id"}
+[main] 17:15:20,285 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=checkOutMonthYear, using=id}] Result: id: 0820d807-b74d-4a55-9661-877a7931c2b2
+[main] 17:15:20,285 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: checkOutMonthYear param-2: {}] Result: OK
+[main] 17:15:20,286 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: checkOutMonthYear parameters: {"id":"0820d807-b74d-4a55-9661-877a7931c2b2"}
+[main] 17:15:20,667 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: checkOutMonthYear param-2: {"id":"0820d807-b74d-4a55-9661-877a7931c2b2"}] Result: getElementText:JUN 2020
+[main] 17:15:20,668 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: checkOutWeek parameters: {}
+[main] 17:15:20,668 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"checkOutWeek","using":"id"}
+[main] 17:15:21,068 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=checkOutWeek, using=id}] Result: id: 9a9b7a76-88d8-414e-a0f6-cfb54b574f75
+[main] 17:15:21,069 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: checkOutWeek param-2: {}] Result: OK
+[main] 17:15:21,069 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: checkOutWeek parameters: {"id":"9a9b7a76-88d8-414e-a0f6-cfb54b574f75"}
+[main] 17:15:21,437 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: checkOutWeek param-2: {"id":"9a9b7a76-88d8-414e-a0f6-cfb54b574f75"}] Result: getElementText:Monday
+[main] 17:15:21,437 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: guest_count parameters: {}
+[main] 17:15:21,438 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"guest_count","using":"id"}
+[main] 17:15:21,826 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=guest_count, using=id}] Result: id: c6159280-6618-4b04-8557-7200a23e7880
+[main] 17:15:21,826 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: guest_count param-2: {}] Result: OK
+[main] 17:15:21,826 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: guest_count parameters: {"id":"c6159280-6618-4b04-8557-7200a23e7880"}
+[main] 17:15:22,194 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: guest_count param-2: {"id":"c6159280-6618-4b04-8557-7200a23e7880"}] Result: getElementText:08
+[main] 17:15:22,195 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: room_count parameters: {}
+[main] 17:15:22,195 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"room_count","using":"id"}
+[main] 17:15:22,605 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=room_count, using=id}] Result: id: 5f6676af-0302-443b-bdfe-22a74efd928d
+[main] 17:15:22,606 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: room_count param-2: {}] Result: OK
+[main] 17:15:22,606 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: room_count parameters: {"id":"5f6676af-0302-443b-bdfe-22a74efd928d"}
+[main] 17:15:22,982 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: room_count param-2: {"id":"5f6676af-0302-443b-bdfe-22a74efd928d"}] Result: getElementText:02
+[main] 17:15:22,983 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: search_button parameters: {}
+[main] 17:15:22,983 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"search_button","using":"id"}
+[main] 17:15:23,404 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=search_button, using=id}] Result: id: 7bdd0b75-e802-4aac-bd42-b86886706769
+[main] 17:15:23,404 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: search_button param-2: {}] Result: OK
+[main] 17:15:23,404 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.id: search_button parameters: {"id":"7bdd0b75-e802-4aac-bd42-b86886706769"}
+[main] 17:15:23,821 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.id: search_button param-2: {"id":"7bdd0b75-e802-4aac-bd42-b86886706769"}] Result: clickElement:null
+[main] 17:15:23,823 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: [unknown locator] parameters: {}
+[main] 17:15:23,823 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().text(\"Sort & Filter\")","using":"-android uiautomator"}
+[main] 17:15:25,323 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().text("Sort & Filter"), using=-android uiautomator}] Result: [id: 57536f8d-1eac-4082-802b-5ba85f13912d]
+[main] 17:15:25,324 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: [unknown locator] param-2: {}] Result: OK
+[main] 17:15:25,324 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: [unknown locator] parameters: {"id":"57536f8d-1eac-4082-802b-5ba85f13912d"}
+[main] 17:15:27,013 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: [unknown locator] param-2: {"id":"57536f8d-1eac-4082-802b-5ba85f13912d"}] Result: clickElement:null
+[main] 17:15:27,024 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"price_seek_bar","using":"id"}
+[main] 17:15:27,463 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=price_seek_bar, using=id}] Result: [id: bc29bc62-6021-4ad5-9101-58bb7afbf953]
+[main] 17:15:27,464 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tv_price_range parameters: {}
+[main] 17:15:27,464 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tv_price_range","using":"id"}
+[main] 17:15:27,924 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tv_price_range, using=id}] Result: id: f9265ea1-ac32-4c26-9aaa-6368959bd2a6
+[main] 17:15:27,925 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tv_price_range param-2: {}] Result: OK
+[main] 17:15:27,925 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tv_price_range parameters: {"id":"f9265ea1-ac32-4c26-9aaa-6368959bd2a6"}
+[main] 17:15:28,291 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tv_price_range param-2: {"id":"f9265ea1-ac32-4c26-9aaa-6368959bd2a6"}] Result: getElementText:? 0 - ? 30,000+
+[main] 17:15:28,292 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: price_seek_bar parameters: {}
+[main] 17:15:28,292 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"price_seek_bar","using":"id"}
+[main] 17:15:28,778 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=price_seek_bar, using=id}] Result: id: b5d5a63f-f2b9-462a-839c-90ff99fc8f28
+[main] 17:15:28,778 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: price_seek_bar param-2: {}] Result: OK
+[main] 17:15:28,778 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementLocation element: By.id: price_seek_bar parameters: {"id":"b5d5a63f-f2b9-462a-839c-90ff99fc8f28"}
+[main] 17:15:29,154 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementLocation[ param-1: By.id: price_seek_bar param-2: {"id":"b5d5a63f-f2b9-462a-839c-90ff99fc8f28"}] Result: getElementLocation:{x=33, y=848}
+[main] 17:15:29,154 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: price_seek_bar parameters: {}
+[main] 17:15:29,155 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"price_seek_bar","using":"id"}
+[main] 17:15:29,633 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=price_seek_bar, using=id}] Result: id: 64436a84-8b4d-4379-aa1f-bbc501d2fc42
+[main] 17:15:29,633 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: price_seek_bar param-2: {}] Result: OK
+[main] 17:15:29,633 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementSize element: By.id: price_seek_bar parameters: {"id":"64436a84-8b4d-4379-aa1f-bbc501d2fc42"}
+[main] 17:15:30,008 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementSize[ param-1: By.id: price_seek_bar param-2: {"id":"64436a84-8b4d-4379-aa1f-bbc501d2fc42"}] Result: getElementSize:{width=1014, height=105}
+[main] 17:15:30,009 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tv_price_range parameters: {}
+[main] 17:15:30,009 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tv_price_range","using":"id"}
+[main] 17:15:30,963 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tv_price_range, using=id}] Result: id: 22c44d6e-abd6-4b91-a182-2bb5e5d02de9
+[main] 17:15:30,963 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tv_price_range param-2: {}] Result: OK
+[main] 17:15:30,963 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tv_price_range parameters: {"id":"22c44d6e-abd6-4b91-a182-2bb5e5d02de9"}
+[main] 17:15:31,341 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tv_price_range param-2: {"id":"22c44d6e-abd6-4b91-a182-2bb5e5d02de9"}] Result: getElementText:? 0 - ? 30,000+
+[main] 17:15:32,973 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().text(\"4.0 & Above\")","using":"-android uiautomator"}
+[main] 17:15:33,928 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().text("4.0 & Above"), using=-android uiautomator}] Result: []
+[main] 17:15:33,931 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getCurrentWindowSize parameters: {}
+[main] 17:15:35,385 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getCurrentWindowSize[ param-1: {}] Result: {width=1080, height=2028, x=0, y=0}
+[main] 17:15:37,486 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().text(\"4.0 & Above\")","using":"-android uiautomator"}
+[main] 17:15:37,940 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().text("4.0 & Above"), using=-android uiautomator}] Result: []
+[main] 17:15:37,940 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getCurrentWindowSize parameters: {}
+[main] 17:15:38,306 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getCurrentWindowSize[ param-1: {}] Result: {width=1080, height=2028, x=0, y=0}
+[main] 17:15:40,392 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().text(\"4.0 & Above\")","using":"-android uiautomator"}
+[main] 17:15:40,868 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().text("4.0 & Above"), using=-android uiautomator}] Result: []
+[main] 17:15:40,868 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getCurrentWindowSize parameters: {}
+[main] 17:15:41,228 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getCurrentWindowSize[ param-1: {}] Result: {width=1080, height=2028, x=0, y=0}
+[main] 17:15:43,400 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().text(\"4.0 & Above\")","using":"-android uiautomator"}
+[main] 17:15:43,871 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().text("4.0 & Above"), using=-android uiautomator}] Result: [id: c45f3f95-6d0c-4e50-8dfe-808762434580]
+[main] 17:15:43,871 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getCurrentWindowSize parameters: {}
+[main] 17:15:44,235 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getCurrentWindowSize[ param-1: {}] Result: {width=1080, height=2028, x=0, y=0}
+[main] 17:15:46,338 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: [unknown locator] parameters: {}
+[main] 17:15:46,338 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().text(\"4.0 & Above\")","using":"-android uiautomator"}
+[main] 17:15:46,846 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().text("4.0 & Above"), using=-android uiautomator}] Result: [id: 3c08bb7a-e76a-46b1-800a-bb0bdc04039e]
+[main] 17:15:46,846 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: [unknown locator] param-2: {}] Result: OK
+[main] 17:15:46,846 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: [unknown locator] parameters: {"id":"3c08bb7a-e76a-46b1-800a-bb0bdc04039e"}
+[main] 17:15:48,488 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: [unknown locator] param-2: {"id":"3c08bb7a-e76a-46b1-800a-bb0bdc04039e"}] Result: clickElement:null
+[main] 17:15:48,490 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tv_apply parameters: {}
+[main] 17:15:48,490 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tv_apply","using":"id"}
+[main] 17:15:49,187 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tv_apply, using=id}] Result: id: d668aa9c-8359-4d62-b3a2-cfb449f917ca
+[main] 17:15:49,187 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tv_apply param-2: {}] Result: OK
+[main] 17:15:49,187 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.id: tv_apply parameters: {"id":"d668aa9c-8359-4d62-b3a2-cfb449f917ca"}
+[main] 17:15:49,611 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.id: tv_apply param-2: {"id":"d668aa9c-8359-4d62-b3a2-cfb449f917ca"}] Result: clickElement:null
+[main] 17:15:49,613 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"rvHotelList","using":"id"}
+[main] 17:15:50,394 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=rvHotelList, using=id}] Result: [id: a8942679-7fa4-44e9-8291-aa8902979d8d]
+[main] 17:15:50,395 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvHotelName parameters: {}
+[main] 17:15:50,395 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvHotelName","using":"id"}
+[main] 17:15:50,826 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvHotelName, using=id}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ICPL13805.local', ip: 'fe80:0:0:0:1452:41fb:d5cd:e4f3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {appActivity: com.mmt.travel.app.home.ui...., appPackage: com.makemytrip, autoAcceptAlerts: true, autoLaunch: true, automationName: UiAutomator2, browserName: , chromedriverExecutableDir: /home/pbox/headspinio-pboxa..., chromedriverPorts: [1835, 1836, 1837, 1838, 1839], cssSelectorsEnabled: true, databaseEnabled: false, desired: {appActivity: com.mmt.travel.app.home.ui...., appPackage: com.makemytrip, autoAcceptAlerts: true, autoLaunch: true, automationName: UiAutomator2, browserName: , chromedriverExecutableDir: /home/pbox/headspinio-pboxa..., chromedriverPorts: [1835, 1836, 1837, 1838, 1839], cssSelectorsEnabled: true, deviceName: GOOGLE Pixel 3, driverClass: io.appium.java_client.andro..., javascriptEnabled: true, platform: ANDROID, platformName: android, platformVersion: 10, remoteAppsCacheLimit: 0, systemPort: 1840, takesScreenshot: true, udid: 8ADX0QXD7, version: }, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ADX0QXD7, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ADX0QXD7, driverClass: io.appium.java_client.andro..., javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 10, remoteAppsCacheLimit: 0, statBarHeight: 66, systemPort: 1840, takesScreenshot: true, udid: 8ADX0QXD7, version: , viewportRect: {height: 1962, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0bd628ad-a334-11ea-8887-6757e986805b
+*** Element info: {Using=id, value=tvHotelName}
+[main] 17:15:51,831 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvHotelName","using":"id"}
+[main] 17:15:53,499 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvHotelName, using=id}] Result: id: 5a93dfe6-92df-4f40-a817-b6044b820835
+[main] 17:15:53,499 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvHotelName param-2: {}] Result: OK
+[main] 17:15:53,499 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvHotelName parameters: {"id":"5a93dfe6-92df-4f40-a817-b6044b820835"}
+[main] 17:15:53,842 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvHotelName param-2: {"id":"5a93dfe6-92df-4f40-a817-b6044b820835"}] Result: getElementText:JuSTa Sajjangarh Resort & Spa
+[main] 17:15:53,842 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getCurrentWindowSize parameters: {}
+[main] 17:15:54,202 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getCurrentWindowSize[ param-1: {}] Result: {width=1080, height=2028, x=0, y=0}
+[main] 17:15:56,290 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvHotelName parameters: {}
+[main] 17:15:56,290 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvHotelName","using":"id"}
+[main] 17:15:56,727 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvHotelName, using=id}] Result: id: 3bb66734-43ca-40b2-947f-a3deb4a28373
+[main] 17:15:56,728 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvHotelName param-2: {}] Result: OK
+[main] 17:15:56,728 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvHotelName parameters: {"id":"3bb66734-43ca-40b2-947f-a3deb4a28373"}
+[main] 17:15:57,095 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvHotelName param-2: {"id":"3bb66734-43ca-40b2-947f-a3deb4a28373"}] Result: getElementText:JuSTa Sajjangarh Resort & Spa
+[main] 17:15:57,095 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getCurrentWindowSize parameters: {}
+[main] 17:15:57,454 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getCurrentWindowSize[ param-1: {}] Result: {width=1080, height=2028, x=0, y=0}
+[main] 17:15:59,574 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvHotelName parameters: {}
+[main] 17:15:59,574 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvHotelName","using":"id"}
+[main] 17:15:59,992 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvHotelName, using=id}] Result: id: 4f94e993-c934-4603-976c-9e2cec3f544e
+[main] 17:15:59,993 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvHotelName param-2: {}] Result: OK
+[main] 17:15:59,993 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvHotelName parameters: {"id":"4f94e993-c934-4603-976c-9e2cec3f544e"}
+[main] 17:16:00,354 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvHotelName param-2: {"id":"4f94e993-c934-4603-976c-9e2cec3f544e"}] Result: getElementText:Ramada Udaipur Resort & Spa
+[main] 17:16:00,354 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getCurrentWindowSize parameters: {}
+[main] 17:16:00,731 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getCurrentWindowSize[ param-1: {}] Result: {width=1080, height=2028, x=0, y=0}
+[main] 17:16:02,825 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvHotelName parameters: {}
+[main] 17:16:02,825 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvHotelName","using":"id"}
+[main] 17:16:03,273 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvHotelName, using=id}] Result: id: adc51a08-758b-40e7-b55d-37300faa1f98
+[main] 17:16:03,273 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvHotelName param-2: {}] Result: OK
+[main] 17:16:03,273 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvHotelName parameters: {"id":"adc51a08-758b-40e7-b55d-37300faa1f98"}
+[main] 17:16:03,655 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvHotelName param-2: {"id":"adc51a08-758b-40e7-b55d-37300faa1f98"}] Result: getElementText:Hotel Sarovar on Lake Pichola
+[main] 17:16:03,655 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getCurrentWindowSize parameters: {}
+[main] 17:16:04,025 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getCurrentWindowSize[ param-1: {}] Result: {width=1080, height=2028, x=0, y=0}
+[main] 17:16:06,161 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvHotelName parameters: {}
+[main] 17:16:06,161 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvHotelName","using":"id"}
+[main] 17:16:06,580 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvHotelName, using=id}] Result: id: 9481efc1-bbc3-416f-a075-70a2ac38f092
+[main] 17:16:06,580 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvHotelName param-2: {}] Result: OK
+[main] 17:16:06,580 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvHotelName parameters: {"id":"9481efc1-bbc3-416f-a075-70a2ac38f092"}
+[main] 17:16:06,954 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvHotelName param-2: {"id":"9481efc1-bbc3-416f-a075-70a2ac38f092"}] Result: getElementText:Hotel Sarovar on Lake Pichola
+[main] 17:16:06,954 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getCurrentWindowSize parameters: {}
+[main] 17:16:07,295 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getCurrentWindowSize[ param-1: {}] Result: {width=1080, height=2028, x=0, y=0}
+[main] 17:16:09,405 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvHotelName parameters: {}
+[main] 17:16:09,405 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvHotelName","using":"id"}
+[main] 17:16:09,843 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvHotelName, using=id}] Result: id: fa20a1d9-8f82-430e-b194-f8465c8012b0
+[main] 17:16:09,843 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvHotelName param-2: {}] Result: OK
+[main] 17:16:09,843 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvHotelName parameters: {"id":"fa20a1d9-8f82-430e-b194-f8465c8012b0"}
+[main] 17:16:10,224 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvHotelName param-2: {"id":"fa20a1d9-8f82-430e-b194-f8465c8012b0"}] Result: getElementText:Hotel Castle Comfort by Castle Hotels
+[main] 17:16:10,224 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvHotelName parameters: {}
+[main] 17:16:10,225 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvHotelName","using":"id"}
+[main] 17:16:10,632 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvHotelName, using=id}] Result: id: 3dc911e0-e079-4c8d-9258-7e4961c9e11e
+[main] 17:16:10,633 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvHotelName param-2: {}] Result: OK
+[main] 17:16:10,633 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.id: tvHotelName parameters: {"id":"3dc911e0-e079-4c8d-9258-7e4961c9e11e"}
+[main] 17:16:11,036 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.id: tvHotelName param-2: {"id":"3dc911e0-e079-4c8d-9258-7e4961c9e11e"}] Result: clickElement:null
+[main] 17:16:11,039 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tv_hotel_name parameters: {}
+[main] 17:16:11,039 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tv_hotel_name","using":"id"}
+[main] 17:16:13,040 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tv_hotel_name, using=id}] Result: id: b8ab8bc8-bd5e-4b5b-a889-7607bf7c4bd5
+[main] 17:16:13,040 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tv_hotel_name param-2: {}] Result: OK
+[main] 17:16:13,040 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tv_hotel_name parameters: {"id":"b8ab8bc8-bd5e-4b5b-a889-7607bf7c4bd5"}
+[main] 17:16:13,418 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tv_hotel_name param-2: {"id":"b8ab8bc8-bd5e-4b5b-a889-7607bf7c4bd5"}] Result: getElementText:Hotel Castle Comfort by Castle Hotels
+[main] 17:16:13,419 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().text(\"SELECT ROOM\")","using":"-android uiautomator"}
+[main] 17:16:13,838 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().text("SELECT ROOM"), using=-android uiautomator}] Result: [id: 19904d46-29d3-41af-9182-5759a78136f9]
+[main] 17:16:13,838 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: [unknown locator] parameters: {}
+[main] 17:16:13,839 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().text(\"SELECT ROOM\")","using":"-android uiautomator"}
+[main] 17:16:14,273 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().text("SELECT ROOM"), using=-android uiautomator}] Result: [id: b19573b7-93b2-4731-a6d9-5a53a2a387cb]
+[main] 17:16:14,273 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: [unknown locator] param-2: {}] Result: OK
+[main] 17:16:14,274 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing isElementDisplayed element: [unknown locator] parameters: {"id":"b19573b7-93b2-4731-a6d9-5a53a2a387cb"}
+[main] 17:16:14,660 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: isElementDisplayed[ param-1: [unknown locator] param-2: {"id":"b19573b7-93b2-4731-a6d9-5a53a2a387cb"}] Result: isElementDisplayed:true
+[main] 17:16:14,661 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: [unknown locator] parameters: {}
+[main] 17:16:14,661 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().text(\"SELECT ROOM\")","using":"-android uiautomator"}
+[main] 17:16:15,085 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().text("SELECT ROOM"), using=-android uiautomator}] Result: [id: 4352ba3b-c095-4ed5-98bb-1aaa0a8be6bb]
+[main] 17:16:15,086 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: [unknown locator] param-2: {}] Result: OK
+[main] 17:16:15,086 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: [unknown locator] parameters: {"id":"4352ba3b-c095-4ed5-98bb-1aaa0a8be6bb"}
+[main] 17:16:16,216 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: [unknown locator] param-2: {"id":"4352ba3b-c095-4ed5-98bb-1aaa0a8be6bb"}] Result: clickElement:null
+[main] 17:16:16,219 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().text(\"SELECT ROOM\")","using":"-android uiautomator"}
+[main] 17:16:16,683 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().text("SELECT ROOM"), using=-android uiautomator}] Result: [id: a150e9b7-9bf3-4eb4-871e-6bc9bfd90d12]
+[main] 17:16:17,687 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().text(\"SELECT ROOM\")","using":"-android uiautomator"}
+[main] 17:16:18,148 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().text("SELECT ROOM"), using=-android uiautomator}] Result: [id: e0d7aebf-3573-4d59-b5ff-2a3e8f6dec5e]
+[main] 17:16:19,151 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().text(\"SELECT ROOM\")","using":"-android uiautomator"}
+[main] 17:16:19,571 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().text("SELECT ROOM"), using=-android uiautomator}] Result: [id: 00ffa235-c6b5-4502-b5f9-64530989084f]
+[main] 17:16:20,575 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().text(\"SELECT ROOM\")","using":"-android uiautomator"}
+[main] 17:16:20,994 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().text("SELECT ROOM"), using=-android uiautomator}] Result: [id: 509c08a8-01f2-4bd6-b39d-8af5806a1bad]
+[main] 17:16:22,000 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().text(\"SELECT ROOM\")","using":"-android uiautomator"}
+[main] 17:16:22,533 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().text("SELECT ROOM"), using=-android uiautomator}] Result: [id: 3029e52e-45c6-4585-99f2-d0ac95175684]
+[main] 17:16:22,534 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().text(\"SELECT ROOM\")","using":"-android uiautomator"}
+[main] 17:16:22,957 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().text("SELECT ROOM"), using=-android uiautomator}] Result: [id: 457d0804-e27a-404f-8d23-b6c1a1c88650]
+[main] 17:16:22,958 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: [unknown locator] parameters: {}
+[main] 17:16:22,958 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().text(\"SELECT ROOM\")","using":"-android uiautomator"}
+[main] 17:16:23,416 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().text("SELECT ROOM"), using=-android uiautomator}] Result: [id: 6ab757db-e1f1-45c3-a6c3-3109d69d0dca]
+[main] 17:16:23,417 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: [unknown locator] param-2: {}] Result: OK
+[main] 17:16:23,417 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: [unknown locator] parameters: {"id":"6ab757db-e1f1-45c3-a6c3-3109d69d0dca"}
+[main] 17:16:25,045 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: [unknown locator] param-2: {"id":"6ab757db-e1f1-45c3-a6c3-3109d69d0dca"}] Result: clickElement:null
+[main] 17:16:25,045 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getCurrentWindowSize parameters: {}
+[main] 17:16:25,421 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getCurrentWindowSize[ param-1: {}] Result: {width=1080, height=2028, x=0, y=0}
+[main] 17:16:27,553 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvRoomName parameters: {}
+[main] 17:16:27,553 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvRoomName","using":"id"}
+[main] 17:16:27,981 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvRoomName, using=id}] Result: id: d6eef5bf-64f8-4fee-b246-f8cd5cf88756
+[main] 17:16:27,981 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvRoomName param-2: {}] Result: OK
+[main] 17:16:27,981 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvRoomName parameters: {"id":"d6eef5bf-64f8-4fee-b246-f8cd5cf88756"}
+[main] 17:16:28,324 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvRoomName param-2: {"id":"d6eef5bf-64f8-4fee-b246-f8cd5cf88756"}] Result: getElementText:Room Only
+[main] 17:16:28,324 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvTariffPrice parameters: {}
+[main] 17:16:28,324 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvTariffPrice","using":"id"}
+[main] 17:16:28,757 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvTariffPrice, using=id}] Result: id: 9a73fa3f-0b73-4540-9dad-d2bfc3973078
+[main] 17:16:28,757 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvTariffPrice param-2: {}] Result: OK
+[main] 17:16:28,757 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvTariffPrice parameters: {"id":"9a73fa3f-0b73-4540-9dad-d2bfc3973078"}
+[main] 17:16:29,108 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvTariffPrice param-2: {"id":"9a73fa3f-0b73-4540-9dad-d2bfc3973078"}] Result: getElementText:? 3,159
+[main] 17:16:29,108 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: slashedPrice parameters: {}
+[main] 17:16:29,109 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"slashedPrice","using":"id"}
+[main] 17:16:29,573 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=slashedPrice, using=id}] Result: id: a9503189-5d6a-4e84-9333-d2eff0593044
+[main] 17:16:29,573 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: slashedPrice param-2: {}] Result: OK
+[main] 17:16:29,573 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: slashedPrice parameters: {"id":"a9503189-5d6a-4e84-9333-d2eff0593044"}
+[main] 17:16:29,935 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: slashedPrice param-2: {"id":"a9503189-5d6a-4e84-9333-d2eff0593044"}] Result: getElementText:? 7,800
+[main] 17:16:29,936 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: [unknown locator] parameters: {}
+[main] 17:16:29,936 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().text(\"CONTINUE\")","using":"-android uiautomator"}
+[main] 17:16:30,428 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().text("CONTINUE"), using=-android uiautomator}] Result: [id: 19764de8-032c-4311-b6a9-78e20a3805ad]
+[main] 17:16:30,428 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: [unknown locator] param-2: {}] Result: OK
+[main] 17:16:30,428 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: [unknown locator] parameters: {"id":"19764de8-032c-4311-b6a9-78e20a3805ad"}
+[main] 17:16:32,405 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: [unknown locator] param-2: {"id":"19764de8-032c-4311-b6a9-78e20a3805ad"}] Result: clickElement:null
+[main] 17:16:32,410 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: sp_title parameters: {}
+[main] 17:16:32,410 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"sp_title","using":"id"}
+[main] 17:16:33,043 ERROR [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=sp_title, using=id}] Result: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ICPL13805.local', ip: 'fe80:0:0:0:1452:41fb:d5cd:e4f3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {appActivity: com.mmt.travel.app.home.ui...., appPackage: com.makemytrip, autoAcceptAlerts: true, autoLaunch: true, automationName: UiAutomator2, browserName: , chromedriverExecutableDir: /home/pbox/headspinio-pboxa..., chromedriverPorts: [1835, 1836, 1837, 1838, 1839], cssSelectorsEnabled: true, databaseEnabled: false, desired: {appActivity: com.mmt.travel.app.home.ui...., appPackage: com.makemytrip, autoAcceptAlerts: true, autoLaunch: true, automationName: UiAutomator2, browserName: , chromedriverExecutableDir: /home/pbox/headspinio-pboxa..., chromedriverPorts: [1835, 1836, 1837, 1838, 1839], cssSelectorsEnabled: true, deviceName: GOOGLE Pixel 3, driverClass: io.appium.java_client.andro..., javascriptEnabled: true, platform: ANDROID, platformName: android, platformVersion: 10, remoteAppsCacheLimit: 0, systemPort: 1840, takesScreenshot: true, udid: 8ADX0QXD7, version: }, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ADX0QXD7, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ADX0QXD7, driverClass: io.appium.java_client.andro..., javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 10, remoteAppsCacheLimit: 0, statBarHeight: 66, systemPort: 1840, takesScreenshot: true, udid: 8ADX0QXD7, version: , viewportRect: {height: 1962, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0bd628ad-a334-11ea-8887-6757e986805b
+*** Element info: {Using=id, value=sp_title}
+[main] 17:16:34,048 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"sp_title","using":"id"}
+[main] 17:16:34,810 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=sp_title, using=id}] Result: id: f31d0a45-b1cd-4ee1-9894-64bb1f9dc1ea
+[main] 17:16:34,810 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: sp_title param-2: {}] Result: OK
+[main] 17:16:34,810 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.id: sp_title parameters: {"id":"f31d0a45-b1cd-4ee1-9894-64bb1f9dc1ea"}
+[main] 17:16:35,192 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.id: sp_title param-2: {"id":"f31d0a45-b1cd-4ee1-9894-64bb1f9dc1ea"}] Result: clickElement:null
+[main] 17:16:35,193 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: [unknown locator] parameters: {}
+[main] 17:16:35,193 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().text(\"Mr\")","using":"-android uiautomator"}
+[main] 17:16:36,048 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().text("Mr"), using=-android uiautomator}] Result: [id: 69b19cfa-3724-40eb-a1a4-c32c22d8de58]
+[main] 17:16:36,048 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: [unknown locator] param-2: {}] Result: OK
+[main] 17:16:36,048 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: [unknown locator] parameters: {"id":"69b19cfa-3724-40eb-a1a4-c32c22d8de58"}
+[main] 17:16:37,048 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: [unknown locator] param-2: {"id":"69b19cfa-3724-40eb-a1a4-c32c22d8de58"}] Result: clickElement:null
+[main] 17:16:37,049 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: etGuestInfoName parameters: {}
+[main] 17:16:37,049 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"etGuestInfoName","using":"id"}
+[main] 17:16:37,426 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=etGuestInfoName, using=id}] Result: id: 4156af63-3e8c-4702-b20e-0068593af121
+[main] 17:16:37,426 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: etGuestInfoName param-2: {}] Result: OK
+[main] 17:16:37,427 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing sendKeysToElement element: By.id: etGuestInfoName parameters: {"value":["Nishith"],"id":"4156af63-3e8c-4702-b20e-0068593af121"}
+[main] 17:16:38,306 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: sendKeysToElement[ param-1: By.id: etGuestInfoName param-2: {"value":["Nishith"],"id":"4156af63-3e8c-4702-b20e-0068593af121"}] Result: sendKeysToElement:null
+[main] 17:16:38,307 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: etGuestInfoNameLast parameters: {}
+[main] 17:16:38,307 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"etGuestInfoNameLast","using":"id"}
+[main] 17:16:38,846 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=etGuestInfoNameLast, using=id}] Result: id: 7de535c2-01fd-44b0-9134-e5c24daf993b
+[main] 17:16:38,846 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: etGuestInfoNameLast param-2: {}] Result: OK
+[main] 17:16:38,846 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing sendKeysToElement element: By.id: etGuestInfoNameLast parameters: {"value":["Shah"],"id":"7de535c2-01fd-44b0-9134-e5c24daf993b"}
+[main] 17:16:39,738 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: sendKeysToElement[ param-1: By.id: etGuestInfoNameLast param-2: {"value":["Shah"],"id":"7de535c2-01fd-44b0-9134-e5c24daf993b"}] Result: sendKeysToElement:null
+[main] 17:16:39,739 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: etGuestInfoPhone parameters: {}
+[main] 17:16:39,739 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"etGuestInfoPhone","using":"id"}
+[main] 17:16:40,251 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=etGuestInfoPhone, using=id}] Result: id: 069368e7-8eb1-45c2-8a46-75bb73509e99
+[main] 17:16:40,252 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: etGuestInfoPhone param-2: {}] Result: OK
+[main] 17:16:40,252 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing sendKeysToElement element: By.id: etGuestInfoPhone parameters: {"value":["7069936462"],"id":"069368e7-8eb1-45c2-8a46-75bb73509e99"}
+[main] 17:16:41,107 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: sendKeysToElement[ param-1: By.id: etGuestInfoPhone param-2: {"value":["7069936462"],"id":"069368e7-8eb1-45c2-8a46-75bb73509e99"}] Result: sendKeysToElement:null
+[main] 17:16:41,110 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"special_req_txt_container","using":"id"}
+[main] 17:16:41,684 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=special_req_txt_container, using=id}] Result: []
+[main] 17:16:41,684 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getCurrentWindowSize parameters: {}
+[main] 17:16:42,044 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getCurrentWindowSize[ param-1: {}] Result: {width=1080, height=2028, x=0, y=0}
+[main] 17:16:44,093 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"special_req_txt_container","using":"id"}
+[main] 17:16:44,476 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=special_req_txt_container, using=id}] Result: [id: 3940637d-a1dd-4460-8454-79cdd8e240eb]
+[main] 17:16:44,477 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getCurrentWindowSize parameters: {}
+[main] 17:16:44,823 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getCurrentWindowSize[ param-1: {}] Result: {width=1080, height=2028, x=0, y=0}
+[main] 17:16:46,874 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: special_req_txt_container parameters: {}
+[main] 17:16:46,874 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"special_req_txt_container","using":"id"}
+[main] 17:16:47,243 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=special_req_txt_container, using=id}] Result: id: e3df235c-63d7-41a6-8ad0-4a827d1b856f
+[main] 17:16:47,244 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: special_req_txt_container param-2: {}] Result: OK
+[main] 17:16:47,244 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.id: special_req_txt_container parameters: {"id":"e3df235c-63d7-41a6-8ad0-4a827d1b856f"}
+[main] 17:16:47,666 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.id: special_req_txt_container param-2: {"id":"e3df235c-63d7-41a6-8ad0-4a827d1b856f"}] Result: clickElement:null
+[main] 17:16:47,667 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"request_checkbox","using":"id"}
+[main] 17:16:48,367 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=request_checkbox, using=id}] Result: [id: e1a2d0c4-634c-48d1-a192-c38de29a4d45, id: 5a47d5cc-29ad-4872-8211-13c911ae310d, id: 8ac61ea5-22fa-47cd-b136-518a4aca6c88, id: 97dd5a5b-56d3-41d6-989e-d973335dfa7a, id: 8dd1613b-72cd-4dd4-9fa0-d2b3b94031c1, id: adb53c00-988c-4bd4-a0bb-e0a98f88ecb6, id: 8261b425-46be-4eeb-b931-902ef118e447]
+[main] 17:16:48,367 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: id: e1a2d0c4-634c-48d1-a192-c38de29a4d45 parameters: {"id":"e1a2d0c4-634c-48d1-a192-c38de29a4d45"}
+[main] 17:16:48,785 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: id: e1a2d0c4-634c-48d1-a192-c38de29a4d45 param-2: {"id":"e1a2d0c4-634c-48d1-a192-c38de29a4d45"}] Result: clickElement:null
+[main] 17:16:48,785 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: id: 5a47d5cc-29ad-4872-8211-13c911ae310d parameters: {"id":"5a47d5cc-29ad-4872-8211-13c911ae310d"}
+[main] 17:16:49,356 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: id: 5a47d5cc-29ad-4872-8211-13c911ae310d param-2: {"id":"5a47d5cc-29ad-4872-8211-13c911ae310d"}] Result: clickElement:null
+[main] 17:16:49,357 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: done_btn parameters: {}
+[main] 17:16:49,357 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"done_btn","using":"id"}
+[main] 17:16:49,997 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=done_btn, using=id}] Result: id: be4df3f5-0d82-48cb-8c2e-457cbb0c7f1c
+[main] 17:16:49,998 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: done_btn param-2: {}] Result: OK
+[main] 17:16:49,998 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.id: done_btn parameters: {"id":"be4df3f5-0d82-48cb-8c2e-457cbb0c7f1c"}
+[main] 17:16:50,418 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.id: done_btn param-2: {"id":"be4df3f5-0d82-48cb-8c2e-457cbb0c7f1c"}] Result: clickElement:null
+[main] 17:16:50,421 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"cbAddOn","using":"id"}
+[main] 17:16:51,170 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=cbAddOn, using=id}] Result: [id: 06477c9d-5092-421c-9891-9d89441c5e7b]
+[main] 17:16:51,171 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: cbAddOn parameters: {}
+[main] 17:16:51,171 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"cbAddOn","using":"id"}
+[main] 17:16:51,551 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=cbAddOn, using=id}] Result: id: c457f23f-9df2-4c38-9619-c3a710e490df
+[main] 17:16:51,551 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: cbAddOn param-2: {}] Result: OK
+[main] 17:16:51,551 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementAttribute element: By.id: cbAddOn parameters: {"name":"checked","id":"c457f23f-9df2-4c38-9619-c3a710e490df"}
+[main] 17:16:51,955 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementAttribute[ param-1: By.id: cbAddOn param-2: {"name":"checked","id":"c457f23f-9df2-4c38-9619-c3a710e490df"}] Result: getElementAttribute:true
+[main] 17:16:51,955 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: cbAddOn parameters: {}
+[main] 17:16:51,956 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"cbAddOn","using":"id"}
+[main] 17:16:52,372 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=cbAddOn, using=id}] Result: id: 938ac527-afbf-4ca7-81fd-31310fd2633b
+[main] 17:16:52,372 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: cbAddOn param-2: {}] Result: OK
+[main] 17:16:52,372 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.id: cbAddOn parameters: {"id":"938ac527-afbf-4ca7-81fd-31310fd2633b"}
+[main] 17:16:52,810 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.id: cbAddOn param-2: {"id":"938ac527-afbf-4ca7-81fd-31310fd2633b"}] Result: clickElement:null
+[main] 17:16:52,814 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: [unknown locator] parameters: {}
+[main] 17:16:52,815 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"new UiSelector().text(\"CONTINUE\")","using":"-android uiautomator"}
+[main] 17:16:53,443 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=new UiSelector().text("CONTINUE"), using=-android uiautomator}] Result: [id: 6b95305a-2830-4d14-a244-52841744762f]
+[main] 17:16:53,443 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: [unknown locator] param-2: {}] Result: OK
+[main] 17:16:53,443 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: [unknown locator] parameters: {"id":"6b95305a-2830-4d14-a244-52841744762f"}
+[main] 17:16:54,607 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: [unknown locator] param-2: {"id":"6b95305a-2830-4d14-a244-52841744762f"}] Result: clickElement:null
+[main] 17:16:54,612 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"tvHotelNameOnThankYouPage","using":"id"}
+[main] 17:16:55,189 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=tvHotelNameOnThankYouPage, using=id}] Result: []
+[main] 17:16:56,190 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"tvHotelNameOnThankYouPage","using":"id"}
+[main] 17:16:56,554 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=tvHotelNameOnThankYouPage, using=id}] Result: []
+[main] 17:16:57,555 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"tvHotelNameOnThankYouPage","using":"id"}
+[main] 17:16:58,035 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=tvHotelNameOnThankYouPage, using=id}] Result: [id: f32ba06d-4296-4524-9d1e-ee691f9d6b42]
+[main] 17:16:58,036 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvHotelNameOnThankYouPage parameters: {}
+[main] 17:16:58,036 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvHotelNameOnThankYouPage","using":"id"}
+[main] 17:16:59,516 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvHotelNameOnThankYouPage, using=id}] Result: id: e34d41c8-365e-44e1-887e-f02ac2d23b1a
+[main] 17:16:59,516 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvHotelNameOnThankYouPage param-2: {}] Result: OK
+[main] 17:16:59,516 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvHotelNameOnThankYouPage parameters: {"id":"e34d41c8-365e-44e1-887e-f02ac2d23b1a"}
+[main] 17:16:59,887 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvHotelNameOnThankYouPage param-2: {"id":"e34d41c8-365e-44e1-887e-f02ac2d23b1a"}] Result: getElementText:Hotel Castle Comfort by Castle Hotels
+[main] 17:16:59,887 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvHotelNameOnThankYouPage parameters: {}
+[main] 17:16:59,887 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvHotelNameOnThankYouPage","using":"id"}
+[main] 17:17:00,288 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvHotelNameOnThankYouPage, using=id}] Result: id: d5941cd2-09f4-4a46-86ca-9d164de75322
+[main] 17:17:00,289 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvHotelNameOnThankYouPage param-2: {}] Result: OK
+[main] 17:17:00,289 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvHotelNameOnThankYouPage parameters: {"id":"d5941cd2-09f4-4a46-86ca-9d164de75322"}
+[main] 17:17:00,655 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvHotelNameOnThankYouPage param-2: {"id":"d5941cd2-09f4-4a46-86ca-9d164de75322"}] Result: getElementText:Hotel Castle Comfort by Castle Hotels
+[main] 17:17:00,655 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Pass: Expected By.id: tvHotelNameOnThankYouPage text should be ContainsIgnoringCase:Hotel Castle Comfort by Castle Hotels : Actual By.id: tvHotelNameOnThankYouPage text is Hotel Castle Comfort by Castle Hotels
+[main] 17:17:00,655 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing screenshot parameters: {}
+[main] 17:17:04,432 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Capturing screen shotHotelBookingFromMakeMyTripApplication_2vv8y5igag1931164.png
+[main] 17:17:04,433 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"tvHotelAddressOnThankYouPage","using":"id"}
+[main] 17:17:04,872 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=tvHotelAddressOnThankYouPage, using=id}] Result: [id: f4e3c96a-2224-4b32-8976-0672b95a87d8]
+[main] 17:17:04,872 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvHotelAddressOnThankYouPage parameters: {}
+[main] 17:17:04,872 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvHotelAddressOnThankYouPage","using":"id"}
+[main] 17:17:05,257 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvHotelAddressOnThankYouPage, using=id}] Result: id: 442d54e0-9a38-4cb2-89c5-9d7b4dfdf804
+[main] 17:17:05,258 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvHotelAddressOnThankYouPage param-2: {}] Result: OK
+[main] 17:17:05,258 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvHotelAddressOnThankYouPage parameters: {"id":"442d54e0-9a38-4cb2-89c5-9d7b4dfdf804"}
+[main] 17:17:05,633 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvHotelAddressOnThankYouPage param-2: {"id":"442d54e0-9a38-4cb2-89c5-9d7b4dfdf804"}] Result: getElementText:Udaipur, Rajasthan , India
+[main] 17:17:05,633 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvHotelAddressOnThankYouPage parameters: {}
+[main] 17:17:05,634 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvHotelAddressOnThankYouPage","using":"id"}
+[main] 17:17:06,041 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvHotelAddressOnThankYouPage, using=id}] Result: id: 9339ff92-5ad5-456d-b7a0-abceeb9a42f6
+[main] 17:17:06,041 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvHotelAddressOnThankYouPage param-2: {}] Result: OK
+[main] 17:17:06,041 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvHotelAddressOnThankYouPage parameters: {"id":"9339ff92-5ad5-456d-b7a0-abceeb9a42f6"}
+[main] 17:17:06,403 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvHotelAddressOnThankYouPage param-2: {"id":"9339ff92-5ad5-456d-b7a0-abceeb9a42f6"}] Result: getElementText:Udaipur, Rajasthan , India
+[main] 17:17:06,403 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Pass: Expected By.id: tvHotelAddressOnThankYouPage text should be ContainsIgnoringCase:Udaipur : Actual By.id: tvHotelAddressOnThankYouPage text is Udaipur, Rajasthan , India
+[main] 17:17:06,403 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing screenshot parameters: {}
+[main] 17:17:09,578 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Capturing screen shotHotelBookingFromMakeMyTripApplication_1d4h6q87mnugt31165.png
+[main] 17:17:09,579 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: ivDetailExpandOnThankYouPage parameters: {}
+[main] 17:17:09,579 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"ivDetailExpandOnThankYouPage","using":"id"}
+[main] 17:17:10,428 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=ivDetailExpandOnThankYouPage, using=id}] Result: id: 232dee5b-a9ad-4644-b56c-d2712e75136a
+[main] 17:17:10,430 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: ivDetailExpandOnThankYouPage param-2: {}] Result: OK
+[main] 17:17:10,431 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing clickElement element: By.id: ivDetailExpandOnThankYouPage parameters: {"id":"232dee5b-a9ad-4644-b56c-d2712e75136a"}
+[main] 17:17:11,505 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: clickElement[ param-1: By.id: ivDetailExpandOnThankYouPage param-2: {"id":"232dee5b-a9ad-4644-b56c-d2712e75136a"}] Result: clickElement:null
+[main] 17:17:11,505 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"tvNumOfGuestOnThankYouPage","using":"id"}
+[main] 17:17:11,919 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=tvNumOfGuestOnThankYouPage, using=id}] Result: [id: dbf0f622-c6e7-4a18-94e4-b8b1b352491f]
+[main] 17:17:11,919 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvNumOfGuestOnThankYouPage parameters: {}
+[main] 17:17:11,919 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvNumOfGuestOnThankYouPage","using":"id"}
+[main] 17:17:12,302 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvNumOfGuestOnThankYouPage, using=id}] Result: id: dbc66f8d-be98-4b07-b251-8fc8e8be14a1
+[main] 17:17:12,302 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvNumOfGuestOnThankYouPage param-2: {}] Result: OK
+[main] 17:17:12,302 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvNumOfGuestOnThankYouPage parameters: {"id":"dbc66f8d-be98-4b07-b251-8fc8e8be14a1"}
+[main] 17:17:12,673 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvNumOfGuestOnThankYouPage param-2: {"id":"dbc66f8d-be98-4b07-b251-8fc8e8be14a1"}] Result: getElementText:8 Guests
+[main] 17:17:12,674 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvNumOfGuestOnThankYouPage parameters: {}
+[main] 17:17:12,674 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvNumOfGuestOnThankYouPage","using":"id"}
+[main] 17:17:13,052 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvNumOfGuestOnThankYouPage, using=id}] Result: id: a641edbc-ab1a-47de-80c7-80094855890c
+[main] 17:17:13,053 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvNumOfGuestOnThankYouPage param-2: {}] Result: OK
+[main] 17:17:13,053 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvNumOfGuestOnThankYouPage parameters: {"id":"a641edbc-ab1a-47de-80c7-80094855890c"}
+[main] 17:17:13,426 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvNumOfGuestOnThankYouPage param-2: {"id":"a641edbc-ab1a-47de-80c7-80094855890c"}] Result: getElementText:8 Guests
+[main] 17:17:13,427 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Pass: Expected By.id: tvNumOfGuestOnThankYouPage text should be ContainsIgnoringCase:8 : Actual By.id: tvNumOfGuestOnThankYouPage text is 8 Guests
+[main] 17:17:13,427 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing screenshot parameters: {}
+[main] 17:17:17,114 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Capturing screen shotHotelBookingFromMakeMyTripApplication_15601ulnwzb231166.png
+[main] 17:17:17,115 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"tvTotalRoomsBookedOnThankYouPage","using":"id"}
+[main] 17:17:17,589 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=tvTotalRoomsBookedOnThankYouPage, using=id}] Result: [id: 2fde073f-7547-407a-affe-07f98f576dd3]
+[main] 17:17:17,590 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvTotalRoomsBookedOnThankYouPage parameters: {}
+[main] 17:17:17,590 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvTotalRoomsBookedOnThankYouPage","using":"id"}
+[main] 17:17:17,983 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvTotalRoomsBookedOnThankYouPage, using=id}] Result: id: 928b1a45-432d-4e60-862d-81531a191a6a
+[main] 17:17:17,983 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvTotalRoomsBookedOnThankYouPage param-2: {}] Result: OK
+[main] 17:17:17,984 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvTotalRoomsBookedOnThankYouPage parameters: {"id":"928b1a45-432d-4e60-862d-81531a191a6a"}
+[main] 17:17:18,358 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvTotalRoomsBookedOnThankYouPage param-2: {"id":"928b1a45-432d-4e60-862d-81531a191a6a"}] Result: getElementText:2 Rooms
+[main] 17:17:18,358 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvTotalRoomsBookedOnThankYouPage parameters: {}
+[main] 17:17:18,358 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvTotalRoomsBookedOnThankYouPage","using":"id"}
+[main] 17:17:18,695 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvTotalRoomsBookedOnThankYouPage, using=id}] Result: id: 5ed02bc2-5348-4c8d-91c9-3801e9b2492d
+[main] 17:17:18,696 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvTotalRoomsBookedOnThankYouPage param-2: {}] Result: OK
+[main] 17:17:18,696 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvTotalRoomsBookedOnThankYouPage parameters: {"id":"5ed02bc2-5348-4c8d-91c9-3801e9b2492d"}
+[main] 17:17:19,066 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvTotalRoomsBookedOnThankYouPage param-2: {"id":"5ed02bc2-5348-4c8d-91c9-3801e9b2492d"}] Result: getElementText:2 Rooms
+[main] 17:17:19,066 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Pass: Expected By.id: tvTotalRoomsBookedOnThankYouPage text should be ContainsIgnoringCase:2 : Actual By.id: tvTotalRoomsBookedOnThankYouPage text is 2 Rooms
+[main] 17:17:19,066 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing screenshot parameters: {}
+[main] 17:17:21,254 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Capturing screen shotHotelBookingFromMakeMyTripApplication_bckmok7j0shr31167.png
+[main] 17:17:21,254 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"tvCheckInDateOnThankYouPage","using":"id"}
+[main] 17:17:21,706 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=tvCheckInDateOnThankYouPage, using=id}] Result: [id: 24eeaede-fc9e-4a9a-8b0d-c57097668f08]
+[main] 17:17:21,706 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvCheckInDateOnThankYouPage parameters: {}
+[main] 17:17:21,706 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvCheckInDateOnThankYouPage","using":"id"}
+[main] 17:17:22,101 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvCheckInDateOnThankYouPage, using=id}] Result: id: 48b72395-95a4-4d55-afee-82c21e5233da
+[main] 17:17:22,101 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvCheckInDateOnThankYouPage param-2: {}] Result: OK
+[main] 17:17:22,101 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvCheckInDateOnThankYouPage parameters: {"id":"48b72395-95a4-4d55-afee-82c21e5233da"}
+[main] 17:17:22,473 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvCheckInDateOnThankYouPage param-2: {"id":"48b72395-95a4-4d55-afee-82c21e5233da"}] Result: getElementText:31 MAY, SUN
+[main] 17:17:22,473 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvCheckInDateOnThankYouPage parameters: {}
+[main] 17:17:22,473 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvCheckInDateOnThankYouPage","using":"id"}
+[main] 17:17:22,874 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvCheckInDateOnThankYouPage, using=id}] Result: id: 68d2f71c-83f4-4a11-80ec-912724986698
+[main] 17:17:22,874 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvCheckInDateOnThankYouPage param-2: {}] Result: OK
+[main] 17:17:22,874 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvCheckInDateOnThankYouPage parameters: {"id":"68d2f71c-83f4-4a11-80ec-912724986698"}
+[main] 17:17:23,243 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvCheckInDateOnThankYouPage param-2: {"id":"68d2f71c-83f4-4a11-80ec-912724986698"}] Result: getElementText:31 MAY, SUN
+[main] 17:17:23,243 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Pass: Expected By.id: tvCheckInDateOnThankYouPage text should be ContainsIgnoringCase:31 : Actual By.id: tvCheckInDateOnThankYouPage text is 31 MAY, SUN
+[main] 17:17:23,243 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing screenshot parameters: {}
+[main] 17:17:25,394 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Capturing screen shotHotelBookingFromMakeMyTripApplication_c6drbb02ysbg31168.png
+[main] 17:17:25,394 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElements parameters: {"value":"tvCheckOutDateOnThankYouPage","using":"id"}
+[main] 17:17:26,030 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElements[ param-1: {value=tvCheckOutDateOnThankYouPage, using=id}] Result: [id: c92b2897-7c4c-4891-b0e6-50f3a27cc58c]
+[main] 17:17:26,030 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvCheckOutDateOnThankYouPage parameters: {}
+[main] 17:17:26,030 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvCheckOutDateOnThankYouPage","using":"id"}
+[main] 17:17:26,386 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvCheckOutDateOnThankYouPage, using=id}] Result: id: 7dacf491-57cf-4fac-aada-a504e902a9c0
+[main] 17:17:26,386 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvCheckOutDateOnThankYouPage param-2: {}] Result: OK
+[main] 17:17:26,386 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvCheckOutDateOnThankYouPage parameters: {"id":"7dacf491-57cf-4fac-aada-a504e902a9c0"}
+[main] 17:17:26,758 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvCheckOutDateOnThankYouPage param-2: {"id":"7dacf491-57cf-4fac-aada-a504e902a9c0"}] Result: getElementText:01 JUN, MON
+[main] 17:17:26,758 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement element: By.id: tvCheckOutDateOnThankYouPage parameters: {}
+[main] 17:17:26,758 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing findElement parameters: {"value":"tvCheckOutDateOnThankYouPage","using":"id"}
+[main] 17:17:27,340 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: {value=tvCheckOutDateOnThankYouPage, using=id}] Result: id: ad4f4fd3-3283-42c6-b175-0dd39d1c37cf
+[main] 17:17:27,340 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: findElement[ param-1: By.id: tvCheckOutDateOnThankYouPage param-2: {}] Result: OK
+[main] 17:17:27,340 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing getElementText element: By.id: tvCheckOutDateOnThankYouPage parameters: {"id":"ad4f4fd3-3283-42c6-b175-0dd39d1c37cf"}
+[main] 17:17:27,665 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: getElementText[ param-1: By.id: tvCheckOutDateOnThankYouPage param-2: {"id":"ad4f4fd3-3283-42c6-b175-0dd39d1c37cf"}] Result: getElementText:01 JUN, MON
+[main] 17:17:27,665 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Pass: Expected By.id: tvCheckOutDateOnThankYouPage text should be ContainsIgnoringCase:01 : Actual By.id: tvCheckOutDateOnThankYouPage text is 01 JUN, MON
+[main] 17:17:27,665 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing screenshot parameters: {}
+[main] 17:17:29,832 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Capturing screen shotHotelBookingFromMakeMyTripApplication_16dufs6yqava431169.png
+[main] 17:17:29,833 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Hotel booking from Make My Trip Application - com.qmetry.qaf.automation.step.client.DataDrivenScenario is test:true
+[main] 17:17:29,833 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 17:17:29,843 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: pass groups: {description=, Feature= Hotel Booking, groups=[Ljava.lang.String;@1a3e5f23, key=hotel.booking, lineNo=10, name=Hotel booking from Make My Trip Application, reference=scenarios/booking.feature, resultFileName=HotelBookingFromMakeMyTripApplication, sign=scenarios.booking.feature.Hotel booking from Make My Trip Application( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]}
+[main] 17:17:29,854 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterMethod
+[main] 17:17:29,854 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterMethod - com.qmetry.qaf.automation.ui.AbstractTestCase is test:false
+[main] 17:17:29,854 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 17:17:29,854 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterClass
+[main] 17:17:29,855 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterClass - com.qmetry.qaf.automation.ui.AbstractTestCase is test:false
+[main] 17:17:29,855 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 17:17:29,855 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterTest
+[main] 17:17:29,856 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] Executing quit parameters: {}
+[main] 17:17:30,689 INFO  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] command: quit[ param-1: {}] Result: null
+[main] 17:17:30,690 INFO  [com.qmetry.qaf.automation.ui.UiDriverFactory] UI-driver tear down complete...
+[main] 17:17:30,690 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterTest - com.qmetry.qaf.automation.ui.AbstractTestCase is test:false
+[main] 17:17:30,690 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 17:17:30,690 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onfinish testcntext: start
+[main] 17:17:30,876 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterSuit
+[main] 17:17:30,877 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterSuit - com.qmetry.qaf.automation.testng.TestNGTestCase is test:false
+[main] 17:17:30,877 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 17:17:30,877 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: start
+[main] 17:17:30,879 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: done
