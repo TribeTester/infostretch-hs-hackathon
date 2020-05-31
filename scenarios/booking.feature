@@ -27,7 +27,7 @@ Feature: Hotel Booking
     Then user applys filter
 
     When user scroll and select the '${entry}' item from filter result page
-    And capture the room details and '${select_room}' option
+    And capture the room details and click SELECT ROOM options
     And user fills traveller information
     And selects two options from commonly requested option
     And uncheck the donation checkbox
