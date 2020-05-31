@@ -165,7 +165,7 @@ Framework can handle parallel execution too with help of TestNG and QAF Library.
 </suite>
 ```
 ## Logging & Reporting
-[Execution Report](https://mehulkagathara.github.io/headspin-hackathon/dashboard.htm)
+[Execution Report](https://mehulkagathara.github.io/infostretch-hs-hackathon/dashboard.htm)
 >Since reporting has javascript dependencies, if you're facing any issue viewing the report please follow below steps in order to work it properly.
 * Open browser
 * Go to `about:config`
