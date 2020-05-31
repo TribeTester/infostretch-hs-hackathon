@@ -7,7 +7,7 @@ import com.qmetry.qaf.automation.step.QAFTestStep;
 
 public class LoginSteps {
 
-	/**
+    /**
      * Login with provided username and password
      *
      * @param username
@@ -15,28 +15,27 @@ public class LoginSteps {
      */
     @QAFTestStep(description = "login to the application with {username} and {password}")
     public void login(String username, String password) {
-		  if(CommonStep.verifyPresent("login.btn.signinwith.cancel")) {
-			  CommonStep.click("login.btn.signinwith.cancel");
-		  }
-		  if(CommonStep.verifyPresent("login.btn.email.clear")) {
-			  CommonStep.click("login.btn.email.clear");
-		  }
-    	CommonStep.sendKeys(username, "login.input.email");
+        if ($("login.btn.signinwith.cancel").isPresent()) {
+            CommonStep.click("login.btn.signinwith.cancel");
+        }
+        if ($("login.btn.email.clear").isPresent()) {
+            CommonStep.click("login.btn.email.clear");
+        }
+        CommonStep.sendKeys(username, "login.input.email");
         CommonStep.click("login.btn.continue");
         CommonStep.click("login.btn.via.password");
         CommonStep.sendKeys(password, "login.input.password");
         CommonStep.click("login.btn.submit");
-        
         if ($("navigate.back.button").isPresent()) {
             $("navigate.back.button").click();
         }
     }
 
-	/**
-	 * Verify user is logged in application
-	 */
-	@QAFTestStep(description = "verify user should logged into the application")
-	public void verifyLoggedIn() {
-		CommonStep.assertPresent("home.icon.profile");
-	}
+    /**
+     * Verify user is logged in application
+     */
+    @QAFTestStep(description = "verify user should logged into the application")
+    public void verifyLoggedIn() {
+        CommonStep.assertPresent("home.icon.profile");
+    }
 }

@@ -5,6 +5,7 @@ import static com.qmetry.qaf.automation.step.CommonStep.click;
 import static com.qmetry.qaf.automation.step.CommonStep.sendKeys;
 import static com.qmetry.qaf.automation.ui.webdriver.ElementFactory.$;
 
+import com.infostretch.hs.utils.Constants;
 import com.qmetry.qaf.automation.core.ConfigurationManager;
 import com.qmetry.qaf.automation.step.CommonStep;
 import com.qmetry.qaf.automation.step.QAFTestStep;
@@ -41,40 +42,41 @@ public class HotelSearchSteps {
 
         //save city value
         ConfigurationManager.getBundle()
-            .setProperty("selected.city", $("hotel.search.txt.selected.city").getText());
+            .setProperty(Constants.SELECTED_CITY, $("hotel.search.txt.selected.city").getText());
 
         //save checkin date
-        ConfigurationManager.getBundle().setProperty("selected.checkInDate",
+        ConfigurationManager.getBundle().setProperty(Constants.SELECTED_CHECKIN_DATE,
             $("hotel.search.txt.selected.checkInDate").getText());
 
         //save checkin month
-        ConfigurationManager.getBundle().setProperty("selected.checkInMonthYear",
+        ConfigurationManager.getBundle().setProperty(Constants.SELECTED_CHECKIN_MONTH_YEAR,
             $("hotel.search.txt.selected.checkInMonthYear").getText());
 
         //save checkin  week
-        ConfigurationManager.getBundle().setProperty("selected.checkInWeek",
+        ConfigurationManager.getBundle().setProperty(Constants.SELECTED_CHECKIN_WEEK,
             $("hotel.search.txt.selected.checkInWeek").getText());
 
         //save checkout date
-        ConfigurationManager.getBundle().setProperty("selected.checkOutDate",
+        ConfigurationManager.getBundle().setProperty(Constants.SELECTED_CHECKOUT_DATE,
             $("hotel.search.txt.selected.checkOutDate").getText());
 
         //save checkout month
-        ConfigurationManager.getBundle().setProperty("selected.checkOutMonthYear",
+        ConfigurationManager.getBundle().setProperty(Constants.SELECTED_CHECKOUT_MONTH_YEAR,
             $("hotel.search.txt.selected.checkOutMonthYear").getText());
 
         //save checkout week
-        ConfigurationManager.getBundle().setProperty("selected.checkOutWeek",
+        ConfigurationManager.getBundle().setProperty(Constants.SELECTED_CHECKOUT_WEEK,
             $("hotel.search.txt.selected.checkOutWeek").getText());
 
         //save guest count
         ConfigurationManager.getBundle()
-            .setProperty("selected.guestCount",
+            .setProperty(Constants.SELECTED_GUESTS_COUNT,
                 $("hotel.search.txt.selected.guestCount").getText());
 
         //save room count
         ConfigurationManager.getBundle()
-            .setProperty("selected.roomCount", $("hotel.search.txt.selected.roomCount").getText());
+            .setProperty(Constants.SELECTED_ROOMS_COUNT,
+                $("hotel.search.txt.selected.roomCount").getText());
 
         //click on hotel search button
         CommonStep.click("hotel.search.btn.submit");
