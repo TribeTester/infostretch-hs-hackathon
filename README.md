@@ -157,14 +157,14 @@ To run test on Headspin cloud devices or browsers, we just need to update the `e
    ios.capabilities.useSimpleBuildTest=true
 ```
 ## Top Challenges
-Below are the challenges we have faced while implementing the MMT problem.
-* **Loading Search Result**
-    * Issue -
-    * Solution - 
-* **OTP**
-    * Issue -
-    * Solution - 
-* **Application Defects**
-    * **Defect#1** - 
-    * **Defect#2** -
-    * **Defect#3** -  
+Below are the challenges we have faced while implementing the MMT problem and same we address in our approach implementation to handle such circumstances. 
+* **Loading Search Result** - the performance of MMT mobile application is not good and taking more than expected time to load the search result and not giving better user experience. 
+* **OTP** - 
+* **Appium fails to get the DOM** - Appium fails to get the DOM of the current screen when there are many results for given search criteria's. e.g. Hotel Search List. Due to this, finding locators & dry executions was difficult.
+* **Application Defects** - addition to the coding challenges, we have also observed some existing application defects on both Android & iOS platform and due to this implementation, finding locators & dry execution became very challenging. 
+    * Price slider is not updating the price range value. 
+    * Application is freeze when it has multiple records to load in the view.
+    * Guidance overlay is coming 2nd time at anytime even-though it was dismissed earlier.
+    * Sometimes clicks for some element is not changing any UI as Application is in the idle state.
+    * Even after applying filter, sometimes the filter tray is not shown at the top.
+    * Sometimes even after login, "Login Successful" toast appears, but user is still at login page.   
