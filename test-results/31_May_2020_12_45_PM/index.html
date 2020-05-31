@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-MakeMyTrip_Suite">
+              <span class="suite-name border-passed">MakeMyTrip Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-MakeMyTrip_Suite">
+                    <span>testrun_config.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-MakeMyTrip_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-MakeMyTrip_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-MakeMyTrip_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-MakeMyTrip_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-MakeMyTrip_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-MakeMyTrip_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MakeMyTrip_Suite" class="hide-methods passed suite-MakeMyTrip_Suite"> (hide)</a> <!-- hide-methods passed suite-MakeMyTrip_Suite -->
+                      <a href="#" panel-name="suite-MakeMyTrip_Suite" class="show-methods passed suite-MakeMyTrip_Suite"> (show)</a> <!-- show-methods passed suite-MakeMyTrip_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-MakeMyTrip_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MakeMyTrip_Suite" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Hotel booking from Make My Trip Application({username=mmt1@mailinator.com, password=@H$hackathon2, menu=Hotels, location=Udaipur, checkin=2 June...)">Hotel booking from Make My Trip Application({username=mmt1@mailinator.com, password=@H$hackathon2, menu=Hotels, location=Udaipur, checkin=2 June...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MakeMyTrip_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MakeMyTrip_Suite" class="panel MakeMyTrip_Suite">
+          <div class="suite-MakeMyTrip_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qmetry.qaf.automation.step.client.DataDrivenScenario</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Hotel booking from Make My Trip Application({username=mmt1@mailinator.com, password=@H$hackathon2, menu=Hotels, location=Udaipur, checkin=2 June...)">
+                  </a> <!-- Hotel booking from Make My Trip Application({username=mmt1@mailinator.com, password=@H$hackathon2, menu=Hotels, location=Udaipur, checkin=2 June...) -->
+                  <span class="method-name">Hotel booking from Make My Trip Application</span>
+                  <span class="parameters">({username=mmt1@mailinator.com, password=@H$hackathon2, menu=Hotels, location=Udaipur, checkin=2 June 2020, checkout=5 June 2020, rooms=2, adults=2, children=2, tripType=Family, entry=5, minimum=1000, rating=4.0 & Above, guest.primary.title=Mr, guest.primary.firstName=Nishith, guest.primary.lastName=Shah, guest.primary.mobile=7069936462, __index=1})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MakeMyTrip_Suite-class-passed -->
+        </div> <!-- panel MakeMyTrip_Suite -->
+        <div panel-name="test-xml-MakeMyTrip_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/amit.bhoraniya/ws/IdeaProjects/infostretch-headspin-hackathon/config/testrun_config.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;MakeMyTrip Suite&quot;&gt;
+  &lt;test name=&quot;MakeMyTrip Test&quot;&gt;
+    &lt;method-selectors&gt;
+      &lt;method-selector&gt;
+        &lt;selector-class name=&quot;com.qmetry.qaf.automation.testng.pro.QAFMethodSelector&quot; priority=&quot;0&quot;/&gt;
+      &lt;/method-selector&gt;
+    &lt;/method-selectors&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qmetry.qaf.automation.step.client.text.BDDTestFactory2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MakeMyTrip Test --&gt;
+&lt;/suite&gt; &lt;!-- MakeMyTrip Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MakeMyTrip_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MakeMyTrip Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">MakeMyTrip Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MakeMyTrip_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MakeMyTrip Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MakeMyTrip_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MakeMyTrip Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MakeMyTrip_Suite');
+function tableData_MakeMyTrip_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Hotel booking from Make My Trip Application')
+data.setCell(0, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(0, 3, 203515);
+window.suiteTableData['MakeMyTrip_Suite']= { tableData: data, tableDiv: 'times-div-MakeMyTrip_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-MakeMyTrip_Suite">
+              </div> <!-- times-div-MakeMyTrip_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MakeMyTrip_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MakeMyTrip Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Hotel booking from Make My Trip Application({username=mmt1@mailinator.com, password=@H$hackathon2, menu=Hotels, location=Udaipur, checkin=2 June...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user launches application</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>user launches application</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When login to the application with 'mmt1@mailinator.com' and '@H$hackathon2'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'login.btn.email.clear'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'mmt1@mailinator.com' into 'login.input.email'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'login.btn.continue'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'login.btn.via.password'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '@H$hackathon2' into {loc}</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'login.btn.submit'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify user should logged into the application</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'home.icon.profile' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.id: profile present : Actual By.id: profile present <a href="../img/HotelBookingFromMakeMyTripApplication_1ih5vxzc8tte330913.png" target="_blank">[View Screenshot]</a> </div></div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user navigates to the 'Hotels'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And select a location 'Udaipur'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'hotel.search.link.city'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Udaipur' into 'hotel.search.input.city'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And select a '2 June 2020' and '5 June 2020' dates</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And add '2' rooms for '2' adults & '2' children each</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'hotel.search.layout.rooms'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'hotel.search.btn.children.add'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'hotel.search.btn.children.add'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'hotel.search.btn.adults.add'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'hotel.search.btn.children.add'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'hotel.search.btn.children.add'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'hotel.search.btn.guests.done'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And select travelling for 'Family'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And search for the options</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'hotel.search.btn.submit'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user navigates to Sort and Filter page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'home.sortfilter.menu'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user filters by price by setting '1000' value</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And apply filter by user rating '4.0 & Above'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user applys filter</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'hotel.search.btn.filter.apply'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user scroll and select the '5' item from filter result page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'hotel.list' to be present</div><div  class="teststeppass"><span class="teststeppass-label">T </span>get text of 'hotel.item.name'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>get text of 'hotel.item.name'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>get text of 'hotel.item.name'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>get text of 'hotel.item.name'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>get text of 'hotel.item.name'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>get text of 'hotel.item.name'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'hotel.item.name'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And capture the room details and click SELECT ROOM options</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get text of 'hotel.detail.txt.title'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'hotel.detail.btn.selectroom' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'hotel.detail.btn.selectroom'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>get text of 'hotel.room.category.detail.txt.name'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>get text of 'hotel.room.category.detail.txt.discountedprice'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>get text of 'hotel.room.category.detail.txt.originalprice'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'hotel.detail.btn.continue'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user fills traveller information</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'guest.select.title'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Nishith' into 'guest.input.first.name'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Shah' into 'guest.input.last.name'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '7069936462' into 'guest.input.mobile.no'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And selects two options from commonly requested option</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'guest.btn.special.request.done'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And uncheck the donation checkbox</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And click on PAY NOW option</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'booking.btn.continue'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify user should see booking summary page with correct requested data</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.id: tvHotelNameOnThankYouPage text should be ContainsIgnoringCase:Hotel Castle Comfort by Castle Hotels : Actual By.id: tvHotelNameOnThankYouPage text is Hotel Castle Comfort by Castle Hotels <a href="../img/HotelBookingFromMakeMyTripApplication_15akku3izpsui30914.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Expected By.id: tvHotelAddressOnThankYouPage text should be ContainsIgnoringCase:Udaipur : Actual By.id: tvHotelAddressOnThankYouPage text is Udaipur, Rajasthan , India <a href="../img/HotelBookingFromMakeMyTripApplication_1acgyreh2nv3g30915.png" target="_blank">[View Screenshot]</a> </div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'booking.review.btn.expand.details'</div><div  class="pass"><span class="pass-label">P </span>Expected By.id: tvNumOfGuestOnThankYouPage text should be ContainsIgnoringCase:8 : Actual By.id: tvNumOfGuestOnThankYouPage text is 8 Guests <a href="../img/HotelBookingFromMakeMyTripApplication_1g5u78pkl2ku30916.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Expected By.id: tvTotalRoomsBookedOnThankYouPage text should be ContainsIgnoringCase:2 : Actual By.id: tvTotalRoomsBookedOnThankYouPage text is 2 Rooms <a href="../img/HotelBookingFromMakeMyTripApplication_9d5wyhamcyn130917.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Expected By.id: tvCheckInDateOnThankYouPage text should be ContainsIgnoringCase:31 : Actual By.id: tvCheckInDateOnThankYouPage text is 31 MAY, SUN <a href="../img/HotelBookingFromMakeMyTripApplication_1n3e4famo2j7930918.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Expected By.id: tvCheckOutDateOnThankYouPage text should be ContainsIgnoringCase:01 : Actual By.id: tvCheckOutDateOnThankYouPage text is 01 JUN, MON <a href="../img/HotelBookingFromMakeMyTripApplication_176adx2jic3mo30919.png" target="_blank">[View Screenshot]</a> </div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MakeMyTrip_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.qmetry.qaf.automation.step.client.DataDrivenScenario</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Hotel booking from Make My Trip Application</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MakeMyTrip_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qmetry.qaf.automation.step.client.DataDrivenScenario</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupSuit(org.testng.TestRunner@527e5409)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest(org.testng.TestRunner@527e5409)</span>
+                <span class="method-start">168 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@527e5409)</span>
+                <span class="method-start">172 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">188 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Hotel booking from Make My Trip Application({username=mmt1@mailinator.com, password=@H$hackathon2, menu=Hotels, location=Udaipur, checkin=2 June...)</span>
+                <span class="method-start">189 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@527e5409, [TestResult name=Hotel booking from Make My Trip Application status=...)</span>
+                <span class="method-start">203724 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@527e5409)</span>
+                <span class="method-start">203725 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@527e5409)</span>
+                <span class="method-start">203726 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuit(org.testng.TestRunner@527e5409)</span>
+                <span class="method-start">204701 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

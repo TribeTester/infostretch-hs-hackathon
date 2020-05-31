@@ -1,0 +1,50 @@
+{
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "booking"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "appActivity": "com.mmt.travel.app.home.ui.SplashActivity",
+      "appPackage": "com.makemytrip",
+      "autoAcceptAlerts": "true",
+      "browserName": "",
+      "cssSelectorsEnabled": true,
+      "deviceName": "GOOGLE Pixel 3",
+      "driverClass": "io.appium.java_client.android.AndroidDriver",
+      "headspin.controlLock": "true",
+      "javascriptEnabled": true,
+      "platform": "ANDROID",
+      "platformName": "Android",
+      "takesScreenshot": true,
+      "udid": "8ADX0QXD7",
+      "version": ""
+    },
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "0-RC3",
+      "qaf-Version": "3.0",
+      "qaf-Build-Time": "13-Apr-2020 05:11:28"
+    },
+    "run-parameters": {
+      "baseurl": "https://www.makemytrip.com/",
+      "resources": "resources/testdata"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_191",
+      "os.arch": "x86_64",
+      "host": "ICPL13805.local",
+      "os.name": "Mac OS X",
+      "user.name": "amit.bhoraniya",
+      "os.version": "10.14.6"
+    }
+  },
+  "startTime": 1590929152511,
+  "endTime": 1590929357043
+}
