@@ -3,8 +3,8 @@ Feature: Hotel Booking
 
   Background:
     Given user launches application
-	When login to the application with '${username}' and '${password}'
-	Then verify user should logged into the application
+    When login to the application with '${username}' and '${password}'
+    Then verify user should logged into the application
 
   @key:hotel.booking
   Scenario: Hotel booking from Make My Trip Application
