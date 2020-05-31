@@ -165,34 +165,45 @@ Framework can handle parallel execution too with help of TestNG and QAF Library.
 </suite>
 ```
 ## Logging & Reporting
+
 [Execution Report](https://mehulkagathara.github.io/infostretch-hs-hackathon/dashboard.htm)
->Since reporting has javascript dependencies, if you're facing any issue viewing the report please follow below steps in order to work it properly.
-* Open browser
-* Go to `about:config`
-* Set `security.fileuri.strict_origin_policy` to `false`
-* Try to view report now (refresh page if its require)
+
+If you open dashboard from local file system, your browser may have local file access restrictions. In that case, if you face any issue you can do following settings:
+##### Firefox:
+ - go to about:config
+ - set security.fileuri.strict_origin_policy:false. 
+##### Safari:
+ - Click on the Develop menu in the menu bar. 
+ - Select Disable Local File Restrictions.
+
+ If develop menu is not available, Click on the Edit > Preferences > Advanced tab. Check "Show Develop menu in the menu bar.
+
+##### chrome:
+ - Close down your Chrome browser (make sure you close all instances if you have multiple windows open)
+ - Go to Run and type the following command: chrome.exe --allow-file-access-from-file.
+ - Hit enter.
 
 ## Headspin Integration
 To run test on Headspin cloud devices or browsers, we just need to update the `env.properties` file under `resources/platform/{android/ios}` directory for respectively platform.
 > We can specify all [headspin capabilities](https://ui-dev.headspin.io/docs/appium-capabilities) same as below. 
 ```properties
-   driver.name=iosDriver
-   remote.server=https://us-nyc.headspin.io:7002/v0/7efa88393c1746fdb35d18b9e3571e71/wd/hub
-   ios.capabilities.driverClass=io.appium.java_client.ios.IOSDriver
-   ios.capabilities.browserName=
-   ios.capabilities.platformName=iOS
-   ios.capabilities.deviceName=iPhone
-   ios.capabilities.bundleId=com.Iphone.MMT
-   ios.capabilities.platformVersion=13.5
-   ios.capabilities.udid=a9f2c856640d10454e2b19922bdaf50bc49aa061
-   ios.capabilities.automationName=XCUITest
-   ios.capabilities.useSimpleBuildTest=true
+driver.name=iosDriver
+remote.server=https://us-nyc.headspin.io:7002/v0/7efa88393c1746fdb35d18b9e3571e71/wd/hub
+ios.capabilities.driverClass=io.appium.java_client.ios.IOSDriver
+ios.capabilities.browserName=
+ios.capabilities.platformName=iOS
+ios.capabilities.deviceName=iPhone
+ios.capabilities.bundleId=com.Iphone.MMT
+ios.capabilities.platformVersion=13.5
+ios.capabilities.udid=a9f2c856640d10454e2b19922bdaf50bc49aa061
+ios.capabilities.automationName=XCUITest
+ios.capabilities.useSimpleBuildTest=true
 ```
 ## Top Challenges
 Below are the challenges we have faced while implementing the MMT problem and same we addressed in our implementation to handle such circumstances. 
 * **Loading Search Result** - the performance of MMT mobile application is not good and taking more than expected time to load the search result and not giving better user experience. 
 * **OTP** - since we are testing MMT application on production version, OTP was big challenge.
-* **Calendar Control** - looks like DOM of calendar component is not accessible and it was difficult to access the child elements of Calendar. 
+* **Calendar Control** - DOM of calendar component is not accessible in android, it was difficult to access the child elements of Calendar. 
 * **Appium fails to get the DOM** - Appium fails to get the DOM of the current screen when there are many results for given search criteria's. e.g. Hotel Search List. Due to this, finding locators & dry executions was difficult.
 * **Application Defects** - addition to the coding challenges, we have also observed some existing application defects on both Android & iOS platform and due to this implementation, finding locators & dry execution became very challenging. 
     * Price slider is not updating the price range value. 
