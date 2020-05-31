@@ -166,11 +166,20 @@ Framework can handle parallel execution too with help of TestNG and QAF Library.
 ```
 ## Logging & Reporting
 [Execution Report](https://mehulkagathara.github.io/infostretch-hs-hackathon/dashboard.htm)
->Since reporting has javascript dependencies, if you're facing any issue viewing the report please follow the below steps in order to work it properly.
-* Open browser
-* Go to `about:config`
-* Set `security.fileuri.strict_origin_policy` to `false`
-* Try to view report now (refresh page if its require)
+If you open a dashboard from the local file system, your browser may have local file access restrictions. In that case, if you face any issue you can do following settings:
+##### Firefox:
+ - go to about:config
+ - set security.fileuri.strict_origin_policy:false. 
+##### Safari:
+ - Click on the Develop menu in the menu bar. 
+ - Select Disable Local File Restrictions.
+
+ If the develop menu is not available, click on the Edit > Preferences > Advanced tab. Check the "Show Develop menu in the menu bar.
+
+##### Chrome:
+ - Close down your Chrome browser (make sure you close all instances if you have multiple windows open)
+ - Go to 'Run' and type the following command: chrome.exe --allow-file-access-from-file.
+ - Hit enter.
 
 ## Headspin Integration
 To run test on Headspin cloud devices or browsers, we just need to update the `env.properties` file under `resources/platform/{android/ios}` directory for respectively platform.
@@ -192,7 +201,7 @@ To run test on Headspin cloud devices or browsers, we just need to update the `e
 Below are the challenges we have faced while implementing the MMT problem and the same we addressed in our implementation to handle such circumstances. 
 * **Loading Search Result** - the performance of MMT mobile application is not good and taking more than expected time to load the search result and not giving better user experience. 
 * **OTP** - since we are testing MMT application on the production version, OTP was big challenge.
-* **Calendar Control** - looks like DOM of calendar component is not accessible and it was difficult to access the child elements of Calendar. 
+* **Calendar Control** - DOM of calendar component is not accessible in android, it was difficult to access the child elements of Calendar. 
 * **Appium fails to get the DOM** - Appium fails to get the DOM of the current screen when there are many results for given search criteria's. e.g. Hotel Search List. Due to this, finding locators & dry executions was difficult.
 * **Application Defects** - addition to the coding challenges, we have also observed some existing application defects on both Android & iOS platform and due to this implementation, finding locators & dry execution became very challenging. 
     * Price slider is not updating the price range value. 
