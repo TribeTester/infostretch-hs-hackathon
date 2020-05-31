@@ -191,7 +191,8 @@ To run test on Headspin cloud devices or browsers, we just need to update the `e
 ## Top Challenges
 Below are the challenges we have faced while implementing the MMT problem and same we addressed in our implementation to handle such circumstances. 
 * **Loading Search Result** - the performance of MMT mobile application is not good and taking more than expected time to load the search result and not giving better user experience. 
-* **OTP** - 
+* **OTP** - since we are testing MMT application on production version, OTP was big challenge.
+* **Calendar Control** - looks like DOM of calendar component is not accessible and it was difficult to access the child elements of Calendar. 
 * **Appium fails to get the DOM** - Appium fails to get the DOM of the current screen when there are many results for given search criteria's. e.g. Hotel Search List. Due to this, finding locators & dry executions was difficult.
 * **Application Defects** - addition to the coding challenges, we have also observed some existing application defects on both Android & iOS platform and due to this implementation, finding locators & dry execution became very challenging. 
     * Price slider is not updating the price range value. 
