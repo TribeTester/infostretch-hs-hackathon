@@ -9,16 +9,16 @@ public class SearchResultSteps {
     public void verifySearchResultOptions() {
     }
 
-    @QAFTestStep(description = "user on search result page and filter by price by setting {minimum} value")
+    @QAFTestStep(description = "user filters by price by setting {minimum} value")
     public void applyMinimumPriceFilter(String price) {
     }
 
     @QAFTestStep(description = "apply filter by user rating {rating} & above")
-    public void applyRatingFilter(String rating) {
+    public void applyUserRatingFilter(String rating) {
     }
 
-    @QAFTestStep(description = "verify filters applied and user should see filter result page")
-    public void verifyFiltersApplied() {
+    @QAFTestStep(description = "use applys filter")
+    public void applyFilter() {
     }
 
     @QAFTestStep(description = "user scroll and select the {index} item from filter result page")
