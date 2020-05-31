@@ -19,4 +19,18 @@ public class IosSearchResultSteps extends SearchResultSteps {
 		CommonStep.waitForPresent(loc);
 		MobileUtils.findElementByScrolling(loc, index + 3).click();
 	}
+	
+	@QAFTestStep(description = "apply filter by user rating {rating}")
+    public void applyUserRatingFilter(String rating) {
+        String locator = String
+            .format(ConfigurationManager.getBundle().getString("hotel.search.txt.filter.rating"),
+                rating);
+        MobileUtils.findElementByScrolling(locator, 5);
+        try {
+        	CommonStep.waitForPresent("hotel.search.txt.filter.rating1", 5);
+        } catch (Exception e) {
+			// TODO: handle exception
+		}
+        CommonStep.click(locator);
+    }
 }
