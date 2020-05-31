@@ -10,16 +10,16 @@ Feature: Hotel Booking
   Scenario: Hotel booking from Make My Trip Application
     When user navigates to the '${menu}'
     And select a location '${location}'
-    And select a '${checkin}' and '${checkout}' dates
-    And select rooms details with '${adults}' adults & '${children}' children
-    And select guests details with '${adults}' adults & '${children}' children
-    And select travelling for '${tripType}'
+  	And select a '${checkin}' and '${checkout}' dates
+  	And select rooms details with '${adults}' & '${children}' children
+  	And select guest details with '${adults}' & '${children}' children
+  	And select travelling for '${tripType}'  
     And search for the options
     Then user should see list of available options
-
-    When user on search result page and filter by price by setting '${minimum}' value
-    And apply filter by user rating '${rating}' & above
-    Then verify filters applied and user should see filter result page
+	
+	When user on search result page and filter by price by setting '${minimum}' value
+	And apply filter by user rating '${rating}' & above
+	Then verify filters applied and user should see filter result page
 
     When user scroll and select the '${entry}' item from filter result page
     And capture the room details and '${select_room}' option
