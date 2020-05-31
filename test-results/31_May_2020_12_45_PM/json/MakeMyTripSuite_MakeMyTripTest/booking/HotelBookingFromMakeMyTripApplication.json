@@ -1,0 +1,3972 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launchApp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "launchApp",
+          "args": [
+            "[]"
+          ],
+          "result": "success",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.google.android.gms:id/cancel, using=id}"
+          ],
+          "result": "[id: 6a79b614-162c-4f5f-8adb-4dda474f93da]",
+          "subLogs": [],
+          "duration": 2034
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.google.android.gms:id/cancel, using=id}"
+          ],
+          "result": "id: bf5e9a67-8998-4965-9fbc-c5430be391bc",
+          "subLogs": [],
+          "duration": 417
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: com.google.android.gms:id/cancel",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.google.android.gms:id/cancel",
+            "{\"id\":\"bf5e9a67-8998-4965-9fbc-c5430be391bc\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 636
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "login",
+      "args": [
+        "[mmt1@mailinator.com, @H$hackathon2]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=com.google.android.gms:id/cancel, using=id}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 710
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Clear text, using=accessibility id}"
+          ],
+          "result": "[id: e5692572-2004-4b6c-878a-4045332b6da6]",
+          "subLogs": [],
+          "duration": 513
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[login.btn.email.clear]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=Clear text, using=accessibility id}"
+              ],
+              "result": "[id: 41d1aa03-7b10-41f5-ab50-b2c3ea872736]",
+              "subLogs": [],
+              "duration": 497
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "[unknown locator]",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "[unknown locator]",
+                "{\"id\":\"41d1aa03-7b10-41f5-ab50-b2c3ea872736\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 947
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[mmt1@mailinator.com, login.input.email]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=android.widget.EditText, using=class name}"
+              ],
+              "result": "id: 7f1d956c-087d-4017-acf9-850f09abdc2f",
+              "subLogs": [],
+              "duration": 648
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.className: android.widget.EditText",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.className: android.widget.EditText",
+                "{\"value\":[\"mmt1@mailinator.com\"],\"id\":\"7f1d956c-087d-4017-acf9-850f09abdc2f\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 1679
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[login.btn.continue]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=btn_continue, using=id}"
+              ],
+              "result": "id: aa4d3cd6-5238-4b97-8a62-b0a6ea4dedf0",
+              "subLogs": [],
+              "duration": 1098
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: btn_continue",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: btn_continue",
+                "{\"id\":\"aa4d3cd6-5238-4b97-8a62-b0a6ea4dedf0\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 407
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[login.btn.via.password]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=pwd_option, using=id}"
+              ],
+              "result": "id: 887a94a6-9e11-46cd-bb74-21b027c556c6",
+              "subLogs": [],
+              "duration": 1671
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: pwd_option",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: pwd_option",
+                "{\"id\":\"887a94a6-9e11-46cd-bb74-21b027c556c6\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 1112
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[@H$hackathon2, login.input.password]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=new UiSelector().className(\"android.widget.EditText\").text(\"Enter Password\"), using=-android uiautomator}"
+              ],
+              "result": "[id: 373a1947-dbd6-4931-b97b-6514ab467ba7]",
+              "subLogs": [],
+              "duration": 428
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "[unknown locator]",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "[unknown locator]",
+                "{\"value\":[\"@H$hackathon2\"],\"id\":\"373a1947-dbd6-4931-b97b-6514ab467ba7\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 922
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[login.btn.submit]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=btn_continue, using=id}"
+              ],
+              "result": "id: 824373e1-f90f-44aa-9455-dac2b9b661a5",
+              "subLogs": [],
+              "duration": 618
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: btn_continue",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: btn_continue",
+                "{\"id\":\"824373e1-f90f-44aa-9455-dac2b9b661a5\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 404
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='navigate.back.button' or @id='navigate.back.button' or @value='navigate.back.button'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 3007
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyLoggedIn",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "assertPresent",
+          "args": [
+            "[home.icon.profile]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=profile, using=id}"
+              ],
+              "result": "[id: a989d062-78d9-46ba-abee-0089759f0eac]",
+              "subLogs": [],
+              "duration": 458
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "navigateToMenu",
+      "args": [
+        "[Hotels]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=new UiSelector().text(\"Hotels\"), using=-android uiautomator}"
+          ],
+          "result": "[id: 13f1323b-1b87-4391-b2b5-da0ef167024b]",
+          "subLogs": [],
+          "duration": 466
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "[unknown locator]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "[unknown locator]",
+            "{\"id\":\"13f1323b-1b87-4391-b2b5-da0ef167024b\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 2084
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selectLocation",
+      "args": [
+        "[Udaipur]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "click",
+          "args": [
+            "[hotel.search.link.city]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=city, using=id}"
+              ],
+              "result": "id: 1402bb2e-e548-48a7-9e1e-ffb4d7b9aa20",
+              "subLogs": [],
+              "duration": 677
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: city",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: city",
+                "{\"id\":\"1402bb2e-e548-48a7-9e1e-ffb4d7b9aa20\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 439
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[Udaipur, hotel.search.input.city]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=new UiSelector().className(\"android.widget.EditText\").textContains(\"City\"), using=-android uiautomator}"
+              ],
+              "result": "[id: 0ba4f576-523a-4ffb-8357-98a87a6b7c0f]",
+              "subLogs": [],
+              "duration": 1175
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "[unknown locator]",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "[unknown locator]",
+                "{\"value\":[\"Udaipur\"],\"id\":\"0ba4f576-523a-4ffb-8357-98a87a6b7c0f\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 1080
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.//android.widget.RelativeLayout/*[starts-with(@text, 'Udaipur')], using=xpath}"
+          ],
+          "result": "id: d794c780-a6e0-4c05-b446-6483fd4c10c4",
+          "subLogs": [],
+          "duration": 1532
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: .//android.widget.RelativeLayout/*[starts-with(@text, 'Udaipur')]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: .//android.widget.RelativeLayout/*[starts-with(@text, 'Udaipur')]",
+            "{\"id\":\"d794c780-a6e0-4c05-b446-6483fd4c10c4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 814
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selectDates",
+      "args": [
+        "[2 June 2020, 5 June 2020]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "addMembers",
+      "args": [
+        "[2, 2, 2]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "click",
+          "args": [
+            "[hotel.search.layout.rooms]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=room_layout, using=id}"
+              ],
+              "result": "id: 00bf0033-49f8-4127-97c7-3bc695069f3d",
+              "subLogs": [],
+              "duration": 695
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: room_layout",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: room_layout",
+                "{\"id\":\"00bf0033-49f8-4127-97c7-3bc695069f3d\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 436
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=btn_add_room, using=id}"
+          ],
+          "result": "[id: 722c2dc5-4732-44af-99c5-9a8a11405354]",
+          "subLogs": [],
+          "duration": 732
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tvadultcount, using=id}"
+          ],
+          "result": "id: 9a8e4b59-800e-4d6a-b774-3568d38215d0",
+          "subLogs": [],
+          "duration": 383
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tvadultcount",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tvadultcount",
+            "{\"id\":\"9a8e4b59-800e-4d6a-b774-3568d38215d0\"}"
+          ],
+          "result": "getElementText:2",
+          "subLogs": [],
+          "duration": 368
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tvchildcount, using=id}"
+          ],
+          "result": "id: a7e29fea-6b7e-4185-a3a3-e46990580974",
+          "subLogs": [],
+          "duration": 422
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tvchildcount",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tvchildcount",
+            "{\"id\":\"a7e29fea-6b7e-4185-a3a3-e46990580974\"}"
+          ],
+          "result": "getElementText:0",
+          "subLogs": [],
+          "duration": 360
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[hotel.search.btn.children.add]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=ivchildadd, using=id}"
+              ],
+              "result": "id: b647a3a3-e381-4643-baa0-ef0b4313243e",
+              "subLogs": [],
+              "duration": 372
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: ivchildadd",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: ivchildadd",
+                "{\"id\":\"b647a3a3-e381-4643-baa0-ef0b4313243e\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 369
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tvchildcount, using=id}"
+          ],
+          "result": "id: 449fbb70-d89c-4b62-9966-4dac6c2cb925",
+          "subLogs": [],
+          "duration": 713
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tvchildcount",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tvchildcount",
+            "{\"id\":\"449fbb70-d89c-4b62-9966-4dac6c2cb925\"}"
+          ],
+          "result": "getElementText:1",
+          "subLogs": [],
+          "duration": 360
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[hotel.search.btn.children.add]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=ivchildadd, using=id}"
+              ],
+              "result": "id: c1e841a5-c296-4c27-b21f-616814592d41",
+              "subLogs": [],
+              "duration": 441
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: ivchildadd",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: ivchildadd",
+                "{\"id\":\"c1e841a5-c296-4c27-b21f-616814592d41\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 363
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tvchildcount, using=id}"
+          ],
+          "result": "id: 839fea55-a538-4796-982a-8d42d7dfe871",
+          "subLogs": [],
+          "duration": 702
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tvchildcount",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tvchildcount",
+            "{\"id\":\"839fea55-a538-4796-982a-8d42d7dfe871\"}"
+          ],
+          "result": "getElementText:2",
+          "subLogs": [],
+          "duration": 365
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=btn_add_room, using=id}"
+          ],
+          "result": "id: 8f06137f-45b0-4fdb-881f-dbc2e83f46a8",
+          "subLogs": [],
+          "duration": 422
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: btn_add_room",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: btn_add_room",
+            "{\"id\":\"8f06137f-45b0-4fdb-881f-dbc2e83f46a8\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 398
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tvadultcount, using=id}"
+          ],
+          "result": "id: 4f14121a-edd0-4a51-af11-c4a50dddd723",
+          "subLogs": [],
+          "duration": 846
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tvadultcount",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tvadultcount",
+            "{\"id\":\"4f14121a-edd0-4a51-af11-c4a50dddd723\"}"
+          ],
+          "result": "getElementText:1",
+          "subLogs": [],
+          "duration": 374
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[hotel.search.btn.adults.add]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=ivadultadd, using=id}"
+              ],
+              "result": "id: ca3b4d41-f931-4853-9555-160fc8b00e6b",
+              "subLogs": [],
+              "duration": 395
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: ivadultadd",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: ivadultadd",
+                "{\"id\":\"ca3b4d41-f931-4853-9555-160fc8b00e6b\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 1015
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tvadultcount, using=id}"
+          ],
+          "result": "id: cf80b80b-bd84-4d16-b7f1-0e6dfb7a2223",
+          "subLogs": [],
+          "duration": 435
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tvadultcount",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tvadultcount",
+            "{\"id\":\"cf80b80b-bd84-4d16-b7f1-0e6dfb7a2223\"}"
+          ],
+          "result": "getElementText:2",
+          "subLogs": [],
+          "duration": 361
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tvchildcount, using=id}"
+          ],
+          "result": "id: fcb57af3-b9c9-457a-8e9a-d9eb1b923348",
+          "subLogs": [],
+          "duration": 459
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tvchildcount",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tvchildcount",
+            "{\"id\":\"fcb57af3-b9c9-457a-8e9a-d9eb1b923348\"}"
+          ],
+          "result": "getElementText:0",
+          "subLogs": [],
+          "duration": 361
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[hotel.search.btn.children.add]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=ivchildadd, using=id}"
+              ],
+              "result": "id: c6fce054-af35-4adb-8e42-bbb7dcf1657a",
+              "subLogs": [],
+              "duration": 459
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: ivchildadd",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: ivchildadd",
+                "{\"id\":\"c6fce054-af35-4adb-8e42-bbb7dcf1657a\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 419
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tvchildcount, using=id}"
+          ],
+          "result": "id: e8e741c6-abbe-403f-bcb8-726c088fd83f",
+          "subLogs": [],
+          "duration": 684
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tvchildcount",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tvchildcount",
+            "{\"id\":\"e8e741c6-abbe-403f-bcb8-726c088fd83f\"}"
+          ],
+          "result": "getElementText:1",
+          "subLogs": [],
+          "duration": 394
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[hotel.search.btn.children.add]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=ivchildadd, using=id}"
+              ],
+              "result": "id: 30d3a56a-488c-4307-b525-e14afe962ea8",
+              "subLogs": [],
+              "duration": 422
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: ivchildadd",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: ivchildadd",
+                "{\"id\":\"30d3a56a-488c-4307-b525-e14afe962ea8\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 623
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tvchildcount, using=id}"
+          ],
+          "result": "id: 423001f3-15d2-4876-880e-38f066e6136e",
+          "subLogs": [],
+          "duration": 481
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tvchildcount",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tvchildcount",
+            "{\"id\":\"423001f3-15d2-4876-880e-38f066e6136e\"}"
+          ],
+          "result": "getElementText:2",
+          "subLogs": [],
+          "duration": 373
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[hotel.search.btn.guests.done]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=btn_done, using=id}"
+              ],
+              "result": "id: a87e7f50-c93c-44c7-b15c-7f2910b1b2d1",
+              "subLogs": [],
+              "duration": 448
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: btn_done",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: btn_done",
+                "{\"id\":\"a87e7f50-c93c-44c7-b15c-7f2910b1b2d1\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 458
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "setTripType",
+      "args": [
+        "[Family]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=new UiSelector().className(\"android.widget.CheckBox\").text(\"Family\"), using=-android uiautomator}"
+          ],
+          "result": "[id: 3f5c1c46-c21f-4056-9ee0-aecf791944cc]",
+          "subLogs": [],
+          "duration": 746
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "[unknown locator]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "[unknown locator]",
+            "{\"id\":\"3f5c1c46-c21f-4056-9ee0-aecf791944cc\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1037
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "search",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=city, using=id}"
+          ],
+          "result": "id: c69e48f2-98e5-4612-96f2-4ebb887d3a1d",
+          "subLogs": [],
+          "duration": 389
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: city",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: city",
+            "{\"id\":\"c69e48f2-98e5-4612-96f2-4ebb887d3a1d\"}"
+          ],
+          "result": "getElementText:Udaipur, Rajasthan, Rajasthan, India",
+          "subLogs": [],
+          "duration": 373
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=checkInDate, using=id}"
+          ],
+          "result": "id: 2f56a15e-7e2c-4c9d-92d5-8ba82e64ae8b",
+          "subLogs": [],
+          "duration": 390
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: checkInDate",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: checkInDate",
+            "{\"id\":\"2f56a15e-7e2c-4c9d-92d5-8ba82e64ae8b\"}"
+          ],
+          "result": "getElementText:31",
+          "subLogs": [],
+          "duration": 364
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=checkInMonthYear, using=id}"
+          ],
+          "result": "id: c2c21c45-d14d-4ed7-931e-b0bc302e2470",
+          "subLogs": [],
+          "duration": 421
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: checkInMonthYear",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: checkInMonthYear",
+            "{\"id\":\"c2c21c45-d14d-4ed7-931e-b0bc302e2470\"}"
+          ],
+          "result": "getElementText:MAY 2020",
+          "subLogs": [],
+          "duration": 439
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=checkInWeek, using=id}"
+          ],
+          "result": "id: 98c8b145-7989-4860-9438-63950e78c937",
+          "subLogs": [],
+          "duration": 445
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: checkInWeek",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: checkInWeek",
+            "{\"id\":\"98c8b145-7989-4860-9438-63950e78c937\"}"
+          ],
+          "result": "getElementText:Sunday",
+          "subLogs": [],
+          "duration": 378
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=checkOutDate, using=id}"
+          ],
+          "result": "id: 08d58abc-8dd8-42f4-867a-df7b1d1fd336",
+          "subLogs": [],
+          "duration": 376
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: checkOutDate",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: checkOutDate",
+            "{\"id\":\"08d58abc-8dd8-42f4-867a-df7b1d1fd336\"}"
+          ],
+          "result": "getElementText:01",
+          "subLogs": [],
+          "duration": 585
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=checkOutMonthYear, using=id}"
+          ],
+          "result": "id: 117eaf4b-98a9-44e7-a53a-c40e8b3feb06",
+          "subLogs": [],
+          "duration": 403
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: checkOutMonthYear",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: checkOutMonthYear",
+            "{\"id\":\"117eaf4b-98a9-44e7-a53a-c40e8b3feb06\"}"
+          ],
+          "result": "getElementText:JUN 2020",
+          "subLogs": [],
+          "duration": 351
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=checkOutWeek, using=id}"
+          ],
+          "result": "id: 2f0bceaf-62b4-4986-9113-a360fe6e980c",
+          "subLogs": [],
+          "duration": 391
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: checkOutWeek",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: checkOutWeek",
+            "{\"id\":\"2f0bceaf-62b4-4986-9113-a360fe6e980c\"}"
+          ],
+          "result": "getElementText:Monday",
+          "subLogs": [],
+          "duration": 364
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=guest_count, using=id}"
+          ],
+          "result": "id: bfe50e61-8a6a-459d-8474-747f0e492b75",
+          "subLogs": [],
+          "duration": 405
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: guest_count",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: guest_count",
+            "{\"id\":\"bfe50e61-8a6a-459d-8474-747f0e492b75\"}"
+          ],
+          "result": "getElementText:08",
+          "subLogs": [],
+          "duration": 368
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=room_count, using=id}"
+          ],
+          "result": "id: c4af444e-c80c-4adc-8141-03c419ead280",
+          "subLogs": [],
+          "duration": 431
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: room_count",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: room_count",
+            "{\"id\":\"c4af444e-c80c-4adc-8141-03c419ead280\"}"
+          ],
+          "result": "getElementText:02",
+          "subLogs": [],
+          "duration": 367
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[hotel.search.btn.submit]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=search_button, using=id}"
+              ],
+              "result": "id: d3a404b9-cf9a-417f-be93-5e732c951e92",
+              "subLogs": [],
+              "duration": 428
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: search_button",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: search_button",
+                "{\"id\":\"d3a404b9-cf9a-417f-be93-5e732c951e92\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 402
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "navigateToSortFilter",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "click",
+          "args": [
+            "[home.sortfilter.menu]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=new UiSelector().text(\"Sort & Filter\"), using=-android uiautomator}"
+              ],
+              "result": "[id: 0507bf11-1dbe-4bba-805f-e10592d3e534]",
+              "subLogs": [],
+              "duration": 1520
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "[unknown locator]",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "[unknown locator]",
+                "{\"id\":\"0507bf11-1dbe-4bba-805f-e10592d3e534\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 1613
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "applyMinimumPriceFilter",
+      "args": [
+        "[1000]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=price_seek_bar, using=id}"
+          ],
+          "result": "[id: 393a389b-1b6a-408f-9489-0e02f5f62cf4]",
+          "subLogs": [],
+          "duration": 441
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tv_price_range, using=id}"
+          ],
+          "result": "id: 54e9e3b8-0c3e-4ad1-81e3-c965f314f854",
+          "subLogs": [],
+          "duration": 412
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tv_price_range",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tv_price_range",
+            "{\"id\":\"54e9e3b8-0c3e-4ad1-81e3-c965f314f854\"}"
+          ],
+          "result": "getElementText:₹ 0 - ₹ 30,000+",
+          "subLogs": [],
+          "duration": 1133
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=price_seek_bar, using=id}"
+          ],
+          "result": "id: e8f1777e-99ad-43d2-b41b-8e028f761906",
+          "subLogs": [],
+          "duration": 1095
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: price_seek_bar",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementLocation",
+          "args": [
+            "By.id: price_seek_bar",
+            "{\"id\":\"e8f1777e-99ad-43d2-b41b-8e028f761906\"}"
+          ],
+          "result": "getElementLocation:{x=33, y=848}",
+          "subLogs": [],
+          "duration": 651
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=price_seek_bar, using=id}"
+          ],
+          "result": "id: 98b5a2df-0c89-4651-959e-ec8feccb3a50",
+          "subLogs": [],
+          "duration": 475
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: price_seek_bar",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementSize",
+          "args": [
+            "By.id: price_seek_bar",
+            "{\"id\":\"98b5a2df-0c89-4651-959e-ec8feccb3a50\"}"
+          ],
+          "result": "getElementSize:{width=1014, height=105}",
+          "subLogs": [],
+          "duration": 712
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tv_price_range, using=id}"
+          ],
+          "result": "id: 2c1bb58c-02b8-4e03-b9f0-3de00b3efc39",
+          "subLogs": [],
+          "duration": 528
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tv_price_range",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tv_price_range",
+            "{\"id\":\"2c1bb58c-02b8-4e03-b9f0-3de00b3efc39\"}"
+          ],
+          "result": "getElementText:₹ 0 - ₹ 30,000+",
+          "subLogs": [],
+          "duration": 398
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "applyUserRatingFilter",
+      "args": [
+        "[4.0 & Above]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=new UiSelector().text(\"4.0 & Above\"), using=-android uiautomator}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 911
+        },
+        {
+          "commandName": "getCurrentWindowSize",
+          "args": [
+            "{}"
+          ],
+          "result": "{width=1080, height=2028, x=0, y=0}",
+          "subLogs": [],
+          "duration": 372
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=new UiSelector().text(\"4.0 & Above\"), using=-android uiautomator}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 458
+        },
+        {
+          "commandName": "getCurrentWindowSize",
+          "args": [
+            "{}"
+          ],
+          "result": "{width=1080, height=2028, x=0, y=0}",
+          "subLogs": [],
+          "duration": 374
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=new UiSelector().text(\"4.0 & Above\"), using=-android uiautomator}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 483
+        },
+        {
+          "commandName": "getCurrentWindowSize",
+          "args": [
+            "{}"
+          ],
+          "result": "{width=1080, height=2028, x=0, y=0}",
+          "subLogs": [],
+          "duration": 382
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=new UiSelector().text(\"4.0 & Above\"), using=-android uiautomator}"
+          ],
+          "result": "[id: 0306fcd9-6631-4a61-910b-cf77ce21bfbb]",
+          "subLogs": [],
+          "duration": 510
+        },
+        {
+          "commandName": "getCurrentWindowSize",
+          "args": [
+            "{}"
+          ],
+          "result": "{width=1080, height=2028, x=0, y=0}",
+          "subLogs": [],
+          "duration": 373
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=new UiSelector().text(\"4.0 & Above\"), using=-android uiautomator}"
+          ],
+          "result": "[id: 09a9c8bf-1c73-4206-873a-69333a9e04f6]",
+          "subLogs": [],
+          "duration": 502
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "[unknown locator]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "[unknown locator]",
+            "{\"id\":\"09a9c8bf-1c73-4206-873a-69333a9e04f6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 2083
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "applyFilter",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "click",
+          "args": [
+            "[hotel.search.btn.filter.apply]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=tv_apply, using=id}"
+              ],
+              "result": "id: 5cbccfcc-ea79-4731-8c13-0442a6eda236",
+              "subLogs": [],
+              "duration": 472
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: tv_apply",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: tv_apply",
+                "{\"id\":\"5cbccfcc-ea79-4731-8c13-0442a6eda236\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 426
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userScrollAndSelectHotel",
+      "args": [
+        "[5]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "waitForPresent",
+          "args": [
+            "[hotel.list]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=rvHotelList, using=id}"
+              ],
+              "result": "[id: 0e5dc0c2-c2e9-46e3-80ea-20ee1e870e8d]",
+              "subLogs": [],
+              "duration": 789
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "getText",
+          "args": [
+            "[hotel.item.name]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=tvHotelName, using=id}"
+              ],
+              "result": "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'ICPL13805.local', ip: 'fe80:0:0:0:1452:41fb:d5cd:e4f3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities {appActivity: com.mmt.travel.app.home.ui...., appPackage: com.makemytrip, autoAcceptAlerts: true, autoLaunch: true, automationName: UiAutomator2, browserName: , chromedriverExecutableDir: /home/pbox/headspinio-pboxa..., chromedriverPorts: [1835, 1836, 1837, 1838, 1839], cssSelectorsEnabled: true, databaseEnabled: false, desired: {appActivity: com.mmt.travel.app.home.ui...., appPackage: com.makemytrip, autoAcceptAlerts: true, autoLaunch: true, automationName: UiAutomator2, browserName: , chromedriverExecutableDir: /home/pbox/headspinio-pboxa..., chromedriverPorts: [1835, 1836, 1837, 1838, 1839], cssSelectorsEnabled: true, deviceName: GOOGLE Pixel 3, driverClass: io.appium.java_client.andro..., javascriptEnabled: true, platform: ANDROID, platformName: android, platformVersion: 10, remoteAppsCacheLimit: 0, systemPort: 1840, takesScreenshot: true, udid: 8ADX0QXD7, version: }, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ADX0QXD7, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ADX0QXD7, driverClass: io.appium.java_client.andro..., javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 10, remoteAppsCacheLimit: 0, statBarHeight: 66, systemPort: 1840, takesScreenshot: true, udid: 8ADX0QXD7, version: , viewportRect: {height: 1962, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: ad5f14e0-a33c-11ea-8889-6757e986805b\n*** Element info: {Using=id, value=tvHotelName}",
+              "subLogs": [],
+              "duration": 429
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=tvHotelName, using=id}"
+              ],
+              "result": "id: 8e461a8a-bc48-4265-ade5-b704cb46ee27",
+              "subLogs": [],
+              "duration": 601
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: tvHotelName",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "getElementText",
+              "args": [
+                "By.id: tvHotelName",
+                "{\"id\":\"8e461a8a-bc48-4265-ade5-b704cb46ee27\"}"
+              ],
+              "result": "getElementText:JuSTa Sajjangarh Resort & Spa",
+              "subLogs": [],
+              "duration": 366
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "getCurrentWindowSize",
+          "args": [
+            "{}"
+          ],
+          "result": "{width=1080, height=2028, x=0, y=0}",
+          "subLogs": [],
+          "duration": 388
+        },
+        {
+          "commandName": "getText",
+          "args": [
+            "[hotel.item.name]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=tvHotelName, using=id}"
+              ],
+              "result": "id: c2b8d57d-d8d2-4cc3-82f0-83987212d514",
+              "subLogs": [],
+              "duration": 402
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: tvHotelName",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "getElementText",
+              "args": [
+                "By.id: tvHotelName",
+                "{\"id\":\"c2b8d57d-d8d2-4cc3-82f0-83987212d514\"}"
+              ],
+              "result": "getElementText:JuSTa Sajjangarh Resort & Spa",
+              "subLogs": [],
+              "duration": 382
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "getCurrentWindowSize",
+          "args": [
+            "{}"
+          ],
+          "result": "{width=1080, height=2028, x=0, y=0}",
+          "subLogs": [],
+          "duration": 376
+        },
+        {
+          "commandName": "getText",
+          "args": [
+            "[hotel.item.name]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=tvHotelName, using=id}"
+              ],
+              "result": "id: 6fa830c8-aa7f-44d1-849f-d28550d618dc",
+              "subLogs": [],
+              "duration": 410
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: tvHotelName",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "getElementText",
+              "args": [
+                "By.id: tvHotelName",
+                "{\"id\":\"6fa830c8-aa7f-44d1-849f-d28550d618dc\"}"
+              ],
+              "result": "getElementText:Ramada Udaipur Resort & Spa",
+              "subLogs": [],
+              "duration": 363
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "getCurrentWindowSize",
+          "args": [
+            "{}"
+          ],
+          "result": "{width=1080, height=2028, x=0, y=0}",
+          "subLogs": [],
+          "duration": 367
+        },
+        {
+          "commandName": "getText",
+          "args": [
+            "[hotel.item.name]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=tvHotelName, using=id}"
+              ],
+              "result": "id: 37837779-198d-428e-8d0f-39a535c40105",
+              "subLogs": [],
+              "duration": 431
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: tvHotelName",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "getElementText",
+              "args": [
+                "By.id: tvHotelName",
+                "{\"id\":\"37837779-198d-428e-8d0f-39a535c40105\"}"
+              ],
+              "result": "getElementText:Hotel Sarovar on Lake Pichola",
+              "subLogs": [],
+              "duration": 366
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "getCurrentWindowSize",
+          "args": [
+            "{}"
+          ],
+          "result": "{width=1080, height=2028, x=0, y=0}",
+          "subLogs": [],
+          "duration": 363
+        },
+        {
+          "commandName": "getText",
+          "args": [
+            "[hotel.item.name]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=tvHotelName, using=id}"
+              ],
+              "result": "id: 9deaab9d-8c84-443a-9481-85ae4e8dd7e9",
+              "subLogs": [],
+              "duration": 435
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: tvHotelName",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "getElementText",
+              "args": [
+                "By.id: tvHotelName",
+                "{\"id\":\"9deaab9d-8c84-443a-9481-85ae4e8dd7e9\"}"
+              ],
+              "result": "getElementText:Hotel Sarovar on Lake Pichola",
+              "subLogs": [],
+              "duration": 403
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "getCurrentWindowSize",
+          "args": [
+            "{}"
+          ],
+          "result": "{width=1080, height=2028, x=0, y=0}",
+          "subLogs": [],
+          "duration": 377
+        },
+        {
+          "commandName": "getText",
+          "args": [
+            "[hotel.item.name]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=tvHotelName, using=id}"
+              ],
+              "result": "id: 0597d96b-e666-4854-9be5-62de81452d6d",
+              "subLogs": [],
+              "duration": 428
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: tvHotelName",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "getElementText",
+              "args": [
+                "By.id: tvHotelName",
+                "{\"id\":\"0597d96b-e666-4854-9be5-62de81452d6d\"}"
+              ],
+              "result": "getElementText:Hotel Castle Comfort by Castle Hotels",
+              "subLogs": [],
+              "duration": 361
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[hotel.item.name]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=tvHotelName, using=id}"
+              ],
+              "result": "id: c9ec68d8-558b-434f-8193-203d0a32d229",
+              "subLogs": [],
+              "duration": 466
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: tvHotelName",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: tvHotelName",
+                "{\"id\":\"c9ec68d8-558b-434f-8193-203d0a32d229\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 413
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "captureTheRoomDetailsAndOption",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getText",
+          "args": [
+            "[hotel.detail.txt.title]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=tv_hotel_name, using=id}"
+              ],
+              "result": "id: 77e084a1-97a0-40fb-b45e-f168f407222a",
+              "subLogs": [],
+              "duration": 1144
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: tv_hotel_name",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "getElementText",
+              "args": [
+                "By.id: tv_hotel_name",
+                "{\"id\":\"77e084a1-97a0-40fb-b45e-f168f407222a\"}"
+              ],
+              "result": "getElementText:Hotel Castle Comfort by Castle Hotels",
+              "subLogs": [],
+              "duration": 1193
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "waitForVisible",
+          "args": [
+            "[hotel.detail.btn.selectroom]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=new UiSelector().text(\"SELECT ROOM\"), using=-android uiautomator}"
+              ],
+              "result": "[id: 63eb1a46-41fb-4f99-89c1-e692ad622930]",
+              "subLogs": [],
+              "duration": 407
+            },
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=new UiSelector().text(\"SELECT ROOM\"), using=-android uiautomator}"
+              ],
+              "result": "[id: eb791c9e-5a4a-4833-b47b-fc18baf138e6]",
+              "subLogs": [],
+              "duration": 1196
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "[unknown locator]",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "isElementDisplayed",
+              "args": [
+                "[unknown locator]",
+                "{\"id\":\"eb791c9e-5a4a-4833-b47b-fc18baf138e6\"}"
+              ],
+              "result": "isElementDisplayed:true",
+              "subLogs": [],
+              "duration": 388
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[hotel.detail.btn.selectroom]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=new UiSelector().text(\"SELECT ROOM\"), using=-android uiautomator}"
+              ],
+              "result": "[id: 1dfc0ec9-010c-4b76-bcb5-44cca512ffa8]",
+              "subLogs": [],
+              "duration": 446
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "[unknown locator]",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "[unknown locator]",
+                "{\"id\":\"1dfc0ec9-010c-4b76-bcb5-44cca512ffa8\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 1602
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=new UiSelector().text(\"SELECT ROOM\"), using=-android uiautomator}"
+          ],
+          "result": "[id: a5127ed0-9566-473c-a6a9-66dd14bd14b9]",
+          "subLogs": [],
+          "duration": 441
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=new UiSelector().text(\"SELECT ROOM\"), using=-android uiautomator}"
+          ],
+          "result": "[id: 6f5ac841-ddcf-4ed4-ad9d-0b652f0bcb0c]",
+          "subLogs": [],
+          "duration": 441
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=new UiSelector().text(\"SELECT ROOM\"), using=-android uiautomator}"
+          ],
+          "result": "[id: f2e3fa50-d847-4f5b-aa24-179b53a44cc3]",
+          "subLogs": [],
+          "duration": 430
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=new UiSelector().text(\"SELECT ROOM\"), using=-android uiautomator}"
+          ],
+          "result": "[id: 61e34433-c43b-4742-a249-46606dbb1909]",
+          "subLogs": [],
+          "duration": 417
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=new UiSelector().text(\"SELECT ROOM\"), using=-android uiautomator}"
+          ],
+          "result": "[id: e168ba73-ea19-41fb-b71c-d2228d72bd5a]",
+          "subLogs": [],
+          "duration": 365
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=new UiSelector().text(\"SELECT ROOM\"), using=-android uiautomator}"
+          ],
+          "result": "[id: d3a080ea-3fbe-4efc-99f7-93c98675db8b]",
+          "subLogs": [],
+          "duration": 372
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=new UiSelector().text(\"SELECT ROOM\"), using=-android uiautomator}"
+          ],
+          "result": "[id: fb4250bb-2c5c-4e47-9091-abe0d47c4ba9]",
+          "subLogs": [],
+          "duration": 379
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "[unknown locator]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "[unknown locator]",
+            "{\"id\":\"fb4250bb-2c5c-4e47-9091-abe0d47c4ba9\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1529
+        },
+        {
+          "commandName": "getCurrentWindowSize",
+          "args": [
+            "{}"
+          ],
+          "result": "{width=1080, height=2028, x=0, y=0}",
+          "subLogs": [],
+          "duration": 373
+        },
+        {
+          "commandName": "getText",
+          "args": [
+            "[hotel.room.category.detail.txt.name]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=tvRoomName, using=id}"
+              ],
+              "result": "id: 7a115c83-38cb-4d7d-9d07-0bd994f65b2c",
+              "subLogs": [],
+              "duration": 556
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: tvRoomName",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "getElementText",
+              "args": [
+                "By.id: tvRoomName",
+                "{\"id\":\"7a115c83-38cb-4d7d-9d07-0bd994f65b2c\"}"
+              ],
+              "result": "getElementText:Room Only",
+              "subLogs": [],
+              "duration": 594
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "getText",
+          "args": [
+            "[hotel.room.category.detail.txt.discountedprice]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=tvTariffPrice, using=id}"
+              ],
+              "result": "id: 3f6461c4-2888-46f0-b884-7d1908bec766",
+              "subLogs": [],
+              "duration": 1586
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: tvTariffPrice",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "getElementText",
+              "args": [
+                "By.id: tvTariffPrice",
+                "{\"id\":\"3f6461c4-2888-46f0-b884-7d1908bec766\"}"
+              ],
+              "result": "getElementText:₹ 3,159",
+              "subLogs": [],
+              "duration": 380
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "getText",
+          "args": [
+            "[hotel.room.category.detail.txt.originalprice]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=slashedPrice, using=id}"
+              ],
+              "result": "id: ae1123c8-7a90-40e5-a6a6-de3f0f663d65",
+              "subLogs": [],
+              "duration": 834
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: slashedPrice",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "getElementText",
+              "args": [
+                "By.id: slashedPrice",
+                "{\"id\":\"ae1123c8-7a90-40e5-a6a6-de3f0f663d65\"}"
+              ],
+              "result": "getElementText:₹ 7,800",
+              "subLogs": [],
+              "duration": 354
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[hotel.detail.btn.continue]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=new UiSelector().text(\"CONTINUE\"), using=-android uiautomator}"
+              ],
+              "result": "[id: b0c87e79-e15c-43a3-a199-5c7c6b79332d]",
+              "subLogs": [],
+              "duration": 531
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "[unknown locator]",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "[unknown locator]",
+                "{\"id\":\"b0c87e79-e15c-43a3-a199-5c7c6b79332d\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 1407
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "fillTravellerInformation",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "click",
+          "args": [
+            "[guest.select.title]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=sp_title, using=id}"
+              ],
+              "result": "id: 230db377-fc15-42a7-929c-dbf123c66b5b",
+              "subLogs": [],
+              "duration": 2348
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: sp_title",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: sp_title",
+                "{\"id\":\"230db377-fc15-42a7-929c-dbf123c66b5b\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 407
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=new UiSelector().text(\"Mr\"), using=-android uiautomator}"
+          ],
+          "result": "[id: b298d9a9-70f5-4f98-9e13-b04ca5c40b6c]",
+          "subLogs": [],
+          "duration": 640
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "[unknown locator]",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "[unknown locator]",
+            "{\"id\":\"b298d9a9-70f5-4f98-9e13-b04ca5c40b6c\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1064
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[Nishith, guest.input.first.name]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=etGuestInfoName, using=id}"
+              ],
+              "result": "id: 39b3d599-9e2f-48da-8e64-8e9a7731dc7a",
+              "subLogs": [],
+              "duration": 456
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: etGuestInfoName",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.id: etGuestInfoName",
+                "{\"value\":[\"Nishith\"],\"id\":\"39b3d599-9e2f-48da-8e64-8e9a7731dc7a\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 1071
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[Shah, guest.input.last.name]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=etGuestInfoNameLast, using=id}"
+              ],
+              "result": "id: 7bf6ad03-8d1e-4589-99dd-04797c6ca075",
+              "subLogs": [],
+              "duration": 406
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: etGuestInfoNameLast",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.id: etGuestInfoNameLast",
+                "{\"value\":[\"Shah\"],\"id\":\"7bf6ad03-8d1e-4589-99dd-04797c6ca075\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 404
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[7069936462, guest.input.mobile.no]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=etGuestInfoPhone, using=id}"
+              ],
+              "result": "id: 82f1989a-3fbc-4bf1-a686-dded484f2d26",
+              "subLogs": [],
+              "duration": 535
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: etGuestInfoPhone",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.id: etGuestInfoPhone",
+                "{\"value\":[\"7069936462\"],\"id\":\"82f1989a-3fbc-4bf1-a686-dded484f2d26\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 889
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selectsCommonlyRequestedOption",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=special_req_txt_container, using=id}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 566
+        },
+        {
+          "commandName": "getCurrentWindowSize",
+          "args": [
+            "{}"
+          ],
+          "result": "{width=1080, height=2028, x=0, y=0}",
+          "subLogs": [],
+          "duration": 360
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=special_req_txt_container, using=id}"
+          ],
+          "result": "[id: a22d1be8-c0d0-4877-8eb3-a689b7221bef]",
+          "subLogs": [],
+          "duration": 426
+        },
+        {
+          "commandName": "getCurrentWindowSize",
+          "args": [
+            "{}"
+          ],
+          "result": "{width=1080, height=2028, x=0, y=0}",
+          "subLogs": [],
+          "duration": 363
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=special_req_txt_container, using=id}"
+          ],
+          "result": "id: 14ed596c-5bcc-4212-a283-ec0ba933d474",
+          "subLogs": [],
+          "duration": 383
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: special_req_txt_container",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: special_req_txt_container",
+            "{\"id\":\"14ed596c-5bcc-4212-a283-ec0ba933d474\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 413
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=request_checkbox, using=id}"
+          ],
+          "result": "[id: e272dd8c-6cc2-498c-91fc-c2b743902419, id: f58beacb-721b-4859-af0a-8dae4fdcf3c2, id: 6989b678-3aee-4b2c-b29d-0b04442874e8, id: cddb0e60-e5b3-4cf2-bba2-f2b94166d6ef, id: f215d264-d235-4ef7-9baa-076ba5569809, id: c62c8a95-b2a0-4c94-99ba-67ea76bdac61, id: 913ae42b-e66e-4fe8-8a05-b40110707b3c]",
+          "subLogs": [],
+          "duration": 731
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "id: e272dd8c-6cc2-498c-91fc-c2b743902419",
+            "{\"id\":\"e272dd8c-6cc2-498c-91fc-c2b743902419\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 417
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "id: f58beacb-721b-4859-af0a-8dae4fdcf3c2",
+            "{\"id\":\"f58beacb-721b-4859-af0a-8dae4fdcf3c2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 545
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[guest.btn.special.request.done]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=done_btn, using=id}"
+              ],
+              "result": "id: 4681e631-7186-43dc-babc-403080477f52",
+              "subLogs": [],
+              "duration": 793
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: done_btn",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: done_btn",
+                "{\"id\":\"4681e631-7186-43dc-babc-403080477f52\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 382
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "uncheckTheDonationCheckbox",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=cbAddOn, using=id}"
+          ],
+          "result": "[id: a1f01f3d-d699-407f-9827-9ae4cb738c33]",
+          "subLogs": [],
+          "duration": 685
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=cbAddOn, using=id}"
+          ],
+          "result": "id: b3d503e8-fb04-45ea-9e6c-2992c10b59af",
+          "subLogs": [],
+          "duration": 426
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: cbAddOn",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.id: cbAddOn",
+            "{\"name\":\"checked\",\"id\":\"b3d503e8-fb04-45ea-9e6c-2992c10b59af\"}"
+          ],
+          "result": "getElementAttribute:true",
+          "subLogs": [],
+          "duration": 361
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=cbAddOn, using=id}"
+          ],
+          "result": "id: 2ffb0fdf-dbe0-4f70-ad18-361ed1b45662",
+          "subLogs": [],
+          "duration": 425
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: cbAddOn",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: cbAddOn",
+            "{\"id\":\"2ffb0fdf-dbe0-4f70-ad18-361ed1b45662\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 414
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnPayNowOption",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "click",
+          "args": [
+            "[booking.btn.continue]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=new UiSelector().text(\"CONTINUE\"), using=-android uiautomator}"
+              ],
+              "result": "[id: 8a2b91ee-a086-497e-a502-2445f576d3cb]",
+              "subLogs": [],
+              "duration": 659
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "[unknown locator]",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "[unknown locator]",
+                "{\"id\":\"8a2b91ee-a086-497e-a502-2445f576d3cb\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 1157
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyBookingSummary",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=tvHotelNameOnThankYouPage, using=id}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 945
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=tvHotelNameOnThankYouPage, using=id}"
+          ],
+          "result": "[id: 65ba86e4-a3b3-42a7-8b6f-795eed557a87]",
+          "subLogs": [],
+          "duration": 963
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tvHotelNameOnThankYouPage, using=id}"
+          ],
+          "result": "id: 65f72cb4-5362-4125-9b07-a95950032f73",
+          "subLogs": [],
+          "duration": 603
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tvHotelNameOnThankYouPage",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tvHotelNameOnThankYouPage",
+            "{\"id\":\"65f72cb4-5362-4125-9b07-a95950032f73\"}"
+          ],
+          "result": "getElementText:Hotel Castle Comfort by Castle Hotels",
+          "subLogs": [],
+          "duration": 369
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tvHotelNameOnThankYouPage, using=id}"
+          ],
+          "result": "id: 93396159-7ee8-44ef-b322-18c8dd0c0ab4",
+          "subLogs": [],
+          "duration": 386
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tvHotelNameOnThankYouPage",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tvHotelNameOnThankYouPage",
+            "{\"id\":\"93396159-7ee8-44ef-b322-18c8dd0c0ab4\"}"
+          ],
+          "result": "getElementText:Hotel Castle Comfort by Castle Hotels",
+          "subLogs": [],
+          "duration": 1458
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=tvHotelAddressOnThankYouPage, using=id}"
+          ],
+          "result": "[id: 79945137-5154-46e5-a34b-4f2a9721217c]",
+          "subLogs": [],
+          "duration": 441
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tvHotelAddressOnThankYouPage, using=id}"
+          ],
+          "result": "id: 7efb6582-89f0-4479-94e8-45b3ba03b415",
+          "subLogs": [],
+          "duration": 389
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tvHotelAddressOnThankYouPage",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tvHotelAddressOnThankYouPage",
+            "{\"id\":\"7efb6582-89f0-4479-94e8-45b3ba03b415\"}"
+          ],
+          "result": "getElementText:Udaipur, Rajasthan , India",
+          "subLogs": [],
+          "duration": 371
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tvHotelAddressOnThankYouPage, using=id}"
+          ],
+          "result": "id: b7d4d3fe-3a76-41f9-9f58-a4c36be8a00f",
+          "subLogs": [],
+          "duration": 389
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tvHotelAddressOnThankYouPage",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tvHotelAddressOnThankYouPage",
+            "{\"id\":\"b7d4d3fe-3a76-41f9-9f58-a4c36be8a00f\"}"
+          ],
+          "result": "getElementText:Udaipur, Rajasthan , India",
+          "subLogs": [],
+          "duration": 377
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[booking.review.btn.expand.details]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=ivDetailExpandOnThankYouPage, using=id}"
+              ],
+              "result": "id: a6e08a41-dc76-4c16-987f-afb848efb33c",
+              "subLogs": [],
+              "duration": 346
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "By.id: ivDetailExpandOnThankYouPage",
+                "{}"
+              ],
+              "result": "OK",
+              "subLogs": [],
+              "duration": -1
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: ivDetailExpandOnThankYouPage",
+                "{\"id\":\"a6e08a41-dc76-4c16-987f-afb848efb33c\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 1113
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=tvNumOfGuestOnThankYouPage, using=id}"
+          ],
+          "result": "[id: 392ba97d-6789-46cc-8e28-a28c30536af7]",
+          "subLogs": [],
+          "duration": 407
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tvNumOfGuestOnThankYouPage, using=id}"
+          ],
+          "result": "id: f6d1a157-bc05-4ee6-ac6f-a50db54c069c",
+          "subLogs": [],
+          "duration": 381
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tvNumOfGuestOnThankYouPage",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tvNumOfGuestOnThankYouPage",
+            "{\"id\":\"f6d1a157-bc05-4ee6-ac6f-a50db54c069c\"}"
+          ],
+          "result": "getElementText:8 Guests",
+          "subLogs": [],
+          "duration": 371
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tvNumOfGuestOnThankYouPage, using=id}"
+          ],
+          "result": "id: bb97bd32-0892-4569-9d27-741fd6d4b41d",
+          "subLogs": [],
+          "duration": 382
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tvNumOfGuestOnThankYouPage",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tvNumOfGuestOnThankYouPage",
+            "{\"id\":\"bb97bd32-0892-4569-9d27-741fd6d4b41d\"}"
+          ],
+          "result": "getElementText:8 Guests",
+          "subLogs": [],
+          "duration": 370
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=tvTotalRoomsBookedOnThankYouPage, using=id}"
+          ],
+          "result": "[id: a4eaa0a3-8c11-4592-af3a-53e00ee9eeef]",
+          "subLogs": [],
+          "duration": 455
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tvTotalRoomsBookedOnThankYouPage, using=id}"
+          ],
+          "result": "id: 18b1ec5c-653a-44a6-b2d7-79db3b491048",
+          "subLogs": [],
+          "duration": 365
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tvTotalRoomsBookedOnThankYouPage",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tvTotalRoomsBookedOnThankYouPage",
+            "{\"id\":\"18b1ec5c-653a-44a6-b2d7-79db3b491048\"}"
+          ],
+          "result": "getElementText:2 Rooms",
+          "subLogs": [],
+          "duration": 649
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tvTotalRoomsBookedOnThankYouPage, using=id}"
+          ],
+          "result": "id: 43faaa3e-00ce-4b0e-9212-30f97ab49189",
+          "subLogs": [],
+          "duration": 376
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tvTotalRoomsBookedOnThankYouPage",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tvTotalRoomsBookedOnThankYouPage",
+            "{\"id\":\"43faaa3e-00ce-4b0e-9212-30f97ab49189\"}"
+          ],
+          "result": "getElementText:2 Rooms",
+          "subLogs": [],
+          "duration": 354
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=tvCheckInDateOnThankYouPage, using=id}"
+          ],
+          "result": "[id: f5e38a0c-08b2-4747-9ab4-822f8edbc714]",
+          "subLogs": [],
+          "duration": 416
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tvCheckInDateOnThankYouPage, using=id}"
+          ],
+          "result": "id: f2a17ce1-db8b-48d1-a6b9-ea66254e6d88",
+          "subLogs": [],
+          "duration": 376
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tvCheckInDateOnThankYouPage",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tvCheckInDateOnThankYouPage",
+            "{\"id\":\"f2a17ce1-db8b-48d1-a6b9-ea66254e6d88\"}"
+          ],
+          "result": "getElementText:31 MAY, SUN",
+          "subLogs": [],
+          "duration": 359
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tvCheckInDateOnThankYouPage, using=id}"
+          ],
+          "result": "id: 22bb1e08-29f6-4fa9-b765-e658cd2786ca",
+          "subLogs": [],
+          "duration": 364
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tvCheckInDateOnThankYouPage",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tvCheckInDateOnThankYouPage",
+            "{\"id\":\"22bb1e08-29f6-4fa9-b765-e658cd2786ca\"}"
+          ],
+          "result": "getElementText:31 MAY, SUN",
+          "subLogs": [],
+          "duration": 389
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=tvCheckOutDateOnThankYouPage, using=id}"
+          ],
+          "result": "[id: 3d4189e5-5afa-4db2-b508-50e77fa5e89c]",
+          "subLogs": [],
+          "duration": 438
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tvCheckOutDateOnThankYouPage, using=id}"
+          ],
+          "result": "id: 5804d519-202b-441d-a356-223d2ab595d9",
+          "subLogs": [],
+          "duration": 403
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tvCheckOutDateOnThankYouPage",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tvCheckOutDateOnThankYouPage",
+            "{\"id\":\"5804d519-202b-441d-a356-223d2ab595d9\"}"
+          ],
+          "result": "getElementText:01 JUN, MON",
+          "subLogs": [],
+          "duration": 361
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tvCheckOutDateOnThankYouPage, using=id}"
+          ],
+          "result": "id: 06ea5705-2ddb-40f8-9ec5-94d5ac117ef8",
+          "subLogs": [],
+          "duration": 392
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: tvCheckOutDateOnThankYouPage",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: tvCheckOutDateOnThankYouPage",
+            "{\"id\":\"06ea5705-2ddb-40f8-9ec5-94d5ac117ef8\"}"
+          ],
+          "result": "getElementText:01 JUN, MON",
+          "subLogs": [],
+          "duration": 375
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user launches application",
+      "type": "TestStepPass",
+      "duration": 16706,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "user launches application",
+          "type": "TestStepPass",
+          "duration": 13591,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When login to the application with 'mmt1@mailinator.com' and '@H$hackathon2'",
+      "type": "TestStepPass",
+      "duration": 14687,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'login.btn.email.clear'",
+          "type": "TestStepPass",
+          "duration": 1446,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'mmt1@mailinator.com' into 'login.input.email'",
+          "type": "TestStepPass",
+          "duration": 2329,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'login.btn.continue'",
+          "type": "TestStepPass",
+          "duration": 1507,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'login.btn.via.password'",
+          "type": "TestStepPass",
+          "duration": 2784,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys '@H$hackathon2' into {loc}",
+          "type": "TestStepPass",
+          "duration": 1353,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'login.btn.submit'",
+          "type": "TestStepPass",
+          "duration": 1025,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then verify user should logged into the application",
+      "type": "TestStepPass",
+      "duration": 6836,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "assert 'home.icon.profile' is present",
+          "type": "TestStepPass",
+          "duration": 6834,
+          "threshold": 0,
+          "subCheckPoints": [
+            {
+              "message": "Expected By.id: profile present : Actual By.id: profile present",
+              "type": "Pass",
+              "screenshot": "../img/HotelBookingFromMakeMyTripApplication_1ih5vxzc8tte330913.png",
+              "duration": 0,
+              "threshold": 0,
+              "subCheckPoints": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "message": "When user navigates to the 'Hotels'",
+      "type": "TestStepPass",
+      "duration": 2554,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And select a location 'Udaipur'",
+      "type": "TestStepPass",
+      "duration": 5725,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'hotel.search.link.city'",
+          "type": "TestStepPass",
+          "duration": 1118,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'Udaipur' into 'hotel.search.input.city'",
+          "type": "TestStepPass",
+          "duration": 2257,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And select a '2 June 2020' and '5 June 2020' dates",
+      "type": "TestStepPass",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And add '2' rooms for '2' adults & '2' children each",
+      "type": "TestStepPass",
+      "duration": 16946,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'hotel.search.layout.rooms'",
+          "type": "TestStepPass",
+          "duration": 1133,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'hotel.search.btn.children.add'",
+          "type": "TestStepPass",
+          "duration": 743,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'hotel.search.btn.children.add'",
+          "type": "TestStepPass",
+          "duration": 806,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'hotel.search.btn.adults.add'",
+          "type": "TestStepPass",
+          "duration": 1412,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'hotel.search.btn.children.add'",
+          "type": "TestStepPass",
+          "duration": 879,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'hotel.search.btn.children.add'",
+          "type": "TestStepPass",
+          "duration": 1046,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'hotel.search.btn.guests.done'",
+          "type": "TestStepPass",
+          "duration": 908,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And select travelling for 'Family'",
+      "type": "TestStepPass",
+      "duration": 1786,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And search for the options",
+      "type": "TestStepPass",
+      "duration": 8089,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'hotel.search.btn.submit'",
+          "type": "TestStepPass",
+          "duration": 833,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user navigates to Sort and Filter page",
+      "type": "TestStepPass",
+      "duration": 3136,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'home.sortfilter.menu'",
+          "type": "TestStepPass",
+          "duration": 3135,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And user filters by price by setting '1000' value",
+      "type": "TestStepPass",
+      "duration": 7540,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And apply filter by user rating '4.0 & Above'",
+      "type": "TestStepPass",
+      "duration": 16035,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user applys filter",
+      "type": "TestStepPass",
+      "duration": 900,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'hotel.search.btn.filter.apply'",
+          "type": "TestStepPass",
+          "duration": 899,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user scroll and select the '5' item from filter result page",
+      "type": "TestStepPass",
+      "duration": 20451,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "wait until 'hotel.list' to be present",
+          "type": "TestStepPass",
+          "duration": 790,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "get text of 'hotel.item.name'",
+          "type": "TestStepPass",
+          "duration": 2399,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "get text of 'hotel.item.name'",
+          "type": "TestStepPass",
+          "duration": 784,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "get text of 'hotel.item.name'",
+          "type": "TestStepPass",
+          "duration": 775,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "get text of 'hotel.item.name'",
+          "type": "TestStepPass",
+          "duration": 798,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "get text of 'hotel.item.name'",
+          "type": "TestStepPass",
+          "duration": 839,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "get text of 'hotel.item.name'",
+          "type": "TestStepPass",
+          "duration": 791,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'hotel.item.name'",
+          "type": "TestStepPass",
+          "duration": 882,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And capture the room details and click SELECT ROOM options",
+      "type": "TestStepPass",
+      "duration": 23553,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "get text of 'hotel.detail.txt.title'",
+          "type": "TestStepPass",
+          "duration": 2338,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "wait until 'hotel.detail.btn.selectroom' to be visible",
+          "type": "TestStepPass",
+          "duration": 1994,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'hotel.detail.btn.selectroom'",
+          "type": "TestStepPass",
+          "duration": 2051,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "get text of 'hotel.room.category.detail.txt.name'",
+          "type": "TestStepPass",
+          "duration": 1151,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "get text of 'hotel.room.category.detail.txt.discountedprice'",
+          "type": "TestStepPass",
+          "duration": 1967,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "get text of 'hotel.room.category.detail.txt.originalprice'",
+          "type": "TestStepPass",
+          "duration": 1190,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'hotel.detail.btn.continue'",
+          "type": "TestStepPass",
+          "duration": 1939,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And user fills traveller information",
+      "type": "TestStepPass",
+      "duration": 8233,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'guest.select.title'",
+          "type": "TestStepPass",
+          "duration": 2756,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'Nishith' into 'guest.input.first.name'",
+          "type": "TestStepPass",
+          "duration": 1528,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'Shah' into 'guest.input.last.name'",
+          "type": "TestStepPass",
+          "duration": 812,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys '7069936462' into 'guest.input.mobile.no'",
+          "type": "TestStepPass",
+          "duration": 1426,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And selects two options from commonly requested option",
+      "type": "TestStepPass",
+      "duration": 9580,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'guest.btn.special.request.done'",
+          "type": "TestStepPass",
+          "duration": 1178,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And uncheck the donation checkbox",
+      "type": "TestStepPass",
+      "duration": 2315,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on PAY NOW option",
+      "type": "TestStepPass",
+      "duration": 1818,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'booking.btn.continue'",
+          "type": "TestStepPass",
+          "duration": 1818,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then verify user should see booking summary page with correct requested data",
+      "type": "TestStepPass",
+      "duration": 36459,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.id: tvHotelNameOnThankYouPage text should be ContainsIgnoringCase:Hotel Castle Comfort by Castle Hotels : Actual By.id: tvHotelNameOnThankYouPage text is Hotel Castle Comfort by Castle Hotels",
+          "type": "Pass",
+          "screenshot": "../img/HotelBookingFromMakeMyTripApplication_15akku3izpsui30914.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected By.id: tvHotelAddressOnThankYouPage text should be ContainsIgnoringCase:Udaipur : Actual By.id: tvHotelAddressOnThankYouPage text is Udaipur, Rajasthan , India",
+          "type": "Pass",
+          "screenshot": "../img/HotelBookingFromMakeMyTripApplication_1acgyreh2nv3g30915.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'booking.review.btn.expand.details'",
+          "type": "TestStepPass",
+          "duration": 1461,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected By.id: tvNumOfGuestOnThankYouPage text should be ContainsIgnoringCase:8 : Actual By.id: tvNumOfGuestOnThankYouPage text is 8 Guests",
+          "type": "Pass",
+          "screenshot": "../img/HotelBookingFromMakeMyTripApplication_1g5u78pkl2ku30916.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected By.id: tvTotalRoomsBookedOnThankYouPage text should be ContainsIgnoringCase:2 : Actual By.id: tvTotalRoomsBookedOnThankYouPage text is 2 Rooms",
+          "type": "Pass",
+          "screenshot": "../img/HotelBookingFromMakeMyTripApplication_9d5wyhamcyn130917.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected By.id: tvCheckInDateOnThankYouPage text should be ContainsIgnoringCase:31 : Actual By.id: tvCheckInDateOnThankYouPage text is 31 MAY, SUN",
+          "type": "Pass",
+          "screenshot": "../img/HotelBookingFromMakeMyTripApplication_1n3e4famo2j7930918.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Expected By.id: tvCheckOutDateOnThankYouPage text should be ContainsIgnoringCase:01 : Actual By.id: tvCheckOutDateOnThankYouPage text is 01 JUN, MON",
+          "type": "Pass",
+          "screenshot": "../img/HotelBookingFromMakeMyTripApplication_176adx2jic3mo30919.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}
