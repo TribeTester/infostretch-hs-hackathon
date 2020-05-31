@@ -43,4 +43,12 @@ public class IosLoginSteps extends LoginSteps {
         CommonStep.click("navigate.back.button");
     }
     
+    /**
+     * Verify user is logged in application
+     */
+    @QAFTestStep(description = "verify user should logged into the application")
+    public void verifyLoggedIn() {
+        CommonStep.assertPresent("home.icon.menu");
+    }
+    
 }
