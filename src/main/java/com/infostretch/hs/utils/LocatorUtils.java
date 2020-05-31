@@ -1,8 +1,7 @@
 package com.infostretch.hs.utils;
 
-import static com.qmetry.qaf.automation.ui.webdriver.ElementFactory.$;
-
 import com.qmetry.qaf.automation.core.ConfigurationManager;
+import com.qmetry.qaf.automation.ui.webdriver.ElementFactory;
 import com.qmetry.qaf.automation.ui.webdriver.QAFWebElement;
 
 public class LocatorUtils {
@@ -13,6 +12,10 @@ public class LocatorUtils {
      * @return
      */
     public static QAFWebElement getDynamicLocator(String key, Object... args) {
-        return $(String.format(ConfigurationManager.getBundle().getString(key, key), args));
+        return ElementFactory.$(String.format(ConfigurationManager.getBundle().getString(key, key), args));
+    }
+    
+    public static QAFWebElement $(String key, Object... args) {
+        return ElementFactory.$(String.format(ConfigurationManager.getBundle().getString(key, key), args));
     }
 }

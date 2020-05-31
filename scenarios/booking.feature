@@ -10,9 +10,12 @@ Feature: Hotel Booking
   Scenario: Hotel booking from Make My Trip Application
     When user navigates to the '${menu}'
     And select a location '${location}'
+    
+    #TODO: Need to change this step for random dates
     And select a '${checkin}' and '${checkout}' dates
-    And add room details with '${adults}' adults & '${children}' children
-    And add another room details with '${adults}' adults & '${children}' children
+    
+    And add '${rooms}' rooms for '${adults}' adults & '${children}' children each
+    
     And select travelling for '${tripType}'
     And search for the options
     Then user should see list of available options

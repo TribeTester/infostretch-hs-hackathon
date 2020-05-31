@@ -6,8 +6,9 @@
       <password>Headspin@123#</password>
       <menu>Hotels</menu>
       <location>Udaipur</location>
-      <checkin>01-Aug-2020</checkin>
-      <checkout>03-Aug-2020</checkout>
+      <checkin>2 June 2020</checkin>
+      <checkout>5 June 2020</checkout>
+      <rooms>2</rooms>
       <adults>2</adults>
       <children>2</children>
       <tripType>Family</tripType>

@@ -20,7 +20,15 @@ public class IosLoginSteps extends LoginSteps {
     		$("system.alert.allow.button").click();
     	}
        
-        natigateToLoginScreen();
+    	if ($("home.icon.profile").isPresent()) {
+        	$("home.icon.profile").click();
+  
+        	if ($("home.login.signup.section").isPresent()) {
+        		$("home.login.signup.section").click();
+        	} else {
+        		return;
+        	}
+        }
         
         if ($("login.btn.email.clear").isPresent()) {
             CommonStep.click("login.btn.email.clear");
@@ -35,10 +43,4 @@ public class IosLoginSteps extends LoginSteps {
         $("navigate.back.button").click();
     }
     
-    private void natigateToLoginScreen() {
-    	if ($("home.icon.profile").isPresent()) {
-        	$("home.icon.profile").click();
-        	$("home.login.signup.section").click();
-        }
-    }
 }
