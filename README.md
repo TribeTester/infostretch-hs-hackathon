@@ -19,7 +19,7 @@ In our implementation, we have tried to demonstrate the idea how we can abstract
 * **Reusable Test Assets** - highly maintainable and repeatable tests utilize reusable test assets, proper modularity and semantic structure.
 * **Test Data Management** - test data should be abstracted from the technical implementation so it is easier to update the data in future and avoid harding of data in implementation.
 * **Reporting** - integrate third party reporting engine which ensures access to all relevant execution data which provide insights desired.
-* **Scalability** - solution should be scalable on cloud like Headspin for Continous Testing and tests should run parallel at scale.
+* **Scalability** - solution should be scalable on cloud like Headspin for Continuous Testing and tests should run parallel at scale.
 
 ## Setup & Usage
 Follow below steps in order to setup project and execute the test(s).
@@ -41,7 +41,8 @@ Below are the maven dependencies used to build this project.
 This automation framework has below core components which helps to drive the automated code execution and structured the code for easy maintenance.
 * **Driver Manager** - this component is useful to initialize the Selenium/Appium driver and it's derived from the QAF library.
 * **Configuration Manager** - this component is useful to abstract the technical implementation away from the operational components and helps to manage the locators & test data separately.
-* **Reporting** - this component is useful to generate the execution report by collecting selenium & appium commands log.
+* **Execution Manager** - this component is useful to ensure tests execution with TestNG integration and does support Parallel execution as well.
+* **Reporting** - this component is useful to generate the execution report by collecting Selenium & Appium commands log.
 ### Folder Structure
 * **`config`** - folder consists all TestNG run configuration xml files in which user can specify what to run. User can also override any properties from the configuration file as well by providing TestNG Parameter tag. Currently there is one configuration file called `testrun_config.xml` to run the tests. We can create environment specific configuration files and put inside this folder.
 * **`resources`** - under this folder there are two sub folders & `application.properties` file.
@@ -132,7 +133,38 @@ This automation framework has below core components which helps to drive the aut
             ```
 * **`test-results`** - execution report will generate inside this folder based on timestamp.
 * **`dashboard`** - contains implementation of JavaScript & CSS for reporting. we did customization on top of third party QAF reporting and integrate with our solution.
-## Reporting
+### Locator Strategies Used
+Selenium & Appius does support different locator strategies in order to access application elements like by `id`,`css`,`xpath` etc. We used `native` locator strategy as first priority through out the implementation to get better performance. Also, keep locator key name same for both Android & iOS platform so in implementation we can use the same key to build Unified test and platform can be specified from `application.properties` file. Examples,   
+```properties
+login.input.email=-ios class chain=**/XCUIElementTypeTextField[`value CONTAINS[cd] "Email"`]
+hotel.search.link.city=accessibility id=searchCity
+```     
+```properties
+login.input.email=classname=android.widget.EditText
+hotel.search.link.city=id=city
+```
+### Reusability
+We kept reusability in mind while implementation and hence abstract the actual implementation away from the resources, test data and scenarios steps. Every steps can be reused in different scenarios by changing passing appropriate test data. Nothing is hard coded inside code. Also, components can be resused for different purposes like currently we used for Hotels booking but tomorrow same can be used for Flight booking too.
+
+### Parallel Execution
+Framework can handle parallel execution too with help of TestNG and QAF Library. Below is an example of `testrun_config.xml` to run same test suite on both Android & iOS platform.
+```xml
+<suite name="MakeMyTrip Suite" verbose="0" parallel="tests">
+  <test name="MakeMyTrip Test">
+    <parameter name="platform" value="android"></parameter>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory2"></class>
+    </classes>
+  </test>
+  <test name="MakeMyTrip Test">
+    <parameter name="platform" value="ios"></parameter>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory2"></class>
+    </classes>
+  </test>
+</suite>
+```
+## Logging & Reporting
 [Exection Report](https://mehulkagathara.github.io/headspin-hackathon/dashboard.htm)
 >Since reporting has javascript dependencies, if you're facing any issue viewing the report please follow below steps in order to work it properly.
 * Open browser
@@ -157,7 +189,7 @@ To run test on Headspin cloud devices or browsers, we just need to update the `e
    ios.capabilities.useSimpleBuildTest=true
 ```
 ## Top Challenges
-Below are the challenges we have faced while implementing the MMT problem and same we address in our approach implementation to handle such circumstances. 
+Below are the challenges we have faced while implementing the MMT problem and same we addressed in our implementation to handle such circumstances. 
 * **Loading Search Result** - the performance of MMT mobile application is not good and taking more than expected time to load the search result and not giving better user experience. 
 * **OTP** - 
 * **Appium fails to get the DOM** - Appium fails to get the DOM of the current screen when there are many results for given search criteria's. e.g. Hotel Search List. Due to this, finding locators & dry executions was difficult.
