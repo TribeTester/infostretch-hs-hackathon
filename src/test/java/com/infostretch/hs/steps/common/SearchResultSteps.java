@@ -10,6 +10,8 @@ import com.infostretch.hs.components.IHotel;
 import com.infostretch.hs.utils.LocatorUtils;
 import com.infostretch.hs.utils.MobileUtils;
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 public class SearchResultSteps {
 
     @QAFTestStep(description = "user should see list of available options")
@@ -19,14 +21,15 @@ public class SearchResultSteps {
     	CommonStep.assertPresent("hotel.search.icon.location.filter");
     }
 
+    
     @QAFTestStep(description = "user on search result page and filter by price by setting {minimum} value")
     public void applyMinimumPriceFilter(String price) {
     	CommonStep.click("hotel.search.icon.price.filter");
     	CommonStep.assertPresent("hotel.search.icon.price.filter");
     	int startX = $("hotel.search.txt.filter.pricebar").getLocation().getX();
     	int yAxis = $("hotel.search.txt.filter.pricebar").getLocation().getY();
-    	int moveToXDirectionAt = Integer.parseInt(price) + startX;    
-    	MobileUtils.dragAndDrop(startX, yAxis, moveToXDirectionAt, yAxis, null);
+    	int end = $("hotel.search.txt.filter.pricebar").getSize().getWidth();
+    	MobileUtils.dragAndDrop(startX, yAxis, 105, yAxis, null);
     	CommonStep.click("hotel.search.btn.filter.apply");
     }
 
@@ -52,15 +55,23 @@ public class SearchResultSteps {
     	
     
     @QAFTestStep(description = "verify filters applied and user should see filter result page")
-    public void verifyFiltersApplied(String filter) {
+    public void verifyFiltersApplied() {
     	CommonStep.assertPresent("hotel.search.txt.filter.identity");
     }
-
+    
     @QAFTestStep(description = "user scroll and select the {index} item from filter result page")
     public void userScrollAndSelectHotel(String index) {
     	CommonStep.waitForPresent("hotel.list");
-    	ArrayList<IHotel> hotelList = (ArrayList<IHotel>) $("hotel.list");
-    	System.out.println(hotelList);
+    	Set<String> hotelNames = new HashSet<String>();
+    	while(hotelNames.size() <= Integer.parseInt(index)) {
+    		String hotelName = CommonStep.getText("hotel.item.name");
+    		hotelNames.add(hotelName);
+    		if(hotelNames.size() == Integer.parseInt(index)-1) {
+    			CommonStep.click("hotel.item.name");
+    			break;
+    		}
+    		MobileUtils.swipeVertically();
+    	}
     }
 
 
