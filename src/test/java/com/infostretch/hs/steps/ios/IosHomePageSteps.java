@@ -8,7 +8,7 @@ import static com.qmetry.qaf.automation.ui.webdriver.ElementFactory.$;
 public class IosHomePageSteps extends HomePageSteps {
 
 	@QAFTestStep(description = "user navigates to Sort and Filter page")
-	public void navigateToSortFilter(String menu) {
+	public void navigateToSortFilter() {
 		dismissOverlay();
 		CommonStep.click("home.sortfilter.menu");
 	}
