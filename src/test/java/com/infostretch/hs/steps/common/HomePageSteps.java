@@ -21,10 +21,9 @@ public class HomePageSteps {
     public void navigateToMenu(String menu) {
         LocatorUtils.getDynamicLocator("home.link.menu", menu).click();
     }
-    
-    @QAFTestStep(description = "user navigates to Sort and Filter page")
-	public void navigateToSortFilter(String menu) {
-		$("home.sortfilter.menu").click();
-	}
 
+    @QAFTestStep(description = "user navigates to Sort and Filter page")
+    public void navigateToSortFilter() {
+        $("hotel.search.icon.sort.filter").click();
+    }
 }
